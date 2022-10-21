@@ -11,8 +11,8 @@ const error = require("./error.json");
  * @param {*} assembledDay assembled day from new Date()
  * @returns cases of from a Single day in a Specific Country
  */
-async function day(req, res) {
-    const url = 'https://covid-193.p.rapidapi.com/history?day=' + evalDay(req.query.day) +'&country='+ evalCountry(req.query.country);
+async function day(req, res, assembledDay) {
+    const url = 'https://covid-193.p.rapidapi.com/history?day=' + assembledDay +'&country='+ evalCountry(req.query.country);
 
     const options = {
       method: 'GET',
@@ -26,17 +26,6 @@ async function day(req, res) {
         if(country==null) {
             return "Germany";
         } else return country;
-    }
-
-    function evalDay(day) {
-        if(day==null) {
-            let date = new Date();
-            let year = date.getFullYear();
-            let month = date.getMonth() + 1;
-            let dayOfMonth = date.getDate();
-            assembledDay = year + "-" + month + "-" + dayOfMonth;
-            return assembledDay;
-        } else return day;
     }
 
     fetch(url, options)
@@ -54,4 +43,36 @@ async function day(req, res) {
     }
 }
 
-module.exports = {day};
+/**
+ * to get cases from a whole week from a spesific country
+ * @param {*} req 
+ * @param {*} res 
+ * @returns the cases from a whole week
+ */
+ async function covidHistory(req, res) {
+    let returnedDays = new Array();
+    let date = new Date();
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let countDays = new Date(year, month-1, 0).getDate();
+
+    let counter = 0;
+    for(let i = 0; i<7; i++) {
+        if(date.getDate()-i > 0) {
+            let newDate = date.getDate()-i;
+            let assembledDay = year + "-" + month + '-' + newDate;
+            returnedDays.push(await day(req, res, assembledDay));
+        } else {
+            let newDate = countDays-counter;
+            let newMonth = month-1;
+            let assembledDay = year + "-" + newMonth + '-' + newDate;
+            console.log(assembledDay);
+            counter++;
+            returnedDays.push(await day(req, res, assembledDay));
+        }
+    }
+
+    return returnedDays;
+}
+
+module.exports = {covidHistory};
