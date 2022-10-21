@@ -72,7 +72,28 @@ async function day(req, res, assembledDay) {
         }
     }
 
-    return returnedDays;
+    let formatedReturnedDays = await formatJson(returnedDays);
+
+    return formatedReturnedDays;
+}
+
+/**
+ * @param {*} json json to format into important info json
+ * @returns json with only the infos we need, also gives back an Error msg, if the current day has no Entry yet
+ */
+ async function formatJson(json) {
+    let filteredjs = new Array();
+    for(let i = 0; i < json.length; i++) {
+        let response = json[i];
+        if(response != null) {
+            let country = response.country
+            let population = response.population;
+            let cases = response.cases;
+            let day = response.day;
+            filteredjs.push({country, population, cases, day})
+        } else {filteredjs.push({Error:error[0].covidApi.noEntry})}
+    }
+    return filteredjs;
 }
 
 module.exports = {covidHistory};
