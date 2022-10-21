@@ -3,6 +3,10 @@ const app = express();
 const fetch = require("node-fetch");
 const error = require("./error.json");
 
+/**
+ * Api returns covid statistics in a spesific country for the past 7 days
+ */
+
 
 /**
  * function to get cases from a day in a Country
@@ -57,7 +61,7 @@ async function day(req, res, assembledDay) {
     let countDays = new Date(year, month-1, 0).getDate();
 
     let counter = 0;
-    for(let i = 0; i<7; i++) {
+    for(let i = 1; i<8; i++) {
         if(date.getDate()-i > 0) {
             let newDate = date.getDate()-i;
             let assembledDay = year + "-" + month + '-' + newDate;
