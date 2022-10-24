@@ -11,8 +11,9 @@
 
 ### APIs
    * [CovidAPi](https://rapidapi.com/api-sports/api/covid-193/) - To Display Covid Statistics for a sertain day
-   * 
+   * [WeatherApi]() - To Display Forecast of Weather
+   * []
 
 ### Domain models
-- First model <br>
-   <img src="./img/firstDomain.png" height=300px>
+- First model <br> <img src="./img/firstDomain.png" height=300px>
+- Second model <br> <img src="./img/secondDomain.png" height=300px>
