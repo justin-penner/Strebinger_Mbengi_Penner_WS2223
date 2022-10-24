@@ -4,7 +4,7 @@
         "covidApi" : {
             "noCountry": "Country doesnt exist!",
             "noData": "Country has no data!",
-            "noEntry": "No Entry has been made for Today yet. Try Again Later!"
+            "noEntry": "No Entry has been made for this day!"
         }
     }
 ]

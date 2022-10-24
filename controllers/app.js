@@ -2,7 +2,7 @@ const express = require('express')
 const fetch = require('node-fetch');
 const axios = require("axios");
 const app = express()
-const {covidHistory} = require("./covidApi.js")
+const {covidHistory} = require("./covidApiController.js")
 
 app.get('/history', async function (req, res) {
     res.send(await covidHistory(req, res));

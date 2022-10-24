@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const fetch = require("node-fetch");
-const error = require("./error.json");
+const error = require("../json/error.json");
 
 /**
  * Api returns covid statistics in a spesific country for the past 7 days
