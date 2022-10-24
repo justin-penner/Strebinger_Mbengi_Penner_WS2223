@@ -40,8 +40,8 @@
     "checkin": null,
     "checkout": null,
     "image": null,
-    "currency": null,
-    "price": null,
+    "currency": "Dollar",
+    "price": "60",
     "content": "Valentines is the most vibrant and exciting luxury resort in Harbour Island, Bahamas.  The resort offers 40 spacious, tropically appointed luxury suites with fully equipped kitchens and a 50 slip state of the art Yacht Marina.",
     "geo": {
         "lat": 25.49725,
@@ -66,7 +66,8 @@
     "checkin": null,
     "checkout": null,
     "image": null,
-    "price": null,
+    "currency": "Pound",
+    "price": 80,
     "content": "Small, friendly and relaxed hostel, offering both shared and private rooms. In a very nice, tranquil and green part of town, only 300mts. from the bus terminal. Good kitchen. Swimming pool.",
     "geo": {
         "lat": -25.59587,
@@ -91,7 +92,8 @@
     "checkin": null,
     "checkout": null,
     "image": null,
-    "price": "double 51 €, single 31€",
+    "currency": "Euro",
+    "price": 51,
     "content": "Centrally located. The shower facilities are shared, the double rooms have private toilets but the single rooms do not. Prices include breakfast and the use of the sauna facilities.",
     "geo": {
         "lat": 61.0541,
@@ -116,7 +118,8 @@
     "checkin": null,
     "checkout": null,
     "image": null,
-    "price": "RM128-158",
+    "currency": "Dollar",
+    "price": "40",
     "content": "a 2-star hotel. Rooms with A/C, attached toilet and wifi. Breakfast included.",
     "geo": {
         "lat": 5.278967,
@@ -141,7 +144,8 @@
     "checkin": "14:00",
     "checkout": "10:00",
     "image": null,
-    "price": null,
+    "currency": "Dollar",
+    "price": "50",
     "content": "New 5 star luxury lodge situated in the [[Ts'ehlanyane National Park]]. Luxury suites, excellent food and a location like no other.  Hiking and pony-trekking available.",
     "geo": {
         "lat": -28.91458,

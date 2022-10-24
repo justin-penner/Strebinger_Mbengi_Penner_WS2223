@@ -1,14 +1,17 @@
 const express = require('express')
-const fetch = require('node-fetch');
-const axios = require("axios");
 const app = express()
 const {covidHistory} = require("./covidApiController.js")
+const {hotelForCity, getCities} = require("./hotelApiController.js");
 
-app.get('/history', async function (req, res) {
+
+//router for CovidApi
+app.get('/history-past-day', async function (req, res) {
     res.send(await covidHistory(req, res));
-    // let countriesRes = await countries(req, res);
-    // res.send(await countriesRes.response);
 })
 
+//router for HotelApi
+app.get('/hotels-in-country', async function(req, res) {
+   getCities(req, res);
+})
 
 app.listen(3000);
