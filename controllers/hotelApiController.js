@@ -1,5 +1,6 @@
-const error = require("./error.json");
-const hotels = require("./hotels.json");
+const error = require("../json/error.json");
+const hotels = require("../json/hotels.json");
+const cities = require("../json/citiesOfCountries.json");
 
 async function hotelForCity(req, res) {
     let searchCity = req.query.city;
@@ -13,4 +14,8 @@ async function hotelForCity(req, res) {
     res.send(countries);
 }
 
-module.exports = {hotelForCity};
+async function getCities(req, res) {
+    res.send(cities);
+}
+
+module.exports = {hotelForCity, getCities};
