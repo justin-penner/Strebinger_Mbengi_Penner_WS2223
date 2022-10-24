@@ -1,6 +1,6 @@
 [
 {
-    "title": "Brecon Beacons National Park",
+    "location": "Brecon Beacons National Park",
     "name": "Beili Helyg Guest House",
     "alt": null,
     "address": "Cwm Cadlan, Penderyn, CF44 0YJ",
@@ -26,7 +26,7 @@
     "id": 4042
 },
 {
-    "title": "Eleuthera",
+    "location": "Eleuthera",
     "name": "Valentines Resort & Marina",
     "alt": null,
     "address": "Harbour Island, North Eleuthera, Bahamas",
@@ -52,7 +52,7 @@
     "id": 8848
 },
 {
-    "title": "Puerto Iguazú",
+    "location": "Puerto Iguazú",
     "name": "Poramba Hostel",
     "alt": null,
     "address": null,
@@ -78,7 +78,7 @@
     "id": 23350
 },
 {
-    "title": "Lappeenranta",
+    "location": "Lappeenranta",
     "name": "Matkustajakoti Turisti-Lappee",
     "alt": null,
     "address": "Kauppakatu 52",
@@ -104,7 +104,7 @@
     "id": 15189
 },
 {
-    "title": "Labuan",
+    "location": "Labuan",
     "name": "Pulau Labuan Hotel",
     "alt": null,
     "address": "Lot 27-28, Jalan Muhibbah",
@@ -130,7 +130,7 @@
     "id": 14992
 },
 {
-    "title": "Lesotho",
+    "location": "Lesotho",
     "name": "Maliba Mountain Lodge",
     "alt": null,
     "address": null,
@@ -156,7 +156,7 @@
     "id": 15540
 },
 {
-    "title": "Carpentras",
+    "location": "Carpentras",
     "name": "Le Coq Hardi",
     "alt": null,
     "address": "36 pl Marotte",
@@ -181,7 +181,7 @@
     "id": 40356
 },
 {
-    "title": "Zierikzee",
+    "location": "Zierikzee",
     "name": "Hotel Lotus",
     "alt": null,
     "address": "Hoofdpoortstraat 22",
@@ -206,7 +206,7 @@
     "id": 37548
 },
 {
-    "title": "Zruč nad Sázavou",
+    "location": "Zruč nad Sázavou",
     "name": "Penzion pod Zámkem",
     "alt": null,
     "address": "Ul. 1. máje 97",
@@ -231,7 +231,7 @@
     "id": 38354
 },
 {
-    "title": "Semmering",
+    "location": "Semmering",
     "name": "Panhans Hotel",
     "alt": "Grand Hotel am Semmering",
     "address": "Hochstraße 32",
@@ -257,7 +257,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Prospekt_Grand-Hotel-Panhans_1920.jpg"
 },
 {
-    "title": "Milan/Outer Milan",
+    "location": "Milan/Outer Milan",
     "name": "Hotel Bonola",
     "alt": null,
     "address": "Via Torrazza 15",
@@ -282,7 +282,7 @@
     "id": 38916
 },
 {
-    "title": "Tweed",
+    "location": "Tweed",
     "name": "Beachwood Hollow Resort",
     "alt": null,
     "address": "275 Victoria St. S, Tweed",
@@ -307,7 +307,7 @@
     "id": 41044
 },
 {
-    "title": "Edinburgh/Old Town",
+    "location": "Edinburgh/Old Town",
     "name": "Euro Hostel Edinburgh",
     "alt": null,
     "address": null,
@@ -332,7 +332,7 @@
     "id": 8661
 },
 {
-    "title": "Takamatsu",
+    "location": "Takamatsu",
     "name": "Castle Hotel",
     "alt": null,
     "address": "4-8 Tsuruyamachi, Takamatsu",
@@ -357,7 +357,7 @@
     "id": 29257
 },
 {
-    "title": "Gansbaai",
+    "location": "Gansbaai",
     "name": "Haus Giotto B+B",
     "alt": null,
     "address": "81 Main rd, De Kelders, (Gansbaai)",
@@ -382,7 +382,7 @@
     "id": 9717
 },
 {
-    "title": "Helsinki/Central",
+    "location": "Helsinki/Central",
     "name": "Eurohostel",
     "alt": null,
     "address": "Linnankatu 9",
@@ -407,7 +407,7 @@
     "id": 36346
 },
 {
-    "title": "Tbilisi",
+    "location": "Tbilisi",
     "name": "Walker Hostel",
     "alt": null,
     "address": "19 Gomi St",
@@ -435,7 +435,7 @@
     "state": null
 },
 {
-    "title": "Hargeisa",
+    "location": "Hargeisa",
     "name": "Ambassador Hotel",
     "alt": null,
     "address": "Airport Rd",
@@ -460,7 +460,7 @@
     "id": 11208
 },
 {
-    "title": "Blanes",
+    "location": "Blanes",
     "name": "Hotel Santa Marta",
     "alt": null,
     "address": "Playa de Santa Cristina, s/n - 17310 [[Lloret de Mar]]",
@@ -485,7 +485,7 @@
     "id": 38222
 },
 {
-    "title": "Pécs",
+    "location": "Pécs",
     "name": "HUNGUEST Hotel Kikelet",
     "alt": "Art & Fit Hotel, Restaurant and Wellness",
     "address": "Málics Ottó út 1",
@@ -510,7 +510,7 @@
     "id": 21980
 },
 {
-    "title": "Paris/16th arrondissement",
+    "location": "Paris/16th arrondissement",
     "name": "Hotel Eiffel Kennedy",
     "alt": null,
     "address": "12 Rue Boulainvilliers",
@@ -535,7 +535,7 @@
     "id": 21661
 },
 {
-    "title": "Marrakech",
+    "location": "Marrakech",
     "name": "The Heart of the Medina backpackers hostel",
     "alt": null,
     "address": "47 Derb Ben Aissa, Dabachi",
@@ -560,7 +560,7 @@
     "id": 17640
 },
 {
-    "title": "Singapore/Chinatown",
+    "location": "Singapore/Chinatown",
     "name": "Hotel Re!",
     "alt": null,
     "address": "175A Chin Swee Rd",
@@ -585,7 +585,7 @@
     "id": 27423
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Black Sheep (Fekete Bárány) Restaurant, guesthouse",
     "alt": "Fekete Bárány Étterem, Panzió",
     "address": "Fövényverem u. 6.",
@@ -610,7 +610,7 @@
     "id": 28043
 },
 {
-    "title": "Christchurch",
+    "location": "Christchurch",
     "name": "Addington Court Motel",
     "alt": null,
     "address": "197 Lincoln Rd, Addington",
@@ -635,7 +635,7 @@
     "id": 5895
 },
 {
-    "title": "Logroño",
+    "location": "Logroño",
     "name": "Hotel Murrieta",
     "alt": null,
     "address": "C/Marqués de Murrieta, 1",
@@ -660,7 +660,7 @@
     "id": 16004
 },
 {
-    "title": "Budapest/Pest",
+    "location": "Budapest/Pest",
     "name": "ACHAT Premium Hotel Budapest",
     "alt": null,
     "address": "X. Hungária körút 5.",
@@ -685,7 +685,7 @@
     "id": 4380
 },
 {
-    "title": "Tirana",
+    "location": "Tirana",
     "name": "Freddy's Ho(s)tel",
     "alt": null,
     "address": "Ground Floor, 75 Bardhok Biba St",
@@ -710,7 +710,7 @@
     "id": 30237
 },
 {
-    "title": "Bunbury",
+    "location": "Bunbury",
     "name": "Mantra Bunbury",
     "alt": null,
     "address": "1 Holman Street, Bunbury WA 6230",
@@ -735,7 +735,7 @@
     "id": 4421
 },
 {
-    "title": "Saint Petersburg/North",
+    "location": "Saint Petersburg/North",
     "name": "Gostinitsa «Viborgskaya»",
     "alt": "Гостиница «Выборгская»",
     "address": "ul. Тоrzhkovskaya(Торжковская улица), 3",
@@ -763,7 +763,7 @@
     "state": "Saint Petersburg"
 },
 {
-    "title": "Copenhagen/Vesterbro",
+    "location": "Copenhagen/Vesterbro",
     "name": "Copenhagen Island",
     "alt": null,
     "address": "Kalvebod Brygge 53",
@@ -788,7 +788,7 @@
     "id": 6864
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Alfa Hotel and",
     "alt": null,
     "address": "Tihanyi Árpád út 23.",
@@ -813,7 +813,7 @@
     "id": 10788
 },
 {
-    "title": "Sibiu",
+    "location": "Sibiu",
     "name": "Sibiu Travelers Hostel/Villa Teilor",
     "alt": null,
     "address": "Str. Teilor nr.4",
@@ -838,7 +838,7 @@
     "id": 27176
 },
 {
-    "title": "Rovaniemi",
+    "location": "Rovaniemi",
     "name": "B&B Reindeerstreet 24",
     "alt": null,
     "address": "Porokatu 24",
@@ -863,7 +863,7 @@
     "id": 24572
 },
 {
-    "title": "Timișoara",
+    "location": "Timișoara",
     "name": "Hostel Costel",
     "alt": null,
     "address": "Str. Petru Sfetca nr.1 (former Vidra)",
@@ -888,7 +888,7 @@
     "id": 30173
 },
 {
-    "title": "Orchha",
+    "location": "Orchha",
     "name": "Sheesh Mahal",
     "alt": null,
     "address": null,
@@ -913,7 +913,7 @@
     "id": 21266
 },
 {
-    "title": "Kaunas",
+    "location": "Kaunas",
     "name": "Daniela Hotel",
     "alt": null,
     "address": "A. Mickevičiaus g. 28",
@@ -938,7 +938,7 @@
     "id": 13539
 },
 {
-    "title": "Salalah",
+    "location": "Salalah",
     "name": "Haffah House",
     "alt": null,
     "address": "Al Matar and Ar Robat Sts",
@@ -963,7 +963,7 @@
     "id": 24868
 },
 {
-    "title": "Heredia",
+    "location": "Heredia",
     "name": "Hotel America",
     "alt": null,
     "address": null,
@@ -988,7 +988,7 @@
     "id": 11482
 },
 {
-    "title": "Yurihonjo",
+    "location": "Yurihonjo",
     "name": "Route Inn Hotel",
     "alt": "ホテル ルートイン 由利本荘",
     "address": "Idojiri 50",
@@ -1013,7 +1013,7 @@
     "id": 34049
 },
 {
-    "title": "Debar",
+    "location": "Debar",
     "name": "Hotel Kosovrast",
     "alt": null,
     "address": "Selo Dolno Kosovrasti (Горно Косоврасти)",
@@ -1038,7 +1038,7 @@
     "id": 7398
 },
 {
-    "title": "Sarandë",
+    "location": "Sarandë",
     "name": "Porto Eda Hotel",
     "alt": null,
     "address": "Rruga Jonianet",
@@ -1063,7 +1063,7 @@
     "id": 26568
 },
 {
-    "title": "Tbilisi",
+    "location": "Tbilisi",
     "name": "Veziko apartments",
     "alt": null,
     "address": "10 Chonkadze Street,",
@@ -1091,7 +1091,7 @@
     "state": null
 },
 {
-    "title": "Shanghai/Huangpu",
+    "location": "Shanghai/Huangpu",
     "name": "Les Suites Orient, Bund Shanghai",
     "alt": null,
     "address": "1 East Jinling Road",
@@ -1116,7 +1116,7 @@
     "id": 27060
 },
 {
-    "title": "New Orleans/Uptown",
+    "location": "New Orleans/Uptown",
     "name": "Creole Gardens Bed and Breakfast Inn",
     "alt": null,
     "address": "1415 Prytania St",
@@ -1141,7 +1141,7 @@
     "id": 20333
 },
 {
-    "title": "Alajuela",
+    "location": "Alajuela",
     "name": "Villa Calas",
     "alt": null,
     "address": "Route 120",
@@ -1166,7 +1166,7 @@
     "id": 172
 },
 {
-    "title": "Vientiane",
+    "location": "Vientiane",
     "name": "Saysouly Guesthouse",
     "alt": null,
     "address": "23 Manthatulath Road, Ban Xieng Yeun, Vientiane",
@@ -1191,7 +1191,7 @@
     "id": 32670
 },
 {
-    "title": "Copenhagen/Østerbro",
+    "location": "Copenhagen/Østerbro",
     "name": "Hotel Rye",
     "alt": null,
     "address": "Ryesgade 115",
@@ -1216,7 +1216,7 @@
     "id": 6455
 },
 {
-    "title": "Da Nang",
+    "location": "Da Nang",
     "name": "HAGL Plaza Da Nang",
     "alt": null,
     "address": "01 Nguyen Van Linh St",
@@ -1241,7 +1241,7 @@
     "id": 7153
 },
 {
-    "title": "Dumaguete",
+    "location": "Dumaguete",
     "name": "Hotel Palwa",
     "alt": null,
     "address": "Dr. V. Locsin Street",
@@ -1266,7 +1266,7 @@
     "id": 8329
 },
 {
-    "title": "Hadrian's Wall",
+    "location": "Hadrian's Wall",
     "name": "The Greenhead Hotel and Hostel",
     "alt": null,
     "address": "Greenhead, Brampton, Cumbria, CA8 7HB",
@@ -1291,7 +1291,7 @@
     "id": 10848
 },
 {
-    "title": "Barcelona/Eixample",
+    "location": "Barcelona/Eixample",
     "name": "Hotel del Comte",
     "alt": null,
     "address": "Diputació, 142-148",
@@ -1316,7 +1316,7 @@
     "id": 2333
 },
 {
-    "title": "Arequipa",
+    "location": "Arequipa",
     "name": "Pirwa Park Hostel Arequipa",
     "alt": null,
     "address": "Dean Valdivia 238",
@@ -1341,7 +1341,7 @@
     "id": 1073
 },
 {
-    "title": "Shikinejima",
+    "location": "Shikinejima",
     "name": "Kamanoshita campsite",
     "alt": "釜の下キャンプ場",
     "address": null,
@@ -1366,7 +1366,7 @@
     "id": 27112
 },
 {
-    "title": "Malang",
+    "location": "Malang",
     "name": "Hotel Pelangi",
     "alt": null,
     "address": "Jl Merdeka Selatan 3",
@@ -1391,7 +1391,7 @@
     "id": 17282
 },
 {
-    "title": "Sydney/Darling Harbour",
+    "location": "Sydney/Darling Harbour",
     "name": "Hotel Ibis Darling Harbour",
     "alt": null,
     "address": "50 Murray St",
@@ -1416,7 +1416,7 @@
     "id": 29035
 },
 {
-    "title": "Murmansk",
+    "location": "Murmansk",
     "name": "Park Inn Poliarnie Zori",
     "alt": null,
     "address": "ul. Knipovicha 17",
@@ -1444,7 +1444,7 @@
     "state": "Murmanskaya oblast"
 },
 {
-    "title": "Käsivarsi Wilderness Area",
+    "location": "Käsivarsi Wilderness Area",
     "name": "Jogasjärvi open wilderness hut",
     "alt": "Jogašjávri",
     "address": null,
@@ -1469,7 +1469,7 @@
     "id": 41075
 },
 {
-    "title": "Urban camping in Japan",
+    "location": "Urban camping in Japan",
     "name": "Dogo Park",
     "alt": "道後公園",
     "address": null,
@@ -1494,7 +1494,7 @@
     "id": 31767
 },
 {
-    "title": "Turku",
+    "location": "Turku",
     "name": "Radisson Blu Hotel Marina Palace",
     "alt": null,
     "address": "Linnankatu 32",
@@ -1519,7 +1519,7 @@
     "id": 31528
 },
 {
-    "title": "Tallinn",
+    "location": "Tallinn",
     "name": "Barons Boutique Hotel",
     "alt": null,
     "address": "Suur-Karja 7",
@@ -1544,7 +1544,7 @@
     "id": 29382
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Mandalay Bay",
     "alt": null,
     "address": "3950 S Las Vegas Blvd",
@@ -1569,7 +1569,7 @@
     "id": 15332
 },
 {
-    "title": "Schiphol Airport",
+    "location": "Schiphol Airport",
     "name": "citizenM Amsterdam Airport",
     "alt": null,
     "address": "Jan Plezierweg 2",
@@ -1594,7 +1594,7 @@
     "id": 35895
 },
 {
-    "title": "London/South Kensington-Chelsea",
+    "location": "London/South Kensington-Chelsea",
     "name": "The Sloane Square Hotel",
     "alt": null,
     "address": "7-12 Sloane Sq, SW1W 8EG",
@@ -1619,7 +1619,7 @@
     "id": 16452
 },
 {
-    "title": "Wanaka",
+    "location": "Wanaka",
     "name": "Wanaka View Motel",
     "alt": null,
     "address": "122 Brownston St",
@@ -1644,7 +1644,7 @@
     "id": 32983
 },
 {
-    "title": "Chippenham",
+    "location": "Chippenham",
     "name": "Lucknam Park Hotel",
     "alt": "Lucknam Park Hotel & Spa",
     "address": "Colerne, Chippenham SN14 8AZ",
@@ -1669,7 +1669,7 @@
     "id": 5847
 },
 {
-    "title": "Parikia",
+    "location": "Parikia",
     "name": "Apollon Hotel Paros",
     "alt": null,
     "address": null,
@@ -1694,7 +1694,7 @@
     "id": 35696
 },
 {
-    "title": "San Diego/North",
+    "location": "San Diego/North",
     "name": "Homewood Suites San Diego Del Mar",
     "alt": null,
     "address": "11025 Vista Sorrento Parkway",
@@ -1719,7 +1719,7 @@
     "id": 25263
 },
 {
-    "title": "Bangor (Wales)",
+    "location": "Bangor (Wales)",
     "name": "Tyddyn Sydney Bach",
     "alt": "Tyddyn Sydney",
     "address": "Tyddyn Sydney, Treborth, Bangor Gwynedd LL57 2NJ",
@@ -1744,7 +1744,7 @@
     "id": 2242
 },
 {
-    "title": "Stockholm/Gamla Stan",
+    "location": "Stockholm/Gamla Stan",
     "name": "Rica Hotel Gamla Stan",
     "alt": null,
     "address": "Lilla Nygatan 25",
@@ -1769,7 +1769,7 @@
     "id": 28405
 },
 {
-    "title": "Bangkok/Silom",
+    "location": "Bangkok/Silom",
     "name": "Tarntawan Place",
     "alt": "ทานตะวัน เพลส",
     "address": "119/5-10 Surawong Rd",
@@ -1794,7 +1794,7 @@
     "id": 2133
 },
 {
-    "title": "Sedona",
+    "location": "Sedona",
     "name": "Pine Flat Campground",
     "alt": null,
     "address": "Hwy 89A, Oak Creek Canyon",
@@ -1819,7 +1819,7 @@
     "id": 26900
 },
 {
-    "title": "Beaver Creek",
+    "location": "Beaver Creek",
     "name": "Luxury Home Rentals by East West Resorts",
     "alt": null,
     "address": "30 Benchmark Rd",
@@ -1844,7 +1844,7 @@
     "id": 2613
 },
 {
-    "title": "Longyearbyen",
+    "location": "Longyearbyen",
     "name": "Mary-Ann's Polarrigg",
     "alt": null,
     "address": null,
@@ -1869,7 +1869,7 @@
     "id": 16556
 },
 {
-    "title": "Tullahoma",
+    "location": "Tullahoma",
     "name": "Executive Inn",
     "alt": null,
     "address": "1412 North Jackson Street",
@@ -1894,7 +1894,7 @@
     "id": 31287
 },
 {
-    "title": "Kolkata/Esplanade",
+    "location": "Kolkata/Esplanade",
     "name": "Paragon Hotel",
     "alt": null,
     "address": "2 Stuart Ln",
@@ -1919,7 +1919,7 @@
     "id": 14386
 },
 {
-    "title": "Gower Peninsula",
+    "location": "Gower Peninsula",
     "name": "Number 38 The Gower",
     "alt": null,
     "address": "Gower Holiday Village, Scurlage Nr Port Eynon, SA3 1AY",
@@ -1944,7 +1944,7 @@
     "id": 10291
 },
 {
-    "title": "Santa Cruz Trek",
+    "location": "Santa Cruz Trek",
     "name": "Paria",
     "alt": null,
     "address": null,
@@ -1969,7 +1969,7 @@
     "id": 37397
 },
 {
-    "title": "Shankarpur",
+    "location": "Shankarpur",
     "name": "Hotel Sandy Bay",
     "alt": null,
     "address": "PO Bodra",
@@ -1994,7 +1994,7 @@
     "id": 27076
 },
 {
-    "title": "Troy (New York)",
+    "location": "Troy (New York)",
     "name": "Hilton Garden Inn Troy",
     "alt": null,
     "address": "235 Hoosick Street",
@@ -2019,7 +2019,7 @@
     "id": 31125
 },
 {
-    "title": "Amritsar",
+    "location": "Amritsar",
     "name": "Hotel Hong Kong Inn",
     "alt": null,
     "address": "Queens Road (Crystal Chowk),Hotel Lane, Opposite Country Inn Hotel",
@@ -2044,7 +2044,7 @@
     "id": 754
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Palatinus Pansion",
     "alt": "Palatinus Szálló",
     "address": "Új utca 23.",
@@ -2069,7 +2069,7 @@
     "id": 28051
 },
 {
-    "title": "Rovaniemi",
+    "location": "Rovaniemi",
     "name": "Rantasipi Pohjanhovi",
     "alt": null,
     "address": "Pohjanpuistikko 2",
@@ -2094,7 +2094,7 @@
     "id": 24577
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Botanikuskert Hostel",
     "alt": "Botanikuskerti Diákszálló, Fekete Zoltán Diákhotel és Kollégium",
     "address": "Ady E. u. 5.",
@@ -2119,7 +2119,7 @@
     "id": 28024
 },
 {
-    "title": "Nagykanizsa",
+    "location": "Nagykanizsa",
     "name": "Marika-City Pension",
     "alt": "Marika Panzió",
     "address": "Sugár út 45",
@@ -2144,7 +2144,7 @@
     "id": 19886
 },
 {
-    "title": "Sonoma",
+    "location": "Sonoma",
     "name": "MacArthur Place",
     "alt": null,
     "address": "29 E. MacArthur St.",
@@ -2169,7 +2169,7 @@
     "id": 27826
 },
 {
-    "title": "Dresden",
+    "location": "Dresden",
     "name": "Holiday Inn",
     "alt": null,
     "address": "Stauffenbergallee 25a",
@@ -2194,7 +2194,7 @@
     "id": 8215
 },
 {
-    "title": "Rovaniemi",
+    "location": "Rovaniemi",
     "name": "Guesthouse Borealis",
     "alt": null,
     "address": "Asemieskatu 1",
@@ -2219,7 +2219,7 @@
     "id": 24570
 },
 {
-    "title": "Stuttgart",
+    "location": "Stuttgart",
     "name": "Arcotel Camino",
     "alt": null,
     "address": "Heilbronner Strasse 21",
@@ -2244,7 +2244,7 @@
     "id": 28826
 },
 {
-    "title": "Ambergris Caye",
+    "location": "Ambergris Caye",
     "name": "Sunset Beach",
     "alt": null,
     "address": "South Coconut Drive",
@@ -2269,7 +2269,7 @@
     "id": 634
 },
 {
-    "title": "Vienna/Landstraße",
+    "location": "Vienna/Landstraße",
     "name": "Best Western Plus Amedia Hotel Wien",
     "alt": null,
     "address": "Landstraßer Hauptstraße 155",
@@ -2294,7 +2294,7 @@
     "id": 37867
 },
 {
-    "title": "Tucson",
+    "location": "Tucson",
     "name": "Starr Pass Golf Suites",
     "alt": null,
     "address": "3645 W Starr Pass Blvd",
@@ -2319,7 +2319,7 @@
     "id": 31267
 },
 {
-    "title": "Cameron Highlands",
+    "location": "Cameron Highlands",
     "name": "Westwood Highland",
     "alt": null,
     "address": "4B Jalan Batu 51",
@@ -2344,7 +2344,7 @@
     "id": 4960
 },
 {
-    "title": "Madrid",
+    "location": "Madrid",
     "name": "Osuna",
     "alt": null,
     "address": "C/ Luis De La Mata 18",
@@ -2369,7 +2369,7 @@
     "id": 17164
 },
 {
-    "title": "Pori",
+    "location": "Pori",
     "name": "Sokos Hotel Vaakuna",
     "alt": null,
     "address": "Gallen-Kallelankatu 7",
@@ -2394,7 +2394,7 @@
     "id": 22725
 },
 {
-    "title": "Flagstaff",
+    "location": "Flagstaff",
     "name": "Canyon Vista Campground",
     "alt": null,
     "address": null,
@@ -2419,7 +2419,7 @@
     "id": 9227
 },
 {
-    "title": "Bangkok/Thonburi",
+    "location": "Bangkok/Thonburi",
     "name": "River Side Bangkok",
     "alt": null,
     "address": "195 Ratchawithi Rd",
@@ -2444,7 +2444,7 @@
     "id": 2170
 },
 {
-    "title": "Djenné",
+    "location": "Djenné",
     "name": "Djenne Djenno",
     "alt": null,
     "address": null,
@@ -2469,7 +2469,7 @@
     "id": 7905
 },
 {
-    "title": "Catania",
+    "location": "Catania",
     "name": "Hotel Villa Cibele",
     "alt": null,
     "address": "Marletta st. 17/b (Cibele st. corner)",
@@ -2494,7 +2494,7 @@
     "id": 5211
 },
 {
-    "title": "San Diego/Downtown",
+    "location": "San Diego/Downtown",
     "name": "ITH Adventure Hostel",
     "alt": null,
     "address": "1658 Front St",
@@ -2519,7 +2519,7 @@
     "id": 25154
 },
 {
-    "title": "Boston/Downtown",
+    "location": "Boston/Downtown",
     "name": "Boston Marriott Longwharf",
     "alt": null,
     "address": "296 State Street",
@@ -2544,7 +2544,7 @@
     "id": 3938
 },
 {
-    "title": "Berlin/City West",
+    "location": "Berlin/City West",
     "name": "Pestana Berlin Tiergarten Hotel",
     "alt": null,
     "address": null,
@@ -2569,7 +2569,7 @@
     "id": 3088
 },
 {
-    "title": "Virgin Gorda",
+    "location": "Virgin Gorda",
     "name": "Bitter End Yacht Club and Resort",
     "alt": null,
     "address": null,
@@ -2594,7 +2594,7 @@
     "id": 32818
 },
 {
-    "title": "Frankfurt",
+    "location": "Frankfurt",
     "name": "Frankfurter Hof",
     "alt": null,
     "address": "Am Kaiserplatz",
@@ -2619,7 +2619,7 @@
     "id": 9540
 },
 {
-    "title": "Gillingham (Kent)",
+    "location": "Gillingham (Kent)",
     "name": "Medway Youth Hostel",
     "alt": null,
     "address": "Capstone Road, ME7 3JE",
@@ -2644,7 +2644,7 @@
     "id": 10025
 },
 {
-    "title": "Chapel Hill",
+    "location": "Chapel Hill",
     "name": "Holiday Inn Express",
     "alt": null,
     "address": "6119 Farrington Rd",
@@ -2669,7 +2669,7 @@
     "id": 5396
 },
 {
-    "title": "Prague/Old Town and Josefov",
+    "location": "Prague/Old Town and Josefov",
     "name": "Botel Florentina",
     "alt": null,
     "address": "Dvorakovo nabrezi, Pier no 7",
@@ -2694,7 +2694,7 @@
     "id": 23100
 },
 {
-    "title": "Aufseß",
+    "location": "Aufseß",
     "name": "Schloss Unteraufseß",
     "alt": null,
     "address": "Am Weiher 79, 91347 Aufseß",
@@ -2719,7 +2719,7 @@
     "id": 1310
 },
 {
-    "title": "Percé",
+    "location": "Percé",
     "name": "La Maison Réhel",
     "alt": null,
     "address": "42, rue de l'Église",
@@ -2744,7 +2744,7 @@
     "id": 22144
 },
 {
-    "title": "Brufut",
+    "location": "Brufut",
     "name": "Sheraton Gambia Resort",
     "alt": null,
     "address": null,
@@ -2769,7 +2769,7 @@
     "id": 4153
 },
 {
-    "title": "Vienna/Hietzing",
+    "location": "Vienna/Hietzing",
     "name": "Hostel Hütteldorf",
     "alt": null,
     "address": "Schlossberggasse 8",
@@ -2794,7 +2794,7 @@
     "id": 37631
 },
 {
-    "title": "Entebbe",
+    "location": "Entebbe",
     "name": "Rosemary Courts",
     "alt": null,
     "address": "101 Circular Road",
@@ -2819,7 +2819,7 @@
     "id": 8957
 },
 {
-    "title": "Suzdal",
+    "location": "Suzdal",
     "name": "Sokol hotel",
     "alt": null,
     "address": "ulitsa Lenina, 50А,( Торговая площадь)",
@@ -2847,7 +2847,7 @@
     "state": "Vladimirskaya oblast"
 },
 {
-    "title": "Milan/Centro Storico",
+    "location": "Milan/Centro Storico",
     "name": "Hotel Lloyd",
     "alt": null,
     "address": "Corso di Porta Romana, 48",
@@ -2872,7 +2872,7 @@
     "id": 38802
 },
 {
-    "title": "Calgary",
+    "location": "Calgary",
     "name": "Hyatt Regency",
     "alt": null,
     "address": "700 Centre Street SE",
@@ -2897,7 +2897,7 @@
     "id": 4915
 },
 {
-    "title": "Beijing/Dongcheng",
+    "location": "Beijing/Dongcheng",
     "name": "Eastern Morning Youth Hostel",
     "alt": null,
     "address": "Dongdan Santiao, behind the Oriental Plaza",
@@ -2922,7 +2922,7 @@
     "id": 2712
 },
 {
-    "title": "Entebbe",
+    "location": "Entebbe",
     "name": "Boma Guesthouse",
     "alt": null,
     "address": "Julia Ssebutinde Rd",
@@ -2947,7 +2947,7 @@
     "id": 8959
 },
 {
-    "title": "Al Wakrah",
+    "location": "Al Wakrah",
     "name": "Al Siraaj Wakra Inn Apartments",
     "alt": null,
     "address": "Mesaieed Rd",
@@ -2972,7 +2972,7 @@
     "id": 35801
 },
 {
-    "title": "Regensburg",
+    "location": "Regensburg",
     "name": "Hostel Regensburg",
     "alt": "Jugendherberge Regensburg",
     "address": "Wöhrdstraße 60",
@@ -2997,7 +2997,7 @@
     "id": 23659
 },
 {
-    "title": "Rotorua",
+    "location": "Rotorua",
     "name": "Crash Palace backpackers",
     "alt": null,
     "address": "1271 Hinemaru Street",
@@ -3022,7 +3022,7 @@
     "id": 24460
 },
 {
-    "title": "Williams (Arizona)",
+    "location": "Williams (Arizona)",
     "name": "Railside RV Ranch",
     "alt": null,
     "address": "877 Rodeo Rd",
@@ -3047,7 +3047,7 @@
     "id": 33409
 },
 {
-    "title": "Chiang Mai",
+    "location": "Chiang Mai",
     "name": "Linda Guesthouse",
     "alt": null,
     "address": "456/67 Soi Banditpatana",
@@ -3072,7 +3072,7 @@
     "id": 5692
 },
 {
-    "title": "Sucre",
+    "location": "Sucre",
     "name": "Hotel Villa Antigua",
     "alt": null,
     "address": "Calle Calvo 237",
@@ -3097,7 +3097,7 @@
     "id": 28836
 },
 {
-    "title": "Kittilä",
+    "location": "Kittilä",
     "name": "Guesthouse Golden Goose",
     "alt": null,
     "address": "Valtatie 42",
@@ -3122,7 +3122,7 @@
     "id": 14174
 },
 {
-    "title": "Presidente Prudente",
+    "location": "Presidente Prudente",
     "name": "Godoy Palace Hotel",
     "alt": null,
     "address": "Avenida Antônio Manzano, 38",
@@ -3147,7 +3147,7 @@
     "id": 23191
 },
 {
-    "title": "Istanbul/Galata",
+    "location": "Istanbul/Galata",
     "name": "Pera Rose Hotel",
     "alt": null,
     "address": "Mesrutiyet Caddesi No 201, Tepebaşı, Beyoğlu",
@@ -3175,7 +3175,7 @@
     "state": "İstanbul"
 },
 {
-    "title": "Chicago/Wicker Park",
+    "location": "Chicago/Wicker Park",
     "name": "IHSP Chicago Hostel",
     "alt": null,
     "address": "1616 N Damen Ave",
@@ -3200,7 +3200,7 @@
     "id": 5807
 },
 {
-    "title": "Canggu",
+    "location": "Canggu",
     "name": "Villa Avalon Bali",
     "alt": null,
     "address": "Jl. Pura Kayu Putih",
@@ -3225,7 +3225,7 @@
     "id": 5030
 },
 {
-    "title": "Kruševo",
+    "location": "Kruševo",
     "name": "VilaGora",
     "alt": null,
     "address": "Pitu GUli 53a",
@@ -3250,7 +3250,7 @@
     "id": 14690
 },
 {
-    "title": "Ayvalik",
+    "location": "Ayvalik",
     "name": "Ayvalikvip",
     "alt": null,
     "address": "Balikesir",
@@ -3278,7 +3278,7 @@
     "state": "Balıkesir"
 },
 {
-    "title": "Nelson (England)",
+    "location": "Nelson (England)",
     "name": "Holmefield Gardens B&B",
     "alt": null,
     "address": "57 Holmefield Gardens, Barrowford BB9 8NW",
@@ -3303,7 +3303,7 @@
     "id": 36156
 },
 {
-    "title": "Budapest/Belváros",
+    "location": "Budapest/Belváros",
     "name": "Le Meridien Budapest",
     "alt": null,
     "address": "Erzsebet Ter 9-10",
@@ -3328,7 +3328,7 @@
     "id": 39754
 },
 {
-    "title": "Langkawi",
+    "location": "Langkawi",
     "name": "Citin Hotel Langkawi by Compass Hospitality",
     "alt": null,
     "address": "No. 3, Jl Pekan",
@@ -3353,7 +3353,7 @@
     "id": 15161
 },
 {
-    "title": "Rio de Janeiro/Zona Sul",
+    "location": "Rio de Janeiro/Zona Sul",
     "name": "Golden Tulip Ipanema Plaza",
     "alt": null,
     "address": "Rua Farme de Amoedo, 34 - Ipanema",
@@ -3378,7 +3378,7 @@
     "id": 24093
 },
 {
-    "title": "Käsivarsi Wilderness Area",
+    "location": "Käsivarsi Wilderness Area",
     "name": "Pihtsusjärvi wilderness hut",
     "alt": null,
     "address": null,
@@ -3403,7 +3403,7 @@
     "id": 41071
 },
 {
-    "title": "Niš",
+    "location": "Niš",
     "name": "Hostel Nis",
     "alt": null,
     "address": "Dobrička 3/A",
@@ -3428,7 +3428,7 @@
     "id": 20402
 },
 {
-    "title": "Budapest/Central Pest",
+    "location": "Budapest/Central Pest",
     "name": "1 ST Hotel Hostel",
     "alt": null,
     "address": "VII. Sip utca 5",
@@ -3453,7 +3453,7 @@
     "id": 40865
 },
 {
-    "title": "Halifax (Nova Scotia)",
+    "location": "Halifax (Nova Scotia)",
     "name": "Gerard Hall",
     "alt": null,
     "address": "5303 Morris St",
@@ -3478,7 +3478,7 @@
     "id": 10933
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "The Mirage",
     "alt": null,
     "address": "3400 S Las Vegas Blvd",
@@ -3503,7 +3503,7 @@
     "id": 15334
 },
 {
-    "title": "Khasab",
+    "location": "Khasab",
     "name": "Khasab Hotel",
     "alt": null,
     "address": null,
@@ -3528,7 +3528,7 @@
     "id": 13843
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Pannonia Hotel",
     "alt": "Pannonia Szálló",
     "address": "Gyárváros, Kandó Kálmán utca 1",
@@ -3553,7 +3553,7 @@
     "id": 10785
 },
 {
-    "title": "Albany (New York)",
+    "location": "Albany (New York)",
     "name": "Morgan State House - Luxury Inn",
     "alt": null,
     "address": "393 State St",
@@ -3578,7 +3578,7 @@
     "id": 282
 },
 {
-    "title": "Witney",
+    "location": "Witney",
     "name": "Oxford Witney Hotel",
     "alt": null,
     "address": "Ducklington Lane",
@@ -3603,7 +3603,7 @@
     "id": 33539
 },
 {
-    "title": "Albuquerque",
+    "location": "Albuquerque",
     "name": "Courtyard Albuquerque",
     "alt": null,
     "address": "5151 Journal Center Blvd NE",
@@ -3628,7 +3628,7 @@
     "id": 439
 },
 {
-    "title": "Snowdonia National Park",
+    "location": "Snowdonia National Park",
     "name": "Plas Gwynfryn",
     "alt": null,
     "address": "Llanbedr, Gwynedd LL45 2NY",
@@ -3653,7 +3653,7 @@
     "id": 27627
 },
 {
-    "title": "Union Pier",
+    "location": "Union Pier",
     "name": "Union Pier Summer House",
     "alt": null,
     "address": "9663 Berrien Street",
@@ -3678,7 +3678,7 @@
     "id": 31733
 },
 {
-    "title": "Vienna/Neubau",
+    "location": "Vienna/Neubau",
     "name": "Youth Hostel Vienna-Myrthengasse",
     "alt": "Wien Myrthengasse - Jugendherberge",
     "address": "Myrthengasse 7",
@@ -3703,7 +3703,7 @@
     "id": 37733
 },
 {
-    "title": "Placencia",
+    "location": "Placencia",
     "name": "Michelo Suites",
     "alt": null,
     "address": "Main Street, Harbour Place",
@@ -3728,7 +3728,7 @@
     "id": 22533
 },
 {
-    "title": "Doha",
+    "location": "Doha",
     "name": "Al Madina Suites",
     "alt": null,
     "address": "Al Nada St #42",
@@ -3753,7 +3753,7 @@
     "id": 7994
 },
 {
-    "title": "London/Holborn-Clerkenwell",
+    "location": "London/Holborn-Clerkenwell",
     "name": "Swinton Hotel",
     "alt": null,
     "address": "18-24 Swinton St, WC1X 9NX",
@@ -3778,7 +3778,7 @@
     "id": 16235
 },
 {
-    "title": "Williams (Arizona)",
+    "location": "Williams (Arizona)",
     "name": "Grand Canyon Hotel",
     "alt": null,
     "address": "145 W Rte 66",
@@ -3803,7 +3803,7 @@
     "id": 33405
 },
 {
-    "title": "Tübingen",
+    "location": "Tübingen",
     "name": "Neckar Camping",
     "alt": null,
     "address": null,
@@ -3828,7 +3828,7 @@
     "id": 29833
 },
 {
-    "title": "St. Julian's",
+    "location": "St. Julian's",
     "name": "Le Meridien St Julians Hotel & Spa",
     "alt": null,
     "address": "39, Main Street, Balluta Bay",
@@ -3856,7 +3856,7 @@
     "state": "Vitebskaya oblast"
 },
 {
-    "title": "Semur-en-Auxois",
+    "location": "Semur-en-Auxois",
     "name": "Hotel Des Cymaises",
     "alt": null,
     "address": "7 rue du Renaudot",
@@ -3881,7 +3881,7 @@
     "id": 26993
 },
 {
-    "title": "Maasai Mara National Reserve",
+    "location": "Maasai Mara National Reserve",
     "name": "Manyatta Camp",
     "alt": null,
     "address": null,
@@ -3906,7 +3906,7 @@
     "id": 17040
 },
 {
-    "title": "Miami Beach/South Beach",
+    "location": "Miami Beach/South Beach",
     "name": "Jazz on South Beach Hostel",
     "alt": null,
     "address": "321 Collins Ave",
@@ -3931,7 +3931,7 @@
     "id": 18105
 },
 {
-    "title": "Iseo",
+    "location": "Iseo",
     "name": "Covelo",
     "alt": null,
     "address": "Via Covelo 18 - '''Covelo'''",
@@ -3956,7 +3956,7 @@
     "id": 37474
 },
 {
-    "title": "Seinäjoki",
+    "location": "Seinäjoki",
     "name": "Hotelli Fooninki",
     "alt": null,
     "address": "Kaarretie 4",
@@ -3981,7 +3981,7 @@
     "id": 26918
 },
 {
-    "title": "Munich/Haidhausen",
+    "location": "Munich/Haidhausen",
     "name": "Residence Inn Munich City East",
     "alt": null,
     "address": "Orleansstraße 81-83",
@@ -4006,7 +4006,7 @@
     "id": 19587
 },
 {
-    "title": "London/South Kensington-Chelsea",
+    "location": "London/South Kensington-Chelsea",
     "name": "The Berkeley",
     "alt": null,
     "address": "Wilton Pl, SW1X 7RL",
@@ -4031,7 +4031,7 @@
     "id": 16454
 },
 {
-    "title": "Reykjavík",
+    "location": "Reykjavík",
     "name": "Reykjavík Downtown Hostel",
     "alt": null,
     "address": "Vesturgata 17",
@@ -4056,7 +4056,7 @@
     "id": 23747
 },
 {
-    "title": "Saint Petersburg/Center",
+    "location": "Saint Petersburg/Center",
     "name": "Friends hostel, on Bankovsky",
     "alt": "Друзья на Банковском",
     "address": "Bankovsky pereulok (Банковский пер.), 3",
@@ -4084,7 +4084,7 @@
     "state": "Saint Petersburg"
 },
 {
-    "title": "West Coast (Suriname)",
+    "location": "West Coast (Suriname)",
     "name": "Hotel Pak Hap",
     "alt": null,
     "address": "Emmastraat 9, Nieuw Nickerie",
@@ -4109,7 +4109,7 @@
     "id": 37360
 },
 {
-    "title": "Chemnitz",
+    "location": "Chemnitz",
     "name": "Mercure Kongresshotel Chemnitz",
     "alt": null,
     "address": null,
@@ -4134,7 +4134,7 @@
     "id": 5509
 },
 {
-    "title": "Yoshkar-Ola",
+    "location": "Yoshkar-Ola",
     "name": "Moro Hotel",
     "alt": "Гостиница Людовико Моро",
     "address": "Ul. Uspenskaya (ул. Успенская), 15.",
@@ -4162,7 +4162,7 @@
     "state": "Respublika Mariy El"
 },
 {
-    "title": "Ho Chi Minh City",
+    "location": "Ho Chi Minh City",
     "name": "Nguyen Khang Hotel",
     "alt": null,
     "address": "283/25 Pham Ngu Lao, District 1",
@@ -4187,7 +4187,7 @@
     "id": 11708
 },
 {
-    "title": "Muharraq",
+    "location": "Muharraq",
     "name": "Mövenpick Hotel Bahrain",
     "alt": null,
     "address": "143 Road 2403",
@@ -4212,7 +4212,7 @@
     "id": 19307
 },
 {
-    "title": "Nilaveli",
+    "location": "Nilaveli",
     "name": "Shahira Hotel",
     "alt": null,
     "address": null,
@@ -4237,7 +4237,7 @@
     "id": 37321
 },
 {
-    "title": "Quetta",
+    "location": "Quetta",
     "name": "Quetta Serena Hotel",
     "alt": null,
     "address": null,
@@ -4262,7 +4262,7 @@
     "id": 23455
 },
 {
-    "title": "Lijiang",
+    "location": "Lijiang",
     "name": "Hidden Garden",
     "alt": null,
     "address": "No. 46 Wenming Alley, Yishang Street (Wuyi Str.) Old Town District 674100 Lijiang, Yunnan, China",
@@ -4287,7 +4287,7 @@
     "id": 15670
 },
 {
-    "title": "Groene Hart",
+    "location": "Groene Hart",
     "name": "Le Bon Apart",
     "alt": null,
     "address": "Eind 16",
@@ -4312,7 +4312,7 @@
     "id": 10459
 },
 {
-    "title": "Tynset",
+    "location": "Tynset",
     "name": "Savalen mountain hotel",
     "alt": null,
     "address": null,
@@ -4337,7 +4337,7 @@
     "id": 31562
 },
 {
-    "title": "Dumaguete",
+    "location": "Dumaguete",
     "name": "La Residencia Almar",
     "alt": null,
     "address": "Rizal Boulevard",
@@ -4362,7 +4362,7 @@
     "id": 8332
 },
 {
-    "title": "Nagykanizsa",
+    "location": "Nagykanizsa",
     "name": "Pension Galeria",
     "alt": "Galéria Panzió",
     "address": "Kisfaludy u. 31.",
@@ -4387,7 +4387,7 @@
     "id": 19881
 },
 {
-    "title": "Prague/West bank of Vltava",
+    "location": "Prague/West bank of Vltava",
     "name": "Hotel Belvedere",
     "alt": null,
     "address": "Milady Horákové 19",
@@ -4412,7 +4412,7 @@
     "id": 39222
 },
 {
-    "title": "Chaiyaphum",
+    "location": "Chaiyaphum",
     "name": "Pocket Park Chaiyaphum Minitel Apartment",
     "alt": "Pocket Park Chaiyaphum",
     "address": "Soi Kiatnakin Bank, Haruethai Road, Maung, Chaiyaphum Province 36000 Thailand",
@@ -4437,7 +4437,7 @@
     "id": 5306
 },
 {
-    "title": "Ivano-Frankivsk",
+    "location": "Ivano-Frankivsk",
     "name": "Pid Templem hotel",
     "alt": "Під «Темпелем»",
     "address": "Str Strachenykh Nationalistiv (вулиця Страчених Націоналістів), 7а",
@@ -4465,7 +4465,7 @@
     "state": "Ivano-Frankivska oblast"
 },
 {
-    "title": "Boston/Fenway-Kenmore",
+    "location": "Boston/Fenway-Kenmore",
     "name": "Hotel Commonwealth",
     "alt": null,
     "address": "500 Commonwealth Avenue",
@@ -4490,7 +4490,7 @@
     "id": 3956
 },
 {
-    "title": "Los Angeles/Downtown",
+    "location": "Los Angeles/Downtown",
     "name": "Omni",
     "alt": null,
     "address": "251 S Olive St",
@@ -4515,7 +4515,7 @@
     "id": 16634
 },
 {
-    "title": "Banff",
+    "location": "Banff",
     "name": "SameSun Backpacker Lodge",
     "alt": null,
     "address": "433 Banff Ave",
@@ -4540,7 +4540,7 @@
     "id": 1784
 },
 {
-    "title": "Yerevan",
+    "location": "Yerevan",
     "name": "Anahit Stepanyan's B&B",
     "alt": null,
     "address": "5 Sayat-Nova ave, apt.25",
@@ -4568,7 +4568,7 @@
     "state": "gorod respublikanskogo znacheniya Yerevan"
 },
 {
-    "title": "Birmingham (England)",
+    "location": "Birmingham (England)",
     "name": "Castle Bromwich Inn",
     "alt": null,
     "address": "1200 Chester Road",
@@ -4593,7 +4593,7 @@
     "id": 3626
 },
 {
-    "title": "Vancouver/Yaletown-False Creek",
+    "location": "Vancouver/Yaletown-False Creek",
     "name": "C&N Backpackers Hostel",
     "alt": null,
     "address": "927 Main St",
@@ -4618,7 +4618,7 @@
     "id": 32034
 },
 {
-    "title": "Cincinnati",
+    "location": "Cincinnati",
     "name": "Bunkhaus (hostel)",
     "alt": null,
     "address": "1424 Main St",
@@ -4643,7 +4643,7 @@
     "id": 6053
 },
 {
-    "title": "Dumaguete",
+    "location": "Dumaguete",
     "name": "Vintage Inn",
     "alt": null,
     "address": null,
@@ -4668,7 +4668,7 @@
     "id": 8324
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Hotel Hedyn Termál",
     "alt": null,
     "address": "Töltésszer utca 6.",
@@ -4693,7 +4693,7 @@
     "id": 10798
 },
 {
-    "title": "Detroit/Downtown",
+    "location": "Detroit/Downtown",
     "name": "The Leland",
     "alt": null,
     "address": "400 Bagley Ave",
@@ -4718,7 +4718,7 @@
     "id": 7815
 },
 {
-    "title": "Copenhagen/Amager",
+    "location": "Copenhagen/Amager",
     "name": "Dragør Badehotel, Dragør",
     "alt": null,
     "address": "Drogdensvej 43",
@@ -4743,7 +4743,7 @@
     "id": 6394
 },
 {
-    "title": "Antwerp",
+    "location": "Antwerp",
     "name": "Ramada Plaza Antwerp",
     "alt": null,
     "address": "Desguinlei 94",
@@ -4768,7 +4768,7 @@
     "id": 1025
 },
 {
-    "title": "Bled",
+    "location": "Bled",
     "name": "Camping Bled",
     "alt": null,
     "address": null,
@@ -4793,7 +4793,7 @@
     "id": 3752
 },
 {
-    "title": "Frankfurt",
+    "location": "Frankfurt",
     "name": "Novotel Frankfurt City",
     "alt": null,
     "address": "Lise-Meitner-Strasse 2",
@@ -4818,7 +4818,7 @@
     "id": 9531
 },
 {
-    "title": "Vienna/Josefstadt",
+    "location": "Vienna/Josefstadt",
     "name": "Hotel Graf Stadion",
     "alt": null,
     "address": "Buchfeldgasse 5",
@@ -4843,7 +4843,7 @@
     "id": 37823
 },
 {
-    "title": "Somerset (Kentucky)",
+    "location": "Somerset (Kentucky)",
     "name": "General Burnside Island State Park",
     "alt": null,
     "address": "8801 S. Hwy. 27, Burnside",
@@ -4868,7 +4868,7 @@
     "id": 27758
 },
 {
-    "title": "Leipzig",
+    "location": "Leipzig",
     "name": "Mercure Hotel Art Leipzig",
     "alt": null,
     "address": "Eutritzscher Strasse 15, 04105 Leipzig",
@@ -4893,7 +4893,7 @@
     "id": 15525
 },
 {
-    "title": "Pécs",
+    "location": "Pécs",
     "name": "CENTRAL apartment",
     "alt": "Lóránt apartman",
     "address": "Széchenyi tér 2",
@@ -4918,7 +4918,7 @@
     "id": 21968
 },
 {
-    "title": "Benllech",
+    "location": "Benllech",
     "name": "Llanbedrgoch Holiday Caravan",
     "alt": null,
     "address": "Llanbedrgoch",
@@ -4943,7 +4943,7 @@
     "id": 40177
 },
 {
-    "title": "Wikivoyage:Listings",
+    "location": "Wikivoyage:Listings",
     "name": "Hotel Eldorado",
     "alt": null,
     "address": "rue des Dames 18",
@@ -4968,7 +4968,7 @@
     "id": 34195
 },
 {
-    "title": "Freetown",
+    "location": "Freetown",
     "name": "Family Kingdom",
     "alt": null,
     "address": null,
@@ -4993,7 +4993,7 @@
     "id": 9599
 },
 {
-    "title": "Inverness",
+    "location": "Inverness",
     "name": "Beach Cottage B&B",
     "alt": null,
     "address": "3 Alturlie Point, Allanfearn, Inverness, IV2 7HZ",
@@ -5018,7 +5018,7 @@
     "id": 12239
 },
 {
-    "title": "Buonconvento",
+    "location": "Buonconvento",
     "name": "Villa Armena",
     "alt": null,
     "address": "Località Armena Buonconvento",
@@ -5043,7 +5043,7 @@
     "id": 4432
 },
 {
-    "title": "Durham (North Carolina)",
+    "location": "Durham (North Carolina)",
     "name": "Comfort Inn Medical Park",
     "alt": null,
     "address": "1816 Hillandale Road",
@@ -5068,7 +5068,7 @@
     "id": 8433
 },
 {
-    "title": "Harkány",
+    "location": "Harkány",
     "name": "MÁV Spa House Institute",
     "alt": "Vasútegészségügyi MÁV Gyógyház",
     "address": "Bajcsy-Zsilinszky u. 1",
@@ -5093,7 +5093,7 @@
     "id": 34905
 },
 {
-    "title": "Vantaa and Northern Helsinki",
+    "location": "Vantaa and Northern Helsinki",
     "name": "Sokos Hotel Vantaa",
     "alt": null,
     "address": "Hertaksentie 2",
@@ -5118,7 +5118,7 @@
     "id": 32086
 },
 {
-    "title": "Borås",
+    "location": "Borås",
     "name": "First Hotel Grand",
     "alt": null,
     "address": null,
@@ -5143,7 +5143,7 @@
     "id": 3874
 },
 {
-    "title": "Rehoboth Beach",
+    "location": "Rehoboth Beach",
     "name": "Atlantis Inn",
     "alt": null,
     "address": "154 Rehoboth Avenue",
@@ -5168,7 +5168,7 @@
     "id": 23662
 },
 {
-    "title": "Semarang",
+    "location": "Semarang",
     "name": "Gumaya Tower Hotel",
     "alt": null,
     "address": "Jl Gajah Mada 59 - 61",
@@ -5193,7 +5193,7 @@
     "id": 26954
 },
 {
-    "title": "Kilpisjärvi",
+    "location": "Kilpisjärvi",
     "name": "Tundrea Holiday Resort Kilpisjarvi",
     "alt": null,
     "address": "Käsivarrentie 14188",
@@ -5218,7 +5218,7 @@
     "id": 13999
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Anna Pansion",
     "alt": "Anna Panzió",
     "address": "Ady Endre út 51",
@@ -5243,7 +5243,7 @@
     "id": 28033
 },
 {
-    "title": "Palermo",
+    "location": "Palermo",
     "name": "B&B Novecento",
     "alt": null,
     "address": "Via Roma, 62",
@@ -5268,7 +5268,7 @@
     "id": 21541
 },
 {
-    "title": "Warsaw/Wola",
+    "location": "Warsaw/Wola",
     "name": "Ibis Warszawa Centrum",
     "alt": null,
     "address": "Al. Solidarnosci 165",
@@ -5293,7 +5293,7 @@
     "id": 33066
 },
 {
-    "title": "Vienna/Inner East",
+    "location": "Vienna/Inner East",
     "name": "Mercure Wien City",
     "alt": null,
     "address": "Hollandstraße 3",
@@ -5318,7 +5318,7 @@
     "id": 32391
 },
 {
-    "title": "Bayreuth",
+    "location": "Bayreuth",
     "name": "Arvena Kongress Hotel",
     "alt": null,
     "address": "Eduard-Bayerlein-Str. 5a",
@@ -5343,7 +5343,7 @@
     "id": 2593
 },
 {
-    "title": "Voss",
+    "location": "Voss",
     "name": "Gamlahuset",
     "alt": null,
     "address": "Kvåle i Raundalen",
@@ -5368,7 +5368,7 @@
     "id": 32895
 },
 {
-    "title": "Berlin/City West",
+    "location": "Berlin/City West",
     "name": "Hotel Pension Am Park",
     "alt": null,
     "address": "Sophie-Charlotten-Str. 57-58",
@@ -5393,7 +5393,7 @@
     "id": 3092
 },
 {
-    "title": "Bandelier National Monument",
+    "location": "Bandelier National Monument",
     "name": "Juniper Campground",
     "alt": null,
     "address": "near the park entrance station",
@@ -5418,7 +5418,7 @@
     "id": 1678
 },
 {
-    "title": "Reykjavík",
+    "location": "Reykjavík",
     "name": "Hótel Leifur Eiríksson",
     "alt": null,
     "address": "Skólavörðustígur 45",
@@ -5443,7 +5443,7 @@
     "id": 23755
 },
 {
-    "title": "Kamianets-Podilskyi",
+    "location": "Kamianets-Podilskyi",
     "name": "Hotel Texas",
     "alt": "Гостиничный комплекс &quot;Техас&quot;",
     "address": "Ave. Hrushevskoho (проспект Грушевского), 27",
@@ -5471,7 +5471,7 @@
     "state": "Khmelnytska oblast"
 },
 {
-    "title": "Denver",
+    "location": "Denver",
     "name": "Crowne Plaza Denver Downtown",
     "alt": null,
     "address": "1450 Glenarm Pl",
@@ -5496,7 +5496,7 @@
     "id": 7716
 },
 {
-    "title": "Tbilisi",
+    "location": "Tbilisi",
     "name": "Prestige Hotel",
     "alt": null,
     "address": "51 Marjanishvili St",
@@ -5524,7 +5524,7 @@
     "state": null
 },
 {
-    "title": "Ubud",
+    "location": "Ubud",
     "name": "Dewa Bharata Bungalows",
     "alt": null,
     "address": "Jln Panestanan",
@@ -5549,7 +5549,7 @@
     "id": 31608
 },
 {
-    "title": "Nyborg",
+    "location": "Nyborg",
     "name": "Hotel Hesselet",
     "alt": null,
     "address": "Christianslundsvej 119",
@@ -5574,7 +5574,7 @@
     "id": 20849
 },
 {
-    "title": "Dumbarton",
+    "location": "Dumbarton",
     "name": "Dumbuck Hotel",
     "alt": null,
     "address": "Glasgow Road, Dumbarton",
@@ -5599,7 +5599,7 @@
     "id": 8340
 },
 {
-    "title": "Nagykanizsa",
+    "location": "Nagykanizsa",
     "name": "Pelikan",
     "alt": "Pelikán Magánszállás",
     "address": "Haladás út 9.",
@@ -5624,7 +5624,7 @@
     "id": 19890
 },
 {
-    "title": "Singapore/Chinatown",
+    "location": "Singapore/Chinatown",
     "name": "Inn at Temple Street",
     "alt": null,
     "address": "36 Temple St",
@@ -5649,7 +5649,7 @@
     "id": 27424
 },
 {
-    "title": "Nuuksio National Park",
+    "location": "Nuuksio National Park",
     "name": "Tikankolo",
     "alt": null,
     "address": null,
@@ -5674,7 +5674,7 @@
     "id": 20845
 },
 {
-    "title": "Swords",
+    "location": "Swords",
     "name": "Forty Four Main Street",
     "alt": null,
     "address": "44 Main Street",
@@ -5699,7 +5699,7 @@
     "id": 36117
 },
 {
-    "title": "Pori",
+    "location": "Pori",
     "name": "Matkakoti Musa",
     "alt": null,
     "address": "Putimäentie 69",
@@ -5724,7 +5724,7 @@
     "id": 22723
 },
 {
-    "title": "Offa's Dyke Path",
+    "location": "Offa's Dyke Path",
     "name": "Valeside B&B",
     "alt": null,
     "address": "Bella Vista, Tremeirchion Road, Bodfari LL16 4EG",
@@ -5749,7 +5749,7 @@
     "id": 21030
 },
 {
-    "title": "Kakunodate",
+    "location": "Kakunodate",
     "name": "Guesthouse Fūga",
     "alt": "ゲストハウス風雅",
     "address": "34-8, Kodate, Kakunodate, 角館町小館34-8",
@@ -5774,7 +5774,7 @@
     "id": 13039
 },
 {
-    "title": "Chania",
+    "location": "Chania",
     "name": "Villa Anna Maria",
     "alt": "holiday villa in Gerani",
     "address": null,
@@ -5799,7 +5799,7 @@
     "id": 5343
 },
 {
-    "title": "Ayvalik",
+    "location": "Ayvalik",
     "name": "Tatil Emlak",
     "alt": null,
     "address": "Balikesir",
@@ -5827,7 +5827,7 @@
     "state": "Balıkesir"
 },
 {
-    "title": "Guilin",
+    "location": "Guilin",
     "name": "Fu Yuan Hotel",
     "alt": null,
     "address": "Chuan Shan Lu 9",
@@ -5852,7 +5852,7 @@
     "id": 10595
 },
 {
-    "title": "San Francisco/Western Addition",
+    "location": "San Francisco/Western Addition",
     "name": "Hotel Kabuki",
     "alt": null,
     "address": "1625 Post Street",
@@ -5877,7 +5877,7 @@
     "id": 26264
 },
 {
-    "title": "Paris/18th arrondissement",
+    "location": "Paris/18th arrondissement",
     "name": "Terrass Hotel",
     "alt": null,
     "address": "12, rue Joseph-de-Maistre",
@@ -5902,7 +5902,7 @@
     "id": 21680
 },
 {
-    "title": "Skellefteå",
+    "location": "Skellefteå",
     "name": "Brunnsgården",
     "alt": null,
     "address": "Kyrkstadsvägen 16",
@@ -5927,7 +5927,7 @@
     "id": 27577
 },
 {
-    "title": "Banff",
+    "location": "Banff",
     "name": "Fox Hotel & Suites",
     "alt": null,
     "address": "461 Banff Ave",
@@ -5952,7 +5952,7 @@
     "id": 1789
 },
 {
-    "title": "Copenhagen/Northern suburbs",
+    "location": "Copenhagen/Northern suburbs",
     "name": "Hotel Fortunen",
     "alt": null,
     "address": "Ved Fortunen 33",
@@ -5977,7 +5977,7 @@
     "id": 6768
 },
 {
-    "title": "Lexington (Kentucky)",
+    "location": "Lexington (Kentucky)",
     "name": "Holiday Inn Express-Lexington Northeast",
     "alt": null,
     "address": "1780 Sharkey Way",
@@ -6002,7 +6002,7 @@
     "id": 15624
 },
 {
-    "title": "Narita",
+    "location": "Narita",
     "name": "Backpackers Fuji",
     "alt": null,
     "address": "668-2, Kamicho",
@@ -6027,7 +6027,7 @@
     "id": 19993
 },
 {
-    "title": "Budapest/North Pest",
+    "location": "Budapest/North Pest",
     "name": "2night Hostel",
     "alt": null,
     "address": "XIII., Szt. Istvan krt, 22, Just press ’96′",
@@ -6052,7 +6052,7 @@
     "id": 41012
 },
 {
-    "title": "Greenville (North Carolina)",
+    "location": "Greenville (North Carolina)",
     "name": "The 5th Street Inn",
     "alt": null,
     "address": "1105 E 5th St",
@@ -6077,7 +6077,7 @@
     "id": 10480
 },
 {
-    "title": "Suzdal",
+    "location": "Suzdal",
     "name": "Vasilyevsky Monastery",
     "alt": "Гостиница в Васильевском монастыре.",
     "address": "Vasilyevsky Street",
@@ -6105,7 +6105,7 @@
     "state": "Vladimirskaya oblast"
 },
 {
-    "title": "Pittsburgh/Downtown",
+    "location": "Pittsburgh/Downtown",
     "name": "Omni William Penn",
     "alt": null,
     "address": "530 William Penn Pl",
@@ -6130,7 +6130,7 @@
     "id": 22507
 },
 {
-    "title": "Kaliningrad",
+    "location": "Kaliningrad",
     "name": "The Art Hotel «Pushkin Hall»",
     "alt": null,
     "address": "Dostoevskogo st. 19",
@@ -6155,7 +6155,7 @@
     "id": 13044
 },
 {
-    "title": "Madrid",
+    "location": "Madrid",
     "name": "ME Madrid",
     "alt": null,
     "address": "Plaza de Santa Ana, 14",
@@ -6180,7 +6180,7 @@
     "id": 17155
 },
 {
-    "title": "Kigali",
+    "location": "Kigali",
     "name": "Auberge La Caverne",
     "alt": null,
     "address": "Nyabugogo Blvd",
@@ -6205,7 +6205,7 @@
     "id": 13985
 },
 {
-    "title": "Liverpool",
+    "location": "Liverpool",
     "name": "The Liner",
     "alt": null,
     "address": "Lord Nelson St",
@@ -6230,7 +6230,7 @@
     "id": 15912
 },
 {
-    "title": "Taketomi",
+    "location": "Taketomi",
     "name": "Taketomi Guesthouse Je t'aime",
     "alt": "竹富ゲストハウス ジュテーム",
     "address": "Taketomi 321-1",
@@ -6255,7 +6255,7 @@
     "id": 29271
 },
 {
-    "title": "Winnfield",
+    "location": "Winnfield",
     "name": "Best Western",
     "alt": null,
     "address": "700 W Court St",
@@ -6280,7 +6280,7 @@
     "id": 38380
 },
 {
-    "title": "Entebbe",
+    "location": "Entebbe",
     "name": "Sunset Entebbe",
     "alt": null,
     "address": "25 Church Road, Bugonga",
@@ -6305,7 +6305,7 @@
     "id": 8958
 },
 {
-    "title": "Minneapolis/South",
+    "location": "Minneapolis/South",
     "name": "Courtyard Minneapolis",
     "alt": null,
     "address": "1500 Washington Ave S",
@@ -6330,7 +6330,7 @@
     "id": 18407
 },
 {
-    "title": "Lviv",
+    "location": "Lviv",
     "name": "Cats' house hostel",
     "alt": null,
     "address": "20 ulitsa Saksaganskogo, apt. 4 (Second Floor) - вул. Саксаганського, 20, кв. 4",
@@ -6358,7 +6358,7 @@
     "state": "Lvivska oblast"
 },
 {
-    "title": "Guanajuato",
+    "location": "Guanajuato",
     "name": "La Casa del Tío",
     "alt": null,
     "address": "Calle Cantarranas 47",
@@ -6383,7 +6383,7 @@
     "id": 10580
 },
 {
-    "title": "Zierikzee",
+    "location": "Zierikzee",
     "name": "Bed & Breakfast Hibernaculum",
     "alt": null,
     "address": "Poststraat 32",
@@ -6408,7 +6408,7 @@
     "id": 37545
 },
 {
-    "title": "Bangkok/Khao San Road",
+    "location": "Bangkok/Khao San Road",
     "name": "Nouvo City Hotel",
     "alt": null,
     "address": "2 Samsen Soi 2",
@@ -6433,7 +6433,7 @@
     "id": 1916
 },
 {
-    "title": "Mar Lodj",
+    "location": "Mar Lodj",
     "name": "La Nouvelle Vague",
     "alt": null,
     "address": "Mar Lodj, Sassang",
@@ -6458,7 +6458,7 @@
     "id": 17603
 },
 {
-    "title": "Helsinki/West",
+    "location": "Helsinki/West",
     "name": "Stadion Hostel",
     "alt": null,
     "address": "Pohjoinen Stadiontie 4",
@@ -6483,7 +6483,7 @@
     "id": 36417
 },
 {
-    "title": "Oulu",
+    "location": "Oulu",
     "name": "Airport Hotel",
     "alt": null,
     "address": "Vihiluoto 10",
@@ -6508,7 +6508,7 @@
     "id": 21499
 },
 {
-    "title": "Tampere",
+    "location": "Tampere",
     "name": "Dream Hostel",
     "alt": null,
     "address": "Åkerlundinkatu 2",
@@ -6533,7 +6533,7 @@
     "id": 29537
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Residence Inn Las Vegas Hughes Center",
     "alt": null,
     "address": "370 Hughes Center Dr",
@@ -6558,7 +6558,7 @@
     "id": 15356
 },
 {
-    "title": "Prague/Old Town and Josefov",
+    "location": "Prague/Old Town and Josefov",
     "name": "Pension U Medvídků",
     "alt": null,
     "address": null,
@@ -6583,7 +6583,7 @@
     "id": 23106
 },
 {
-    "title": "Bergamo",
+    "location": "Bergamo",
     "name": "NH Orio Al Serio",
     "alt": null,
     "address": "Via Portico 75, Orio al Serio",
@@ -6608,7 +6608,7 @@
     "id": 2882
 },
 {
-    "title": "Barcelona/Sant Martí",
+    "location": "Barcelona/Sant Martí",
     "name": "Tryp Barcelona Condal Mar",
     "alt": null,
     "address": "Cristóbal de Moura 138",
@@ -6633,7 +6633,7 @@
     "id": 2419
 },
 {
-    "title": "Pogradec",
+    "location": "Pogradec",
     "name": "Hotel Kalaja",
     "alt": null,
     "address": "Rruga Vilave/Shetitorja I Maji",
@@ -6658,7 +6658,7 @@
     "id": 22591
 },
 {
-    "title": "Bitola",
+    "location": "Bitola",
     "name": "Hotel Tokin House",
     "alt": null,
     "address": "Marx i Engels 7",
@@ -6683,7 +6683,7 @@
     "id": 3733
 },
 {
-    "title": "Gundagai",
+    "location": "Gundagai",
     "name": "Tuckerbox Motor Inn",
     "alt": null,
     "address": "87-97 Mount St",
@@ -6708,7 +6708,7 @@
     "id": 10612
 },
 {
-    "title": "Flagstaff",
+    "location": "Flagstaff",
     "name": "Flagstaff KOA",
     "alt": null,
     "address": "5803 N Hwy 89",
@@ -6733,7 +6733,7 @@
     "id": 9233
 },
 {
-    "title": "Melbourne/City Centre",
+    "location": "Melbourne/City Centre",
     "name": "Rydges Melbourne",
     "alt": null,
     "address": "186 Exhibition Street",
@@ -6758,7 +6758,7 @@
     "id": 36615
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Las Vegas Hostel",
     "alt": null,
     "address": "1322 Fremont St",
@@ -6783,7 +6783,7 @@
     "id": 15367
 },
 {
-    "title": "Luxembourg (city)",
+    "location": "Luxembourg (city)",
     "name": "Novotel Luxembourg Centre",
     "alt": null,
     "address": "Rue Du Laboratoire 35",
@@ -6808,7 +6808,7 @@
     "id": 16862
 },
 {
-    "title": "Lausanne",
+    "location": "Lausanne",
     "name": "Lausanne GuestHouse",
     "alt": null,
     "address": "Epinettes 4",
@@ -6833,7 +6833,7 @@
     "id": 15453
 },
 {
-    "title": "Kisoro",
+    "location": "Kisoro",
     "name": "SawaSawa Guest House",
     "alt": null,
     "address": null,
@@ -6858,7 +6858,7 @@
     "id": 14154
 },
 {
-    "title": "Milwaukee",
+    "location": "Milwaukee",
     "name": "Aloft Milwaukee Downtown",
     "alt": null,
     "address": "1230 N Old World 3rd St",
@@ -6883,7 +6883,7 @@
     "id": 18226
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Wynn Las Vegas",
     "alt": null,
     "address": "3131 S Las Vegas Blvd",
@@ -6908,7 +6908,7 @@
     "id": 15341
 },
 {
-    "title": "Minneapolis/Southwest",
+    "location": "Minneapolis/Southwest",
     "name": "Minneapolis International Hostel",
     "alt": null,
     "address": "2400 Stevens Ave",
@@ -6933,7 +6933,7 @@
     "id": 18510
 },
 {
-    "title": "Pristina",
+    "location": "Pristina",
     "name": "Hotel Baci",
     "alt": null,
     "address": "Bulevardi Dëshmorët e kombit",
@@ -6958,7 +6958,7 @@
     "id": 23299
 },
 {
-    "title": "Niue",
+    "location": "Niue",
     "name": "Niue BackPackers",
     "alt": null,
     "address": "Alofi",
@@ -6983,7 +6983,7 @@
     "id": 20504
 },
 {
-    "title": "Maastricht",
+    "location": "Maastricht",
     "name": "Hotel Derlon",
     "alt": null,
     "address": "Onze Lieve Vrouweplein 6",
@@ -7008,7 +7008,7 @@
     "id": 17083
 },
 {
-    "title": "Khabarovsk",
+    "location": "Khabarovsk",
     "name": "Abricol Hotel",
     "alt": "Гостиница Абриколь",
     "address": "138 Voronezhkaya St",
@@ -7036,7 +7036,7 @@
     "state": "Khabarovskiy kray"
 },
 {
-    "title": "Jimbaran",
+    "location": "Jimbaran",
     "name": "Ayana Resort and Spa",
     "alt": "formerly the Ritz Carlton Bali",
     "address": "Jl Karang Mas Sejahtera",
@@ -7061,7 +7061,7 @@
     "id": 12869
 },
 {
-    "title": "Kazan",
+    "location": "Kazan",
     "name": "Suleiman Palace",
     "alt": null,
     "address": "55 Peterburgskaya St",
@@ -7089,7 +7089,7 @@
     "state": "Respublika Tatarstan"
 },
 {
-    "title": "Tha Khaek",
+    "location": "Tha Khaek",
     "name": "Inthira Hotel",
     "alt": null,
     "address": "79, Unit 4 - Anou Rd",
@@ -7114,7 +7114,7 @@
     "id": 30048
 },
 {
-    "title": "Antwerp",
+    "location": "Antwerp",
     "name": "Ibis Styles Antwerpen City Centre",
     "alt": "formerly ''All Seasons''",
     "address": null,
@@ -7139,7 +7139,7 @@
     "id": 1021
 },
 {
-    "title": "Chippenham",
+    "location": "Chippenham",
     "name": "Home Farm Bed & Breakfast",
     "alt": null,
     "address": "Harts Lane, Biddestone SN14 7DQ",
@@ -7164,7 +7164,7 @@
     "id": 5846
 },
 {
-    "title": "Auckland",
+    "location": "Auckland",
     "name": "Ponsonby Backpackers",
     "alt": null,
     "address": "2 Franklin Rd",
@@ -7189,7 +7189,7 @@
     "id": 1303
 },
 {
-    "title": "Budapest/Belváros",
+    "location": "Budapest/Belváros",
     "name": "Mercure Budapest City Centre",
     "alt": null,
     "address": "Vaci utca 20",
@@ -7214,7 +7214,7 @@
     "id": 39748
 },
 {
-    "title": "Seoul/Seodaemun-Mapo",
+    "location": "Seoul/Seodaemun-Mapo",
     "name": "The Win Boutique Hotel",
     "alt": "더 윈 부티크 호텔",
     "address": null,
@@ -7239,7 +7239,7 @@
     "id": 34233
 },
 {
-    "title": "Budapest/Újbuda and Tétény",
+    "location": "Budapest/Újbuda and Tétény",
     "name": "Danubius Hotel Gellert",
     "alt": null,
     "address": "XI Szent Gellért tér 1",
@@ -7265,7 +7265,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Civertangellertszallolegi3.jpg"
 },
 {
-    "title": "Brownsville (Kentucky)",
+    "location": "Brownsville (Kentucky)",
     "name": "Cottages at Briar Creek",
     "alt": null,
     "address": "2772 Brier Creek Rd. Mammoth Cave, KY 42259",
@@ -7290,7 +7290,7 @@
     "id": 4151
 },
 {
-    "title": "Ko Yao",
+    "location": "Ko Yao",
     "name": "Hill House",
     "alt": null,
     "address": "6/4 Moo 4",
@@ -7315,7 +7315,7 @@
     "id": 14548
 },
 {
-    "title": "Prague/East bank of Vltava",
+    "location": "Prague/East bank of Vltava",
     "name": "Clown and Bard Hostel",
     "alt": null,
     "address": "Borivojova 102, Žižkov",
@@ -7340,7 +7340,7 @@
     "id": 39258
 },
 {
-    "title": "Banff",
+    "location": "Banff",
     "name": "Banff Ptarmigan Inn",
     "alt": null,
     "address": "337 Banff Avenue",
@@ -7365,7 +7365,7 @@
     "id": 1779
 },
 {
-    "title": "Albuquerque",
+    "location": "Albuquerque",
     "name": "Best Western Rio Grande Inn",
     "alt": null,
     "address": "1015 Rio Grande Blvd",
@@ -7390,7 +7390,7 @@
     "id": 437
 },
 {
-    "title": "Yellowstone National Park",
+    "location": "Yellowstone National Park",
     "name": "Canyon Lodge and Cabins",
     "alt": null,
     "address": null,
@@ -7415,7 +7415,7 @@
     "id": 33729
 },
 {
-    "title": "Düsseldorf",
+    "location": "Düsseldorf",
     "name": "Radisson Blu Media Harbour",
     "alt": null,
     "address": "Hammer Strasse 23",
@@ -7440,7 +7440,7 @@
     "id": 7351
 },
 {
-    "title": "Gondar",
+    "location": "Gondar",
     "name": "Taye Hotel",
     "alt": null,
     "address": null,
@@ -7465,7 +7465,7 @@
     "id": 10190
 },
 {
-    "title": "Bogotá/Zona Rosa",
+    "location": "Bogotá/Zona Rosa",
     "name": "Cabrera Imperial",
     "alt": null,
     "address": "Calle 83 9-64",
@@ -7490,7 +7490,7 @@
     "id": 35792
 },
 {
-    "title": "Brownsville (Kentucky)",
+    "location": "Brownsville (Kentucky)",
     "name": "Rocky Hill Inn Bed and Breakfast",
     "alt": null,
     "address": "1881 Rocky Hill Rd. Smiths Grove, KY 42171",
@@ -7515,7 +7515,7 @@
     "id": 4149
 },
 {
-    "title": "Jaca",
+    "location": "Jaca",
     "name": "Hotel Lacasa Faus Hutte",
     "alt": null,
     "address": "Carretera de Francia, km 658.5",
@@ -7540,7 +7540,7 @@
     "id": 12545
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Fonte Hotel and Restaurant",
     "alt": "Fonte Hotel és Étterem",
     "address": "Schweidel utca 17. ( Parkoló felőli bejárat: Kisfaludy utca 38.)",
@@ -7565,7 +7565,7 @@
     "id": 10795
 },
 {
-    "title": "Mukutmanipur",
+    "location": "Mukutmanipur",
     "name": "Pancha Pally Tourist Complex",
     "alt": null,
     "address": "Baraghutu Hill",
@@ -7590,7 +7590,7 @@
     "id": 19316
 },
 {
-    "title": "Nampula",
+    "location": "Nampula",
     "name": "Milenio",
     "alt": null,
     "address": "Av 25 September",
@@ -7615,7 +7615,7 @@
     "id": 19923
 },
 {
-    "title": "McLean (Virginia)",
+    "location": "McLean (Virginia)",
     "name": "Staybridge Suites",
     "alt": null,
     "address": "6845 Old Dominion Dr",
@@ -7640,7 +7640,7 @@
     "id": 17806
 },
 {
-    "title": "Berlin/Mitte",
+    "location": "Berlin/Mitte",
     "name": "Hotel Adlon",
     "alt": null,
     "address": null,
@@ -7665,7 +7665,7 @@
     "id": 3332
 },
 {
-    "title": "Haparanda",
+    "location": "Haparanda",
     "name": "Nivagården",
     "alt": null,
     "address": "Korpikylä 224",
@@ -7690,7 +7690,7 @@
     "id": 11166
 },
 {
-    "title": "Lake Wales",
+    "location": "Lake Wales",
     "name": "Cherry Pocket Steak & Seafood Shak",
     "alt": null,
     "address": "3100 Canal Rd",
@@ -7715,7 +7715,7 @@
     "id": 15095
 },
 {
-    "title": "Albany (New York)",
+    "location": "Albany (New York)",
     "name": "Quality Inn Central",
     "alt": null,
     "address": "1632 Central Ave",
@@ -7740,7 +7740,7 @@
     "id": 288
 },
 {
-    "title": "Soltau",
+    "location": "Soltau",
     "name": "Hotel Port Royal",
     "alt": null,
     "address": "Dittmern",
@@ -7765,7 +7765,7 @@
     "id": 27736
 },
 {
-    "title": "Bangkok/Khao San Road",
+    "location": "Bangkok/Khao San Road",
     "name": "Siam Oriental Inn",
     "alt": "สยามโอเรียนเต็ล อินน์",
     "address": "190 Khao San Rd",
@@ -7790,7 +7790,7 @@
     "id": 1902
 },
 {
-    "title": "Yellowstone National Park",
+    "location": "Yellowstone National Park",
     "name": "Grant",
     "alt": null,
     "address": null,
@@ -7815,7 +7815,7 @@
     "id": 33741
 },
 {
-    "title": "Bissau",
+    "location": "Bissau",
     "name": "Azalaï Hotel 24 de Setembro",
     "alt": null,
     "address": "CP 85",
@@ -7840,7 +7840,7 @@
     "id": 3718
 },
 {
-    "title": "Ad Dakhla",
+    "location": "Ad Dakhla",
     "name": "Hotel Dakhla Attitude",
     "alt": null,
     "address": "Pointe du Dragon",
@@ -7865,7 +7865,7 @@
     "id": 66
 },
 {
-    "title": "Buena Park",
+    "location": "Buena Park",
     "name": "Knott's Berry Farm Resort Hotel",
     "alt": null,
     "address": "7675 Crescent Avenue",
@@ -7890,7 +7890,7 @@
     "id": 4397
 },
 {
-    "title": "Krems",
+    "location": "Krems",
     "name": "Gästehaus Kleine Mühle",
     "alt": null,
     "address": "Reisperbachtalstrasse 50, Stein",
@@ -7915,7 +7915,7 @@
     "id": 14639
 },
 {
-    "title": "Vaasa",
+    "location": "Vaasa",
     "name": "Kerstins Stugor",
     "alt": null,
     "address": "Utterö, Sundom",
@@ -7940,7 +7940,7 @@
     "id": 31935
 },
 {
-    "title": "Poznań",
+    "location": "Poznań",
     "name": "Hotel Henlex",
     "alt": "Hotel i restauracja Henlex",
     "address": "43 Spławie",
@@ -7965,7 +7965,7 @@
     "id": 22973
 },
 {
-    "title": "Turin",
+    "location": "Turin",
     "name": "AC Hotel Torino",
     "alt": null,
     "address": "Via Bisalta, 11",
@@ -7990,7 +7990,7 @@
     "id": 31346
 },
 {
-    "title": "Milan/North",
+    "location": "Milan/North",
     "name": "Berna Swiss Quality Hotel",
     "alt": null,
     "address": "Via Napo Torriani 18",
@@ -8015,7 +8015,7 @@
     "id": 38846
 },
 {
-    "title": "Dateland",
+    "location": "Dateland",
     "name": "Dateland RV Park",
     "alt": null,
     "address": "1737 S Ave 64 E",
@@ -8040,7 +8040,7 @@
     "id": 7184
 },
 {
-    "title": "Lake Wales",
+    "location": "Lake Wales",
     "name": "Peace Creek RV Park",
     "alt": null,
     "address": "26397 U.S. Hwy 27",
@@ -8065,7 +8065,7 @@
     "id": 15100
 },
 {
-    "title": "Titel",
+    "location": "Titel",
     "name": "Hotel Tisa",
     "alt": null,
     "address": "24240 Titel, Paradni Trg br 7",
@@ -8090,7 +8090,7 @@
     "id": 30253
 },
 {
-    "title": "Stuttgart",
+    "location": "Stuttgart",
     "name": "Dormero Hotel Stuttgart",
     "alt": null,
     "address": "Plieninger Straße 100",
@@ -8115,7 +8115,7 @@
     "id": 28812
 },
 {
-    "title": "Senggigi",
+    "location": "Senggigi",
     "name": "la casa home stay",
     "alt": null,
     "address": "Gg Pura Melasa Batu layar Senggigi",
@@ -8140,7 +8140,7 @@
     "id": 26995
 },
 {
-    "title": "Kobe",
+    "location": "Kobe",
     "name": "Sannomiya Terminal Hotel",
     "alt": null,
     "address": "651-0096 Hyogo, Kobe, Chuo-ku Kumoidori 8-1-2",
@@ -8165,7 +8165,7 @@
     "id": 14249
 },
 {
-    "title": "Simferopol",
+    "location": "Simferopol",
     "name": "Guest house on the Suvorovsky descent",
     "alt": "Гостевой дом на Суворовском спуске",
     "address": "9 Suvorov descent",
@@ -8193,7 +8193,7 @@
     "state": "Avtonomnaya Respublika Krym"
 },
 {
-    "title": "Saint Petersburg/North",
+    "location": "Saint Petersburg/North",
     "name": "Sputnik",
     "alt": "Спутник",
     "address": "prospekt Morica Тorezа (проспект Тореза), 36",
@@ -8221,7 +8221,7 @@
     "state": "Saint Petersburg"
 },
 {
-    "title": "Boston/Back Bay",
+    "location": "Boston/Back Bay",
     "name": "W Boston",
     "alt": null,
     "address": "100 Stuart St",
@@ -8246,7 +8246,7 @@
     "id": 3909
 },
 {
-    "title": "Jakarta/South",
+    "location": "Jakarta/South",
     "name": "Rasuna Icon",
     "alt": null,
     "address": "Jalan Karet Pedurenan No. 3",
@@ -8271,7 +8271,7 @@
     "id": 12687
 },
 {
-    "title": "Tbilisi",
+    "location": "Tbilisi",
     "name": "Green Stairs Hostel",
     "alt": null,
     "address": "Tsinamdzgvrishvili Street, 53",
@@ -8299,7 +8299,7 @@
     "state": null
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Westgate Flamingo Bay",
     "alt": null,
     "address": "5625 W Flamingo Rd",
@@ -8324,7 +8324,7 @@
     "id": 15357
 },
 {
-    "title": "Woerden",
+    "location": "Woerden",
     "name": "Camping Batenstein",
     "alt": null,
     "address": "Van Helvoortlaan 36",
@@ -8349,7 +8349,7 @@
     "id": 33544
 },
 {
-    "title": "Manchester/Victoria-Shopping District",
+    "location": "Manchester/Victoria-Shopping District",
     "name": "The Mitre Hotel",
     "alt": null,
     "address": "1-3 Cathedral Gates, M3 1SW",
@@ -8374,7 +8374,7 @@
     "id": 17415
 },
 {
-    "title": "Freiburg",
+    "location": "Freiburg",
     "name": "Hotel Rheingold",
     "alt": null,
     "address": null,
@@ -8399,7 +8399,7 @@
     "id": 9617
 },
 {
-    "title": "Toronto/Harbourfront",
+    "location": "Toronto/Harbourfront",
     "name": "Westin Harbour Castle",
     "alt": null,
     "address": "1 Harbour Square",
@@ -8424,7 +8424,7 @@
     "id": 30627
 },
 {
-    "title": "Milan/North",
+    "location": "Milan/North",
     "name": "UNA Tocq Boutique Hotel",
     "alt": null,
     "address": "Via A. De Tocqueville 7/D",
@@ -8449,7 +8449,7 @@
     "id": 38851
 },
 {
-    "title": "Neuchatel",
+    "location": "Neuchatel",
     "name": "Hotel Beau Rivage",
     "alt": null,
     "address": "Esplanade du Mont-Blanc 1",
@@ -8474,7 +8474,7 @@
     "id": 20093
 },
 {
-    "title": "Whittier",
+    "location": "Whittier",
     "name": "Radisson Hotel - Whittier",
     "alt": null,
     "address": "7320 Greenleaf Avenue",
@@ -8499,7 +8499,7 @@
     "id": 33342
 },
 {
-    "title": "Munich/Altstadt",
+    "location": "Munich/Altstadt",
     "name": "Mercure Hotel München Altstadt",
     "alt": null,
     "address": "Hotterstrasse 4",
@@ -8524,7 +8524,7 @@
     "id": 19534
 },
 {
-    "title": "Trondheim",
+    "location": "Trondheim",
     "name": "Øysand Camping",
     "alt": null,
     "address": "Gamle Kongeveg 56, Melhus",
@@ -8549,7 +8549,7 @@
     "id": 31068
 },
 {
-    "title": "Mutěnice Wine Region",
+    "location": "Mutěnice Wine Region",
     "name": "Penzion LUDMILA in Dubňany",
     "alt": null,
     "address": "Nádražní 1217, 696 03 Dubňany",
@@ -8574,7 +8574,7 @@
     "id": 19748
 },
 {
-    "title": "Cologne",
+    "location": "Cologne",
     "name": "Königshof Swiss Quality Hotel",
     "alt": null,
     "address": "Richartzstrasse 14-16",
@@ -8599,7 +8599,7 @@
     "id": 6270
 },
 {
-    "title": "Samarkand",
+    "location": "Samarkand",
     "name": "Bahodir B&B",
     "alt": null,
     "address": "Mulokandov 132",
@@ -8627,7 +8627,7 @@
     "state": "Samarkandskaya oblast"
 },
 {
-    "title": "Bardstown",
+    "location": "Bardstown",
     "name": "Plantation Bed and Breakfast",
     "alt": null,
     "address": "3205 Springfield Rd. Bloomfield KY, 40008",
@@ -8652,7 +8652,7 @@
     "id": 2472
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Buda Pension",
     "alt": "Buda Panzió",
     "address": "Buda u. 11",
@@ -8677,7 +8677,7 @@
     "id": 10778
 },
 {
-    "title": "Kőszeg",
+    "location": "Kőszeg",
     "name": "AACS downtown Pension",
     "alt": "Belvárosi AACS Panzió",
     "address": "Várkör 30",
@@ -8702,7 +8702,7 @@
     "id": 40542
 },
 {
-    "title": "Odense",
+    "location": "Odense",
     "name": "Hotel Ansgar",
     "alt": null,
     "address": "Østre Stationsvej 32",
@@ -8727,7 +8727,7 @@
     "id": 20992
 },
 {
-    "title": "Patagonia (Arizona)",
+    "location": "Patagonia (Arizona)",
     "name": "Patagonia Lake State Park",
     "alt": null,
     "address": "400 Patagonia Lake Rd",
@@ -8752,7 +8752,7 @@
     "id": 37089
 },
 {
-    "title": "Bergamo",
+    "location": "Bergamo",
     "name": "Arli Hotel",
     "alt": null,
     "address": "Largo Porta Nuova 12",
@@ -8777,7 +8777,7 @@
     "id": 2881
 },
 {
-    "title": "Kaunas",
+    "location": "Kaunas",
     "name": "Babilonas Hotel",
     "alt": null,
     "address": "Žalioji g. 38A",
@@ -8802,7 +8802,7 @@
     "id": 13525
 },
 {
-    "title": "Hollywood (Florida)",
+    "location": "Hollywood (Florida)",
     "name": "Hollywood Beach Marriott",
     "alt": null,
     "address": "2501 North Ocean Drive",
@@ -8827,7 +8827,7 @@
     "id": 11792
 },
 {
-    "title": "Ålesund",
+    "location": "Ålesund",
     "name": "Ålesund Vandrerhjem",
     "alt": null,
     "address": "Parkgata 14",
@@ -8852,7 +8852,7 @@
     "id": 4467
 },
 {
-    "title": "Maradi",
+    "location": "Maradi",
     "name": "Hotel Jangorzo",
     "alt": null,
     "address": null,
@@ -8877,7 +8877,7 @@
     "id": 17542
 },
 {
-    "title": "Maithon",
+    "location": "Maithon",
     "name": "Majumdar Nivas of DVC",
     "alt": null,
     "address": null,
@@ -8902,7 +8902,7 @@
     "id": 17209
 },
 {
-    "title": "Saint Paul",
+    "location": "Saint Paul",
     "name": "Super 8 Saint Paul",
     "alt": null,
     "address": "1739 Old Hudson Rd",
@@ -8927,7 +8927,7 @@
     "id": 24780
 },
 {
-    "title": "London/Hammersmith and Fulham",
+    "location": "London/Hammersmith and Fulham",
     "name": "Premier Inn",
     "alt": null,
     "address": "3 Putney Bridge Approach, SW6 3JD",
@@ -8952,7 +8952,7 @@
     "id": 16177
 },
 {
-    "title": "Bangkok/Silom",
+    "location": "Bangkok/Silom",
     "name": "Holiday Inn",
     "alt": "ฮอลิเดย์ อินน์ สีลม กรุงเทพฯ",
     "address": "981 Silom Rd",
@@ -8977,7 +8977,7 @@
     "id": 2126
 },
 {
-    "title": "Kharagpur",
+    "location": "Kharagpur",
     "name": "Hotel Park",
     "alt": null,
     "address": "Dhami Centre, Chhota Tengra",
@@ -9002,7 +9002,7 @@
     "id": 13778
 },
 {
-    "title": "New Orleans/French Quarter",
+    "location": "New Orleans/French Quarter",
     "name": "Hotel Masion de Ville",
     "alt": null,
     "address": "727 Toulouse St",
@@ -9027,7 +9027,7 @@
     "id": 20303
 },
 {
-    "title": "Haparanda",
+    "location": "Haparanda",
     "name": "Seskarö Strandby & Camping",
     "alt": null,
     "address": "Tromsövägen 1, Seskarö",
@@ -9052,7 +9052,7 @@
     "id": 11162
 },
 {
-    "title": "Timbuktu",
+    "location": "Timbuktu",
     "name": "Hotel Campement Bouctou",
     "alt": null,
     "address": null,
@@ -9077,7 +9077,7 @@
     "id": 30150
 },
 {
-    "title": "Edessa",
+    "location": "Edessa",
     "name": "Guesthouse Varosi",
     "alt": null,
     "address": "A. Meletiou 45-47, 58200",
@@ -9102,7 +9102,7 @@
     "id": 8553
 },
 {
-    "title": "Taketomi",
+    "location": "Taketomi",
     "name": "Hotel Peace Island Taketomijima",
     "alt": "ホテルピースアイランド竹富島",
     "address": null,
@@ -9127,7 +9127,7 @@
     "id": 29275
 },
 {
-    "title": "Kazan",
+    "location": "Kazan",
     "name": "Happy House hostel",
     "alt": null,
     "address": "39/6 Ostrovskogo St.",
@@ -9155,7 +9155,7 @@
     "state": "Respublika Tatarstan"
 },
 {
-    "title": "Frankfurt",
+    "location": "Frankfurt",
     "name": "Lindner Main Plaza",
     "alt": null,
     "address": "Walther-von-Cronberg-Platz 1",
@@ -9180,7 +9180,7 @@
     "id": 9542
 },
 {
-    "title": "Fox Glacier",
+    "location": "Fox Glacier",
     "name": "Fox Glacier Holiday Park",
     "alt": null,
     "address": "Kerr Road",
@@ -9205,7 +9205,7 @@
     "id": 9394
 },
 {
-    "title": "Stuttgart",
+    "location": "Stuttgart",
     "name": "Mercure Stuttgart City Center",
     "alt": null,
     "address": "Heilbronner Straße 88",
@@ -9230,7 +9230,7 @@
     "id": 28820
 },
 {
-    "title": "Iligan",
+    "location": "Iligan",
     "name": "StayLite Suites",
     "alt": null,
     "address": "Champaca St, San Miguel Village, Pala-o",
@@ -9255,7 +9255,7 @@
     "id": 12112
 },
 {
-    "title": "Adler",
+    "location": "Adler",
     "name": "Aurora",
     "alt": null,
     "address": "Bestuzheva 22",
@@ -9283,7 +9283,7 @@
     "state": "Krasnodarskiy kray"
 },
 {
-    "title": "Urban camping in Japan",
+    "location": "Urban camping in Japan",
     "name": "Kamonyama Park",
     "alt": "掃部山公園",
     "address": "Yokohama",
@@ -9308,7 +9308,7 @@
     "id": 31758
 },
 {
-    "title": "Beijing/Dongcheng",
+    "location": "Beijing/Dongcheng",
     "name": "Dongjiao Minxiang Hotel",
     "alt": "北京东郊民巷饭店",
     "address": "23A Dongjiao Minxiang, 北京东城区东交民巷甲23号",
@@ -9333,7 +9333,7 @@
     "id": 2723
 },
 {
-    "title": "Salzburg",
+    "location": "Salzburg",
     "name": "Schwärzler Hotel Neutor",
     "alt": null,
     "address": "Neutorstrasse 8",
@@ -9358,7 +9358,7 @@
     "id": 24936
 },
 {
-    "title": "Bergen",
+    "location": "Bergen",
     "name": "Scandic Bergen City",
     "alt": null,
     "address": "Håkonsgaten 2",
@@ -9383,7 +9383,7 @@
     "id": 2940
 },
 {
-    "title": "Vienna/Landstraße",
+    "location": "Vienna/Landstraße",
     "name": "Austria Trend Hotel Savoyen",
     "alt": null,
     "address": "Rennweg 16",
@@ -9408,7 +9408,7 @@
     "id": 37871
 },
 {
-    "title": "Barcelona/Inland Suburbs",
+    "location": "Barcelona/Inland Suburbs",
     "name": "Barcelona City North",
     "alt": null,
     "address": "C/ Saragossa, 95-97",
@@ -9433,7 +9433,7 @@
     "id": 2394
 },
 {
-    "title": "Cincinnati",
+    "location": "Cincinnati",
     "name": "Cincinnatian Hotel",
     "alt": null,
     "address": "601 Vine St",
@@ -9458,7 +9458,7 @@
     "id": 6057
 },
 {
-    "title": "Masirah Island",
+    "location": "Masirah Island",
     "name": "Masira Island Resort",
     "alt": null,
     "address": null,
@@ -9483,7 +9483,7 @@
     "id": 17654
 },
 {
-    "title": "Severomorsk",
+    "location": "Severomorsk",
     "name": "Flagship Hostel",
     "alt": "гостиницы Флагман",
     "address": "pl. Primorskaya, 1",
@@ -9511,7 +9511,7 @@
     "state": "Murmanskaya oblast"
 },
 {
-    "title": "Milwaukee",
+    "location": "Milwaukee",
     "name": "Ambassador Inn",
     "alt": null,
     "address": "2301 W Wisconsin Ave",
@@ -9536,7 +9536,7 @@
     "id": 18228
 },
 {
-    "title": "Cleveland/West Side",
+    "location": "Cleveland/West Side",
     "name": "Sheraton Cleveland Airport",
     "alt": null,
     "address": "5300 Riverside Dr",
@@ -9561,7 +9561,7 @@
     "id": 6159
 },
 {
-    "title": "Pine City",
+    "location": "Pine City",
     "name": "Maple Knoll Inn B&B",
     "alt": null,
     "address": "685 S Bremer, Rush City",
@@ -9586,7 +9586,7 @@
     "id": 22445
 },
 {
-    "title": "Paris/17th arrondissement",
+    "location": "Paris/17th arrondissement",
     "name": "Hotel Prince Albert Monceau",
     "alt": null,
     "address": "9, rue Tarbe",
@@ -9611,7 +9611,7 @@
     "id": 21670
 },
 {
-    "title": "Glossop",
+    "location": "Glossop",
     "name": "Avondale Guest House",
     "alt": null,
     "address": "28 Woodhead Road",
@@ -9636,7 +9636,7 @@
     "id": 10160
 },
 {
-    "title": "Jakarta/South",
+    "location": "Jakarta/South",
     "name": "Park Lane",
     "alt": null,
     "address": "Jalan Casablanca No. 18, Kuningan",
@@ -9661,7 +9661,7 @@
     "id": 12686
 },
 {
-    "title": "Zelenograd and New Moscow",
+    "location": "Zelenograd and New Moscow",
     "name": "Silky Way",
     "alt": null,
     "address": "45 Lenina Street, pos. Oktyabrskiy, Lyuberetskiy District",
@@ -9689,7 +9689,7 @@
     "state": "Moscow Region"
 },
 {
-    "title": "Dar es Salaam",
+    "location": "Dar es Salaam",
     "name": "YMCA",
     "alt": null,
     "address": "Kivukoni",
@@ -9714,7 +9714,7 @@
     "id": 7161
 },
 {
-    "title": "Kolkata/South",
+    "location": "Kolkata/South",
     "name": "Hotel Hindustan International",
     "alt": null,
     "address": "A.J.C. Bose Rd",
@@ -9739,7 +9739,7 @@
     "id": 14460
 },
 {
-    "title": "Banff",
+    "location": "Banff",
     "name": "Inns of Banff",
     "alt": null,
     "address": "600 Banff Ave",
@@ -9764,7 +9764,7 @@
     "id": 1791
 },
 {
-    "title": "Lucca",
+    "location": "Lucca",
     "name": "B&B Lucca Fora",
     "alt": null,
     "address": "via pesciatina 143",
@@ -9789,7 +9789,7 @@
     "id": 16743
 },
 {
-    "title": "Mount Aso",
+    "location": "Mount Aso",
     "name": "Little Asia Guest House",
     "alt": "リトルアジア",
     "address": "3617-7 Kain Aso-mura, Aso-gun, Kumamoto Prefecture, 869-1411",
@@ -9814,7 +9814,7 @@
     "id": 19271
 },
 {
-    "title": "Stupino",
+    "location": "Stupino",
     "name": "Sherr",
     "alt": null,
     "address": "Timiryazeva 17a",
@@ -9842,7 +9842,7 @@
     "state": "Moscow Region"
 },
 {
-    "title": "Bergen",
+    "location": "Bergen",
     "name": "Thon Hotel Bergen Brygge",
     "alt": null,
     "address": "Bradbenken 3",
@@ -9867,7 +9867,7 @@
     "id": 2941
 },
 {
-    "title": "Paris/17th arrondissement",
+    "location": "Paris/17th arrondissement",
     "name": "Hyatt Regency Paris Etoile",
     "alt": "former Concorde Lafayette",
     "address": "Place du Général Kœnig 3",
@@ -9892,7 +9892,7 @@
     "id": 21675
 },
 {
-    "title": "Taolagnaro",
+    "location": "Taolagnaro",
     "name": "Le Dauphin",
     "alt": null,
     "address": null,
@@ -9917,7 +9917,7 @@
     "id": 38021
 },
 {
-    "title": "Peak District",
+    "location": "Peak District",
     "name": "Wheeldon Trees Farm",
     "alt": "Peak District Cottages",
     "address": "Earl Sterndale",
@@ -9942,7 +9942,7 @@
     "id": 21987
 },
 {
-    "title": "Cardigan",
+    "location": "Cardigan",
     "name": "Piggery Poke 4 star hostel",
     "alt": null,
     "address": "Ffrwdwenith Isaf, Felinwynt, Cardigan, SA43 1RW",
@@ -9967,7 +9967,7 @@
     "id": 5081
 },
 {
-    "title": "Beverly Hills",
+    "location": "Beverly Hills",
     "name": "The Crescent Beverly Hills",
     "alt": null,
     "address": "403 N. Crescent Blvd",
@@ -9992,7 +9992,7 @@
     "id": 3424
 },
 {
-    "title": "Maputo",
+    "location": "Maputo",
     "name": "Hotel Cardoso",
     "alt": null,
     "address": null,
@@ -10017,7 +10017,7 @@
     "id": 17538
 },
 {
-    "title": "Fairbourne",
+    "location": "Fairbourne",
     "name": "Einion House Bed and Breakfast",
     "alt": null,
     "address": "Friog, Fairbourne, Gwynedd, LL38 2NX",
@@ -10042,7 +10042,7 @@
     "id": 9062
 },
 {
-    "title": "Mariehamn",
+    "location": "Mariehamn",
     "name": "Hotel Esplanad",
     "alt": null,
     "address": "Storagatan 5",
@@ -10067,7 +10067,7 @@
     "id": 17574
 },
 {
-    "title": "Cloverdale (California)",
+    "location": "Cloverdale (California)",
     "name": "Vintage Towers Bed & Breakfast Inn",
     "alt": null,
     "address": "302 North Main St.",
@@ -10092,7 +10092,7 @@
     "id": 6169
 },
 {
-    "title": "Samoeng",
+    "location": "Samoeng",
     "name": "Samoeng Resort",
     "alt": null,
     "address": "79 Moo 2, Samoengtai",
@@ -10117,7 +10117,7 @@
     "id": 34869
 },
 {
-    "title": "Bangkok/Khao San Road",
+    "location": "Bangkok/Khao San Road",
     "name": "Jennys Cafe and Guesthouse",
     "alt": "เจนนี่ & เกสท์เฮาส์",
     "address": "72/2 Samsen Soi 4",
@@ -10142,7 +10142,7 @@
     "id": 1887
 },
 {
-    "title": "Seminyak",
+    "location": "Seminyak",
     "name": "Kubu Pesisi Villas",
     "alt": null,
     "address": "Jalan Kayu Cendana No. 7A, Oberoi",
@@ -10167,7 +10167,7 @@
     "id": 26972
 },
 {
-    "title": "Helsinki/West",
+    "location": "Helsinki/West",
     "name": "Crowne Plaza",
     "alt": null,
     "address": "Mannerheimintie 50",
@@ -10192,7 +10192,7 @@
     "id": 36422
 },
 {
-    "title": "Paris/8th arrondissement",
+    "location": "Paris/8th arrondissement",
     "name": "Hôtel Balzac",
     "alt": null,
     "address": "6, rue de Balzac",
@@ -10217,7 +10217,7 @@
     "id": 21845
 },
 {
-    "title": "Gondar",
+    "location": "Gondar",
     "name": "Goha Hotel",
     "alt": null,
     "address": null,
@@ -10242,7 +10242,7 @@
     "id": 10191
 },
 {
-    "title": "San Francisco/Union Square-Financial District",
+    "location": "San Francisco/Union Square-Financial District",
     "name": "Hyatt Regency San Francisco",
     "alt": null,
     "address": "5 Embarcadero Center",
@@ -10267,7 +10267,7 @@
     "id": 26226
 },
 {
-    "title": "Tucson",
+    "location": "Tucson",
     "name": "Hyatt Place Tucson Airport",
     "alt": null,
     "address": "6885 S Tucson Blvd",
@@ -10292,7 +10292,7 @@
     "id": 31264
 },
 {
-    "title": "Beppu",
+    "location": "Beppu",
     "name": "Beppu Guest House",
     "alt": "別府ゲストハウス",
     "address": "1-12 Ekimae Machi",
@@ -10317,7 +10317,7 @@
     "id": 2837
 },
 {
-    "title": "Springdale (Utah)",
+    "location": "Springdale (Utah)",
     "name": "Red Rock Inn B&B Cottages",
     "alt": null,
     "address": "998 Zion Park Blvd",
@@ -10342,7 +10342,7 @@
     "id": 28201
 },
 {
-    "title": "Stockholm/Västerort, Solna and Sundbyberg",
+    "location": "Stockholm/Västerort, Solna and Sundbyberg",
     "name": "ibis Styles Stockholm Jarva",
     "alt": null,
     "address": "Vallgatan 7, 170 67 Solna",
@@ -10367,7 +10367,7 @@
     "id": 34817
 },
 {
-    "title": "Sidon",
+    "location": "Sidon",
     "name": "convent",
     "alt": "(forgot its name)",
     "address": null,
@@ -10392,7 +10392,7 @@
     "id": 27210
 },
 {
-    "title": "Ushuaia",
+    "location": "Ushuaia",
     "name": "B&B Casa Tekenika",
     "alt": null,
     "address": "Tekenika 192",
@@ -10417,7 +10417,7 @@
     "id": 31820
 },
 {
-    "title": "Dumaguete",
+    "location": "Dumaguete",
     "name": "Dumaguete Studio Apartments",
     "alt": null,
     "address": "Palinpinon Road",
@@ -10442,7 +10442,7 @@
     "id": 8334
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Duna Pension",
     "alt": "Duna Panzió",
     "address": "Vörösmarty utca 5.",
@@ -10467,7 +10467,7 @@
     "id": 10780
 },
 {
-    "title": "Oudewater",
+    "location": "Oudewater",
     "name": "Hotel Abrona",
     "alt": null,
     "address": "Broeckerstraat 20",
@@ -10492,7 +10492,7 @@
     "id": 39147
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "El Cortez Hotel and Casino",
     "alt": null,
     "address": "600 E Fremont St",
@@ -10517,7 +10517,7 @@
     "id": 15364
 },
 {
-    "title": "Tel Aviv/Central Tel Aviv",
+    "location": "Tel Aviv/Central Tel Aviv",
     "name": "Dizengoff Beach Apartments",
     "alt": null,
     "address": "283 Dizengoff Street",
@@ -10542,7 +10542,7 @@
     "id": 29944
 },
 {
-    "title": "Tampere",
+    "location": "Tampere",
     "name": "Homeland Tampere",
     "alt": null,
     "address": "Kullervonkatu 19 A",
@@ -10567,7 +10567,7 @@
     "id": 29538
 },
 {
-    "title": "Mull",
+    "location": "Mull",
     "name": "Tobermory Youth Hostel",
     "alt": null,
     "address": "Main Street, Tobermory, PA75 6NU",
@@ -10592,7 +10592,7 @@
     "id": 19323
 },
 {
-    "title": "Fez",
+    "location": "Fez",
     "name": "Riad Numero 9",
     "alt": null,
     "address": "9 Derb Lamside",
@@ -10617,7 +10617,7 @@
     "id": 9148
 },
 {
-    "title": "Cairo/Giza",
+    "location": "Cairo/Giza",
     "name": "Mena House Oberoi",
     "alt": null,
     "address": "Pyramids Rd.",
@@ -10642,7 +10642,7 @@
     "id": 4712
 },
 {
-    "title": "Vladivostok",
+    "location": "Vladivostok",
     "name": "See You Hostel",
     "alt": null,
     "address": "42a, Krygina St",
@@ -10670,7 +10670,7 @@
     "state": "Primorskiy kray"
 },
 {
-    "title": "Kota Kinabalu",
+    "location": "Kota Kinabalu",
     "name": "Borneo Global Backpackers",
     "alt": null,
     "address": "Lorong Karamunsing C",
@@ -10695,7 +10695,7 @@
     "id": 14508
 },
 {
-    "title": "White Post",
+    "location": "White Post",
     "name": "L'Auberge Provencale Bed and Breakfast",
     "alt": null,
     "address": "13630 Lord Fairfax Hwy",
@@ -10720,7 +10720,7 @@
     "id": 33299
 },
 {
-    "title": "Oudewater",
+    "location": "Oudewater",
     "name": "Bed & Breakfast De Ruige Weide",
     "alt": null,
     "address": "Ruige Weide 9",
@@ -10745,7 +10745,7 @@
     "id": 39148
 },
 {
-    "title": "Biharinath",
+    "location": "Biharinath",
     "name": "Biharinath Tourist Point",
     "alt": null,
     "address": null,
@@ -10770,7 +10770,7 @@
     "id": 3473
 },
 {
-    "title": "The Hague",
+    "location": "The Hague",
     "name": "Stayokay Den Haag",
     "alt": null,
     "address": "Scheepmakersstraat 27",
@@ -10795,7 +10795,7 @@
     "id": 30083
 },
 {
-    "title": "Ushuaia",
+    "location": "Ushuaia",
     "name": "Cabañas Las Aguilas",
     "alt": null,
     "address": "Provincia Grande 519",
@@ -10820,7 +10820,7 @@
     "id": 31823
 },
 {
-    "title": "Horn Island",
+    "location": "Horn Island",
     "name": "Wongai Beach Resort",
     "alt": null,
     "address": "2 Wees Street",
@@ -10845,7 +10845,7 @@
     "id": 36703
 },
 {
-    "title": "Kaş",
+    "location": "Kaş",
     "name": "Ateş Pension",
     "alt": null,
     "address": "Yeni Camii Caddesi, no: 3",
@@ -10873,7 +10873,7 @@
     "state": "Antalya"
 },
 {
-    "title": "Williams (Arizona)",
+    "location": "Williams (Arizona)",
     "name": "Holiday Inn Williams",
     "alt": null,
     "address": "950 N Grand Canyon Blvd",
@@ -10898,7 +10898,7 @@
     "id": 33413
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Fehér Rózsa Pansion and Restaurant",
     "alt": "Fehér Rózsa Fogadó, Borozó (white Rose Inn)",
     "address": "Pócsi utca 21",
@@ -10923,7 +10923,7 @@
     "id": 28044
 },
 {
-    "title": "Marrakech",
+    "location": "Marrakech",
     "name": "Riad Dar Najat",
     "alt": null,
     "address": "Douar Graoua, Derb Lalla Chacha, No.18",
@@ -10948,7 +10948,7 @@
     "id": 17636
 },
 {
-    "title": "Joensuu",
+    "location": "Joensuu",
     "name": "Sokos Hotel Kimmel",
     "alt": null,
     "address": "Itäranta 1",
@@ -10973,7 +10973,7 @@
     "id": 12914
 },
 {
-    "title": "Howrah",
+    "location": "Howrah",
     "name": "Fortune Park Panchwati",
     "alt": null,
     "address": "Kona Expressway, Howrah - 711403 Tel: 033-39884444 Fax: 033-39881222 e-mail: sales.fhp@fortunehotels.in",
@@ -10998,7 +10998,7 @@
     "id": 12000
 },
 {
-    "title": "Budapest/Bel-Buda",
+    "location": "Budapest/Bel-Buda",
     "name": "Donáti Hostel",
     "alt": null,
     "address": "Donáti u. 46",
@@ -11023,7 +11023,7 @@
     "id": 39353
 },
 {
-    "title": "Swansea",
+    "location": "Swansea",
     "name": "Hurst Dene Guest House",
     "alt": null,
     "address": "10 Sketty Road, Uplands, Swansea, SA2 0LJ",
@@ -11048,7 +11048,7 @@
     "id": 28959
 },
 {
-    "title": "Storms River",
+    "location": "Storms River",
     "name": "Tsalanang Township Bed&Breakfast",
     "alt": null,
     "address": "House 252, Storms River West",
@@ -11073,7 +11073,7 @@
     "id": 28651
 },
 {
-    "title": "Offa's Dyke Path",
+    "location": "Offa's Dyke Path",
     "name": "The Park Hotel",
     "alt": null,
     "address": "Pandy",
@@ -11098,7 +11098,7 @@
     "id": 21050
 },
 {
-    "title": "Lisbon",
+    "location": "Lisbon",
     "name": "Pestana Palace",
     "alt": null,
     "address": "Rua Jau, nº 54",
@@ -11123,7 +11123,7 @@
     "id": 15835
 },
 {
-    "title": "Vienna/Innere Stadt",
+    "location": "Vienna/Innere Stadt",
     "name": "Hotel Palais Coburg",
     "alt": null,
     "address": "Coburgbastei 4",
@@ -11149,7 +11149,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Palais_coburg_entrance_night-3.jpg"
 },
 {
-    "title": "Austin/Downtown",
+    "location": "Austin/Downtown",
     "name": "Firehouse Hostel",
     "alt": null,
     "address": "605 Brazos St",
@@ -11174,7 +11174,7 @@
     "id": 1336
 },
 {
-    "title": "Oudtshoorn",
+    "location": "Oudtshoorn",
     "name": "Miles B&B Guest House",
     "alt": null,
     "address": "104 Church Street",
@@ -11199,7 +11199,7 @@
     "id": 21437
 },
 {
-    "title": "Jakarta/East",
+    "location": "Jakarta/East",
     "name": "favehotel Pusat Grosir Cililitan",
     "alt": null,
     "address": "Jl. Mayjen Sutoyo No.76,",
@@ -11224,7 +11224,7 @@
     "id": 12629
 },
 {
-    "title": "Haparanda",
+    "location": "Haparanda",
     "name": "Sverigefinska folkhögskolan",
     "alt": null,
     "address": "Torget 3",
@@ -11249,7 +11249,7 @@
     "id": 11164
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Shosi Hostel",
     "alt": "SOSZI Hostel",
     "address": "Ferenczy János utca 60.",
@@ -11274,7 +11274,7 @@
     "id": 28026
 },
 {
-    "title": "Port Elizabeth",
+    "location": "Port Elizabeth",
     "name": "Bishops Inn",
     "alt": null,
     "address": "14 Killarney Rd",
@@ -11299,7 +11299,7 @@
     "id": 22790
 },
 {
-    "title": "Huonville",
+    "location": "Huonville",
     "name": "Huon Bush Retreats",
     "alt": null,
     "address": "300 Browns Road, Ranelagh",
@@ -11324,7 +11324,7 @@
     "id": 12073
 },
 {
-    "title": "Moganshan",
+    "location": "Moganshan",
     "name": "Naked Retreats",
     "alt": null,
     "address": "Shangxiahuang Village, Paitou Town, Deqing County",
@@ -11349,7 +11349,7 @@
     "id": 18682
 },
 {
-    "title": "Bendorf",
+    "location": "Bendorf",
     "name": "hotel friends Mittelrhein",
     "alt": null,
     "address": "Im Wenigerbachtal 8",
@@ -11374,7 +11374,7 @@
     "id": 40579
 },
 {
-    "title": "Geneva",
+    "location": "Geneva",
     "name": "Hotel Residence St.James",
     "alt": null,
     "address": "Rue du Versonnex 3",
@@ -11399,7 +11399,7 @@
     "id": 9907
 },
 {
-    "title": "Chefchaouen",
+    "location": "Chefchaouen",
     "name": "Dar Rass El Maa",
     "alt": null,
     "address": null,
@@ -11424,7 +11424,7 @@
     "id": 5477
 },
 {
-    "title": "Arusha",
+    "location": "Arusha",
     "name": "Arusha Torch Budget Inn",
     "alt": null,
     "address": null,
@@ -11449,7 +11449,7 @@
     "id": 1121
 },
 {
-    "title": "Uzhhorod",
+    "location": "Uzhhorod",
     "name": "Romany Yag",
     "alt": "Готельно-ресторанний комплекс Романі Яг",
     "address": "Vul. Telmana, 1",
@@ -11477,7 +11477,7 @@
     "state": "Zakarpatska oblast"
 },
 {
-    "title": "Waitomo",
+    "location": "Waitomo",
     "name": "Kiwi Paka Backpackers",
     "alt": null,
     "address": "School Road, Waitomo Caves Village",
@@ -11502,7 +11502,7 @@
     "id": 32943
 },
 {
-    "title": "San Francisco/Chinatown-North Beach",
+    "location": "San Francisco/Chinatown-North Beach",
     "name": "Castro Hotel",
     "alt": null,
     "address": "705 Vallejo St",
@@ -11527,7 +11527,7 @@
     "id": 25505
 },
 {
-    "title": "Hua Hin",
+    "location": "Hua Hin",
     "name": "Royal Express Hua Hin",
     "alt": null,
     "address": "79/9 Petchkasem Rd",
@@ -11552,7 +11552,7 @@
     "id": 12002
 },
 {
-    "title": "Landshut",
+    "location": "Landshut",
     "name": "Hotel Lifestyle",
     "alt": null,
     "address": "Flurstraße 2",
@@ -11577,7 +11577,7 @@
     "id": 35296
 },
 {
-    "title": "Pécs",
+    "location": "Pécs",
     "name": "Agoston hotel",
     "alt": "Ágoston Hotel",
     "address": "Ágoston square",
@@ -11602,7 +11602,7 @@
     "id": 21972
 },
 {
-    "title": "Salalah",
+    "location": "Salalah",
     "name": "Arabian Sea Villas",
     "alt": null,
     "address": "Dahariz Beach",
@@ -11627,7 +11627,7 @@
     "id": 24866
 },
 {
-    "title": "Ushuaia",
+    "location": "Ushuaia",
     "name": "Hotel Austral",
     "alt": null,
     "address": "9 de Julio 250",
@@ -11652,7 +11652,7 @@
     "id": 31826
 },
 {
-    "title": "Albuquerque",
+    "location": "Albuquerque",
     "name": "Los Poblanos Inn",
     "alt": null,
     "address": "4803 Rio Grande Blvd NW",
@@ -11677,7 +11677,7 @@
     "id": 456
 },
 {
-    "title": "Fredensborg",
+    "location": "Fredensborg",
     "name": "Danhostel Fredensborg Vandrerhjem",
     "alt": null,
     "address": "Østrupvej 3",
@@ -11702,7 +11702,7 @@
     "id": 9579
 },
 {
-    "title": "Sydney/Lower North Shore",
+    "location": "Sydney/Lower North Shore",
     "name": "Park Regis Concierge Apartments",
     "alt": null,
     "address": "287 Military Road, Cremorne NSW 2090",
@@ -11727,7 +11727,7 @@
     "id": 29059
 },
 {
-    "title": "Philadelphia/Old City",
+    "location": "Philadelphia/Old City",
     "name": "Omni Hotel at Independence Park",
     "alt": null,
     "address": "401 Chestnut St",
@@ -11752,7 +11752,7 @@
     "id": 22329
 },
 {
-    "title": "Buffalo/Allentown and the Delaware District",
+    "location": "Buffalo/Allentown and the Delaware District",
     "name": "Lenox Hotel & Suites",
     "alt": null,
     "address": "140 North St.",
@@ -11777,7 +11777,7 @@
     "id": 34549
 },
 {
-    "title": "Paris/16th arrondissement",
+    "location": "Paris/16th arrondissement",
     "name": "Peninsula Paris",
     "alt": null,
     "address": "19 Avenue Kléber",
@@ -11802,7 +11802,7 @@
     "id": 21665
 },
 {
-    "title": "Knysna",
+    "location": "Knysna",
     "name": "House Hammond",
     "alt": null,
     "address": "47 Howard Street, Hunters Home",
@@ -11827,7 +11827,7 @@
     "id": 14231
 },
 {
-    "title": "Prescott",
+    "location": "Prescott",
     "name": "Hilltop Campground",
     "alt": null,
     "address": null,
@@ -11852,7 +11852,7 @@
     "id": 23165
 },
 {
-    "title": "Kaunas",
+    "location": "Kaunas",
     "name": "Baltosios Bures",
     "alt": null,
     "address": "M. Gimbutienes g. 35",
@@ -11877,7 +11877,7 @@
     "id": 13516
 },
 {
-    "title": "Budapest/Bel-Buda",
+    "location": "Budapest/Bel-Buda",
     "name": "Hotel Kulturinnov",
     "alt": null,
     "address": "Szentháromság tér 6",
@@ -11902,7 +11902,7 @@
     "id": 39357
 },
 {
-    "title": "Paris/16th arrondissement",
+    "location": "Paris/16th arrondissement",
     "name": "Renaissance Paris Le Parc Trocadero",
     "alt": null,
     "address": "55-57 Raymond Poincare",
@@ -11927,7 +11927,7 @@
     "id": 21666
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Cyclamen Chalets",
     "alt": "Ciklámen Faházak",
     "address": "Brennberg völgy",
@@ -11952,7 +11952,7 @@
     "id": 28030
 },
 {
-    "title": "Point Roberts",
+    "location": "Point Roberts",
     "name": "Maple Meadows Inn",
     "alt": null,
     "address": "101 Goodman Rd",
@@ -11977,7 +11977,7 @@
     "id": 22602
 },
 {
-    "title": "Ames",
+    "location": "Ames",
     "name": "Gateway Hotel",
     "alt": null,
     "address": "2100 Green Hills Dr",
@@ -12002,7 +12002,7 @@
     "id": 698
 },
 {
-    "title": "Burlington (Vermont)",
+    "location": "Burlington (Vermont)",
     "name": "Lang House on Main Street Bed and Breakfast",
     "alt": null,
     "address": "360 Main St",
@@ -12027,7 +12027,7 @@
     "id": 4437
 },
 {
-    "title": "Copenhagen/Vesterbro",
+    "location": "Copenhagen/Vesterbro",
     "name": "Hotel Løven",
     "alt": null,
     "address": "Vesterbrogade 30",
@@ -12052,7 +12052,7 @@
     "id": 6859
 },
 {
-    "title": "Mombasa",
+    "location": "Mombasa",
     "name": "Nyali International Beach Hotel & Spa",
     "alt": null,
     "address": "Moyne Drive, Nyali",
@@ -12077,7 +12077,7 @@
     "id": 18787
 },
 {
-    "title": "Dhaka/Central",
+    "location": "Dhaka/Central",
     "name": "Hotel Orchard Plaza",
     "alt": null,
     "address": "71 Nayapaltan Rd, Motijheel",
@@ -12102,7 +12102,7 @@
     "id": 40249
 },
 {
-    "title": "Kinsale",
+    "location": "Kinsale",
     "name": "Friar's Lodge",
     "alt": null,
     "address": "Friar St",
@@ -12127,7 +12127,7 @@
     "id": 14114
 },
 {
-    "title": "Albany (New York)",
+    "location": "Albany (New York)",
     "name": "Quality Inn & Suites Albany Airport",
     "alt": null,
     "address": "611 Troy-Schenectady Rd",
@@ -12152,7 +12152,7 @@
     "id": 289
 },
 {
-    "title": "Dahab",
+    "location": "Dahab",
     "name": "Sheikh Ali Resort",
     "alt": null,
     "address": null,
@@ -12177,7 +12177,7 @@
     "id": 7082
 },
 {
-    "title": "Punkaharju",
+    "location": "Punkaharju",
     "name": "Punkaharjun lomakeskus",
     "alt": null,
     "address": "Tuunaansaarentie 4",
@@ -12202,7 +12202,7 @@
     "id": 35927
 },
 {
-    "title": "Kimitoön",
+    "location": "Kimitoön",
     "name": "Villa Merihelmi",
     "alt": null,
     "address": "Sjukhusvägen 6",
@@ -12227,7 +12227,7 @@
     "id": 40106
 },
 {
-    "title": "Elsinore",
+    "location": "Elsinore",
     "name": "Hotel Skandia",
     "alt": null,
     "address": "Bramstræde 1",
@@ -12252,7 +12252,7 @@
     "id": 8923
 },
 {
-    "title": "Leipzig",
+    "location": "Leipzig",
     "name": "City Partner Suite Hotel",
     "alt": null,
     "address": "Permoserstrasse 50",
@@ -12277,7 +12277,7 @@
     "id": 15522
 },
 {
-    "title": "Mar Lodj",
+    "location": "Mar Lodj",
     "name": "Campement Essamaye",
     "alt": null,
     "address": "Mar Lodj, Fandimadior",
@@ -12302,7 +12302,7 @@
     "id": 17602
 },
 {
-    "title": "Iqaluit",
+    "location": "Iqaluit",
     "name": "Rannva's Bed & Breakfast",
     "alt": null,
     "address": "3102 Helen Maksagak Drive",
@@ -12327,7 +12327,7 @@
     "id": 12272
 },
 {
-    "title": "Albany (New York)",
+    "location": "Albany (New York)",
     "name": "Ramada Plaza Albany",
     "alt": null,
     "address": "3 Watervliet Avenue Extension",
@@ -12352,7 +12352,7 @@
     "id": 283
 },
 {
-    "title": "Antananarivo",
+    "location": "Antananarivo",
     "name": "Radama Hotel",
     "alt": null,
     "address": null,
@@ -12377,7 +12377,7 @@
     "id": 973
 },
 {
-    "title": "Milwaukee",
+    "location": "Milwaukee",
     "name": "Hilton Milwaukee City Center",
     "alt": null,
     "address": "509 W Wisconsin Ave",
@@ -12402,7 +12402,7 @@
     "id": 18231
 },
 {
-    "title": "Ilulissat",
+    "location": "Ilulissat",
     "name": "Ilulissat Youth Hostel",
     "alt": "c/o World of Greenland",
     "address": "Marralinnguaq 49",
@@ -12427,7 +12427,7 @@
     "id": 12116
 },
 {
-    "title": "Tokyo/Taito",
+    "location": "Tokyo/Taito",
     "name": "Annex Katsutaro Ryokan",
     "alt": "アネックス勝太郎旅館",
     "address": "3-8-4 Yanaka",
@@ -12452,7 +12452,7 @@
     "id": 30509
 },
 {
-    "title": "National Park Kongernes Nordsjælland",
+    "location": "National Park Kongernes Nordsjælland",
     "name": "Dronningholm",
     "alt": "Arresø",
     "address": null,
@@ -12477,7 +12477,7 @@
     "id": 20014
 },
 {
-    "title": "Birmingham (England)",
+    "location": "Birmingham (England)",
     "name": "ibis Birmingham Bordesley",
     "alt": null,
     "address": null,
@@ -12502,7 +12502,7 @@
     "id": 3613
 },
 {
-    "title": "Malibu",
+    "location": "Malibu",
     "name": "Malibu Motel",
     "alt": null,
     "address": "22541 Pacific Coast Highway",
@@ -12527,7 +12527,7 @@
     "id": 17311
 },
 {
-    "title": "Seminyak",
+    "location": "Seminyak",
     "name": "The Seri Suites",
     "alt": null,
     "address": "Jl Umalas I No 42",
@@ -12552,7 +12552,7 @@
     "id": 26969
 },
 {
-    "title": "London/South Bank",
+    "location": "London/South Bank",
     "name": "Express by Holiday Inn London Southwark",
     "alt": null,
     "address": "103-109 Southwark St, SE1 0JQ",
@@ -12577,7 +12577,7 @@
     "id": 16346
 },
 {
-    "title": "Jerusalem/West",
+    "location": "Jerusalem/West",
     "name": "Apartments Israel LTD",
     "alt": null,
     "address": "24 Ben Sira St",
@@ -12602,7 +12602,7 @@
     "id": 12845
 },
 {
-    "title": "Kobe",
+    "location": "Kobe",
     "name": "Kobe Portopia Hotel",
     "alt": "神戸ポートピアホテル",
     "address": "10-1,6 Chome, Minatojima Nakamachi, Chuo-ku. 650-0046",
@@ -12627,7 +12627,7 @@
     "id": 14248
 },
 {
-    "title": "San Francisco/SoMa",
+    "location": "San Francisco/SoMa",
     "name": "Four Seasons Hotel",
     "alt": null,
     "address": "757 Market St",
@@ -12652,7 +12652,7 @@
     "id": 26023
 },
 {
-    "title": "Beverly Hills",
+    "location": "Beverly Hills",
     "name": "Four Seasons Hotel",
     "alt": null,
     "address": "300 S. Doheny Dr",
@@ -12677,7 +12677,7 @@
     "id": 3425
 },
 {
-    "title": "Maastricht",
+    "location": "Maastricht",
     "name": "Design Hotel Eden",
     "alt": null,
     "address": "Stationsstraat 40",
@@ -12702,7 +12702,7 @@
     "id": 17080
 },
 {
-    "title": "Vigan",
+    "location": "Vigan",
     "name": "Vigan Hotel",
     "alt": null,
     "address": "Burgos St",
@@ -12727,7 +12727,7 @@
     "id": 32684
 },
 {
-    "title": "Yurihonjo",
+    "location": "Yurihonjo",
     "name": "Anraku Onsen",
     "alt": "安楽温泉",
     "address": "Ōdzutsumishita 4",
@@ -12752,7 +12752,7 @@
     "id": 34045
 },
 {
-    "title": "Florence",
+    "location": "Florence",
     "name": "Hotel Morandi alla crocetta",
     "alt": null,
     "address": "Via Laura, 50",
@@ -12777,7 +12777,7 @@
     "id": 9268
 },
 {
-    "title": "Haparanda",
+    "location": "Haparanda",
     "name": "Haparanda Vandrarhem",
     "alt": null,
     "address": "Strandgatan 26",
@@ -12802,7 +12802,7 @@
     "id": 11158
 },
 {
-    "title": "Budapest/Central Pest",
+    "location": "Budapest/Central Pest",
     "name": "Astoria City Hostel",
     "alt": null,
     "address": "VII., Rakoczi ut 4",
@@ -12827,7 +12827,7 @@
     "id": 40851
 },
 {
-    "title": "Flagstaff",
+    "location": "Flagstaff",
     "name": "Flagstaff Rental Cabin",
     "alt": null,
     "address": "2584 Cibola Ovi",
@@ -12852,7 +12852,7 @@
     "id": 9225
 },
 {
-    "title": "San Diego/Balboa Park-Hillcrest",
+    "location": "San Diego/Balboa Park-Hillcrest",
     "name": "ITH Zoo Hostel",
     "alt": null,
     "address": "3751 6th ave",
@@ -12877,7 +12877,7 @@
     "id": 25120
 },
 {
-    "title": "Nagykanizsa",
+    "location": "Nagykanizsa",
     "name": "Pension Hugi",
     "alt": "Hugi Panzió",
     "address": "Király u. 7.",
@@ -12902,7 +12902,7 @@
     "id": 19887
 },
 {
-    "title": "Luxembourg (city)",
+    "location": "Luxembourg (city)",
     "name": "Novotel Luxembourg Kirchberg",
     "alt": null,
     "address": "Rue du Fort Niedergruenewald 6",
@@ -12927,7 +12927,7 @@
     "id": 16865
 },
 {
-    "title": "Ho Chi Minh City",
+    "location": "Ho Chi Minh City",
     "name": "Mövenpick Hotel Saigon",
     "alt": null,
     "address": "253 Nguyen Van Troi St, Phu Nhuan District",
@@ -12952,7 +12952,7 @@
     "id": 11709
 },
 {
-    "title": "Jakarta/Central",
+    "location": "Jakarta/Central",
     "name": "Gren Alia Cikini",
     "alt": null,
     "address": "Jl. Cikini Raya No.46",
@@ -12977,7 +12977,7 @@
     "id": 12595
 },
 {
-    "title": "Swords",
+    "location": "Swords",
     "name": "Highfield House",
     "alt": null,
     "address": "Forest Road",
@@ -13002,7 +13002,7 @@
     "id": 36127
 },
 {
-    "title": "London/South Kensington-Chelsea",
+    "location": "London/South Kensington-Chelsea",
     "name": "easyHotel Earl's Court",
     "alt": null,
     "address": "42-48 West Cromwell Rd, SW5 9QL",
@@ -13027,7 +13027,7 @@
     "id": 16439
 },
 {
-    "title": "Pontiac (Illinois)",
+    "location": "Pontiac (Illinois)",
     "name": "4-H Park",
     "alt": null,
     "address": "18352 4-H Park RD",
@@ -13052,7 +13052,7 @@
     "id": 22691
 },
 {
-    "title": "Bangkok/Silom",
+    "location": "Bangkok/Silom",
     "name": "Mandarin Oriental",
     "alt": "โรงแรมแมนดาริน โอเรียนเต็ล",
     "address": "48 Oriental Rd",
@@ -13077,7 +13077,7 @@
     "id": 2128
 },
 {
-    "title": "Volos",
+    "location": "Volos",
     "name": "Philippos Hotel",
     "alt": "Hotel Philippos",
     "address": "9, Solonos, 38333, Volos",
@@ -13102,7 +13102,7 @@
     "id": 32883
 },
 {
-    "title": "Stockholm/Södermalm",
+    "location": "Stockholm/Södermalm",
     "name": "Globen Villa",
     "alt": null,
     "address": "Dammtrappgatan 13",
@@ -13127,7 +13127,7 @@
     "id": 28584
 },
 {
-    "title": "Winslow (Arizona)",
+    "location": "Winslow (Arizona)",
     "name": "America's Best Value Inn",
     "alt": null,
     "address": "2035 W 3rd St",
@@ -13152,7 +13152,7 @@
     "id": 33514
 },
 {
-    "title": "Budapest/Pest",
+    "location": "Budapest/Pest",
     "name": "Danubius Hotel Aréna",
     "alt": null,
     "address": "XIV. Ifjúság útja 1-3.",
@@ -13177,7 +13177,7 @@
     "id": 4381
 },
 {
-    "title": "Takamatsu",
+    "location": "Takamatsu",
     "name": "Toyoko Inn Takamatsu Hyogomachi",
     "alt": "東横INN高松兵庫町",
     "address": "Hyogo-machi 3-1",
@@ -13202,7 +13202,7 @@
     "id": 29256
 },
 {
-    "title": "Mar Lodj",
+    "location": "Mar Lodj",
     "name": "Cap Marignane",
     "alt": null,
     "address": "Mar Lodj, Marignane",
@@ -13227,7 +13227,7 @@
     "id": 17607
 },
 {
-    "title": "Mukutmanipur",
+    "location": "Mukutmanipur",
     "name": "Sonajhuri Prakriti Bhraman Kendra",
     "alt": null,
     "address": null,
@@ -13252,7 +13252,7 @@
     "id": 19317
 },
 {
-    "title": "Sydney/North Sydney",
+    "location": "Sydney/North Sydney",
     "name": "Park Regis Concierge Apartments",
     "alt": null,
     "address": "287 Military Road, Cremorne NSW 2090",
@@ -13277,7 +13277,7 @@
     "id": 29067
 },
 {
-    "title": "Royal Chitwan National Park",
+    "location": "Royal Chitwan National Park",
     "name": "Chilax House",
     "alt": null,
     "address": "sauraha, Bachhauli VDC, Ward Number 2",
@@ -13302,7 +13302,7 @@
     "id": 24578
 },
 {
-    "title": "Montreal/Old Montreal",
+    "location": "Montreal/Old Montreal",
     "name": "Alternative Hostel of Old Montreal",
     "alt": "Auberge Alternative du Vieux-Montréal",
     "address": "358 rue Saint-Pierre",
@@ -13327,7 +13327,7 @@
     "id": 19062
 },
 {
-    "title": "Varkala",
+    "location": "Varkala",
     "name": "Sharanagati Yogahaus",
     "alt": "Yoga Vacation Homestay",
     "address": "thiruvambadi Rd",
@@ -13352,7 +13352,7 @@
     "id": 32106
 },
 {
-    "title": "San Diego/Balboa Park-Hillcrest",
+    "location": "San Diego/Balboa Park-Hillcrest",
     "name": "Inn at the Park",
     "alt": "Park Manor Suites",
     "address": "525 Spruce St",
@@ -13377,7 +13377,7 @@
     "id": 25119
 },
 {
-    "title": "Te Anau",
+    "location": "Te Anau",
     "name": "The Village Inn",
     "alt": null,
     "address": "Mokoroa St",
@@ -13402,7 +13402,7 @@
     "id": 29839
 },
 {
-    "title": "Nogales (Arizona)",
+    "location": "Nogales (Arizona)",
     "name": "Candlewood Suites Nogales",
     "alt": null,
     "address": "875 N Frank Reed Rd",
@@ -13427,7 +13427,7 @@
     "id": 20561
 },
 {
-    "title": "Istanbul/Sultanahmet-Old City",
+    "location": "Istanbul/Sultanahmet-Old City",
     "name": "Garden House Istanbul",
     "alt": "Rose Garden Suites",
     "address": "Şht. Mehmet Paşa Sk 1",
@@ -13455,7 +13455,7 @@
     "state": "İstanbul"
 },
 {
-    "title": "Berlin/Mitte",
+    "location": "Berlin/Mitte",
     "name": "Circus Hotel",
     "alt": null,
     "address": null,
@@ -13480,7 +13480,7 @@
     "id": 3355
 },
 {
-    "title": "Volos",
+    "location": "Volos",
     "name": "Volos Palace",
     "alt": null,
     "address": "Xenofontos & Thrakon Streets",
@@ -13505,7 +13505,7 @@
     "id": 32885
 },
 {
-    "title": "Curacautín",
+    "location": "Curacautín",
     "name": "Hostal Rayén",
     "alt": null,
     "address": "Manuel Rodríguez 104",
@@ -13530,7 +13530,7 @@
     "id": 41123
 },
 {
-    "title": "Fort Lauderdale",
+    "location": "Fort Lauderdale",
     "name": "Best Western Plus Fort Lauderdale Airport South Inn & Suites Hotel",
     "alt": null,
     "address": "1900 Stirling Rd",
@@ -13555,7 +13555,7 @@
     "id": 9348
 },
 {
-    "title": "Shillong",
+    "location": "Shillong",
     "name": "Hotel Knight Inn Shillong",
     "alt": null,
     "address": "Demseniong",
@@ -13580,7 +13580,7 @@
     "id": 27113
 },
 {
-    "title": "Montreal/Old Montreal",
+    "location": "Montreal/Old Montreal",
     "name": "Hotel St-Paul",
     "alt": null,
     "address": "355 rue McGill",
@@ -13605,7 +13605,7 @@
     "id": 19065
 },
 {
-    "title": "Miyajima",
+    "location": "Miyajima",
     "name": "Miyajima Tsutsumigaura Camp-jo",
     "alt": "宮島包ヶ浦キャンプ場",
     "address": "Tsutsumigaura, Miyajima-cho",
@@ -13630,7 +13630,7 @@
     "id": 18662
 },
 {
-    "title": "Patan",
+    "location": "Patan",
     "name": "Summit Hotel",
     "alt": null,
     "address": null,
@@ -13655,7 +13655,7 @@
     "id": 21915
 },
 {
-    "title": "The Hamptons",
+    "location": "The Hamptons",
     "name": "Hermosa Lodge",
     "alt": null,
     "address": "78 Mecox Road, Water Mill, New York",
@@ -13680,7 +13680,7 @@
     "id": 30095
 },
 {
-    "title": "Barcelona/Sants-Montjuïc",
+    "location": "Barcelona/Sants-Montjuïc",
     "name": "AC Hotel Sants by Marriott",
     "alt": null,
     "address": "Passeig de Sant Antoni, 36-40",
@@ -13705,7 +13705,7 @@
     "id": 2457
 },
 {
-    "title": "Hong Kong/Central",
+    "location": "Hong Kong/Central",
     "name": "Ovolo Hotel – 286 Queens Road Central",
     "alt": null,
     "address": "286 Queens Road Central, Central",
@@ -13730,7 +13730,7 @@
     "id": 11818
 },
 {
-    "title": "Akan National Park",
+    "location": "Akan National Park",
     "name": "Nonaka Onsen",
     "alt": "野中温泉",
     "address": null,
@@ -13755,7 +13755,7 @@
     "id": 128
 },
 {
-    "title": "Cologne",
+    "location": "Cologne",
     "name": "Best Western Grand City Hotel Köln",
     "alt": "formerly Four Points by Sheraton",
     "address": "Breslauer Platz 2",
@@ -13780,7 +13780,7 @@
     "id": 6269
 },
 {
-    "title": "Astana",
+    "location": "Astana",
     "name": "Rixos Presidents Hotel Astana",
     "alt": null,
     "address": null,
@@ -13808,7 +13808,7 @@
     "state": "Astana"
 },
 {
-    "title": "Yurihonjo",
+    "location": "Yurihonjo",
     "name": "Chokai Ohira Campground",
     "alt": "鳥海大平キャンプ場",
     "address": null,
@@ -13833,7 +13833,7 @@
     "id": 34040
 },
 {
-    "title": "Wellfleet",
+    "location": "Wellfleet",
     "name": "Pretty Penny Vacation Home",
     "alt": null,
     "address": "419 Nellie Road",
@@ -13858,7 +13858,7 @@
     "id": 33153
 },
 {
-    "title": "Jakarta/South",
+    "location": "Jakarta/South",
     "name": "Ritz-Carlton",
     "alt": null,
     "address": "Jl. DR. Ide Anak Agung Gde Agung Kav.E.1.1 no.1, Mega Kuningan",
@@ -13883,7 +13883,7 @@
     "id": 12698
 },
 {
-    "title": "Tolú",
+    "location": "Tolú",
     "name": "Villa Babilla",
     "alt": null,
     "address": "Calle 20 No 3 - 40",
@@ -13908,7 +13908,7 @@
     "id": 38530
 },
 {
-    "title": "Study Butte-Terlingua",
+    "location": "Study Butte-Terlingua",
     "name": "Lajitas Golf Resort & Spa",
     "alt": null,
     "address": "HC 70 Box 400",
@@ -13933,7 +13933,7 @@
     "id": 28703
 },
 {
-    "title": "London/South Kensington-Chelsea",
+    "location": "London/South Kensington-Chelsea",
     "name": "St. Mark Hotel",
     "alt": null,
     "address": "4 Barkston Gdns, SW5 0EN",
@@ -13958,7 +13958,7 @@
     "id": 16445
 },
 {
-    "title": "Virgin Gorda",
+    "location": "Virgin Gorda",
     "name": "Guavaberry Spring Bay",
     "alt": null,
     "address": null,
@@ -13983,7 +13983,7 @@
     "id": 32812
 },
 {
-    "title": "Paris/16th arrondissement",
+    "location": "Paris/16th arrondissement",
     "name": "Hôtel Gavarni",
     "alt": null,
     "address": "5 Rue Gavarni",
@@ -14008,7 +14008,7 @@
     "id": 21662
 },
 {
-    "title": "San Francisco/Union Square-Financial District",
+    "location": "San Francisco/Union Square-Financial District",
     "name": "Galleria Park Hotel",
     "alt": null,
     "address": "191 Sutter St",
@@ -14033,7 +14033,7 @@
     "id": 26219
 },
 {
-    "title": "Cabarete",
+    "location": "Cabarete",
     "name": "Lomas Mironas Half Acre Ocean View Villas",
     "alt": null,
     "address": "Localiad / Barrio: Lomas Mironas Provincia: Puerto Plata Munucipio: Zona Urbana, Between Cabarete / Sosua",
@@ -14058,7 +14058,7 @@
     "id": 4650
 },
 {
-    "title": "Malacca",
+    "location": "Malacca",
     "name": "Backpacker's Freak Hostel",
     "alt": "背包客栈, ホステル",
     "address": "1-25 Jl PM2, Plaza Mahkota",
@@ -14083,7 +14083,7 @@
     "id": 17254
 },
 {
-    "title": "Nivala",
+    "location": "Nivala",
     "name": "Hotelli Puustelli",
     "alt": null,
     "address": "Toritie 7",
@@ -14108,7 +14108,7 @@
     "id": 37072
 },
 {
-    "title": "Tashkent",
+    "location": "Tashkent",
     "name": "Le Grande Plaza Hotel",
     "alt": "Formerly BUMI, Гостиница Ли Гранд Плаза",
     "address": "2 Uzbekiston Ovozi St",
@@ -14137,7 +14137,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Hotel_Le_Grand_Plaza.JPG"
 },
 {
-    "title": "Bayreuth",
+    "location": "Bayreuth",
     "name": "Hotel Rheingold",
     "alt": null,
     "address": "Austraße 2",
@@ -14162,7 +14162,7 @@
     "id": 2591
 },
 {
-    "title": "Port St. Joe",
+    "location": "Port St. Joe",
     "name": "MainStay Suites",
     "alt": null,
     "address": "3951 East Hwy 98 , Port St. Joe, FL, 32456",
@@ -14187,7 +14187,7 @@
     "id": 22941
 },
 {
-    "title": "Vienna/Wieden",
+    "location": "Vienna/Wieden",
     "name": "Hotel Erzherzog Rainer",
     "alt": null,
     "address": "Wiedner Hauptstraße 27-29",
@@ -14212,7 +14212,7 @@
     "id": 37930
 },
 {
-    "title": "Tbilisi",
+    "location": "Tbilisi",
     "name": "Fox Hostel",
     "alt": null,
     "address": "30 Griboedov St",
@@ -14240,7 +14240,7 @@
     "state": null
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Atrium Pansion & Wellness",
     "alt": "Átrium Panzió & Wellness",
     "address": "Kőszegi u. 3",
@@ -14265,7 +14265,7 @@
     "id": 28034
 },
 {
-    "title": "Shkodra",
+    "location": "Shkodra",
     "name": "Hotel Colosseo",
     "alt": null,
     "address": "Rr.",
@@ -14290,7 +14290,7 @@
     "id": 27162
 },
 {
-    "title": "Malacca",
+    "location": "Malacca",
     "name": "River View Guest House",
     "alt": null,
     "address": "94-96 Jl Kampung Pantai",
@@ -14315,7 +14315,7 @@
     "id": 17262
 },
 {
-    "title": "Groene Hart",
+    "location": "Groene Hart",
     "name": "Hotel Belvedère",
     "alt": null,
     "address": "Lekdijk West 4",
@@ -14340,7 +14340,7 @@
     "id": 10465
 },
 {
-    "title": "Offa's Dyke Path",
+    "location": "Offa's Dyke Path",
     "name": "Mellington Hall Hotel",
     "alt": null,
     "address": "Mellington, Churchstoke SY15 6HX",
@@ -14365,7 +14365,7 @@
     "id": 21042
 },
 {
-    "title": "Los Angeles/Downtown",
+    "location": "Los Angeles/Downtown",
     "name": "Miyako Hotel",
     "alt": null,
     "address": "328 E 1st St",
@@ -14390,7 +14390,7 @@
     "id": 16638
 },
 {
-    "title": "Rotterdam",
+    "location": "Rotterdam",
     "name": "easyHotel Rotterdam City Centre",
     "alt": null,
     "address": null,
@@ -14415,7 +14415,7 @@
     "id": 24523
 },
 {
-    "title": "Christchurch",
+    "location": "Christchurch",
     "name": "AAA Northlands Motel",
     "alt": null,
     "address": "232 Main North Rd, Northcote",
@@ -14440,7 +14440,7 @@
     "id": 5894
 },
 {
-    "title": "San Francisco/Fisherman's Wharf",
+    "location": "San Francisco/Fisherman's Wharf",
     "name": "Sheraton Fisherman's Wharf",
     "alt": null,
     "address": "2500 Mason St",
@@ -14465,7 +14465,7 @@
     "id": 25676
 },
 {
-    "title": "Muscat",
+    "location": "Muscat",
     "name": "The Chedi",
     "alt": null,
     "address": "North Ghubra 32",
@@ -14491,7 +14491,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/The_Chedi_Muscat_hotel.jpg"
 },
 {
-    "title": "Antananarivo",
+    "location": "Antananarivo",
     "name": "La Ribaudière",
     "alt": null,
     "address": null,
@@ -14516,7 +14516,7 @@
     "id": 975
 },
 {
-    "title": "Sakon Nakhon",
+    "location": "Sakon Nakhon",
     "name": "Baan Esan Country House",
     "alt": null,
     "address": "166 Dong Pattana Soi 1",
@@ -14541,7 +14541,7 @@
     "id": 24829
 },
 {
-    "title": "Byron Bay",
+    "location": "Byron Bay",
     "name": "Byron Beachside Accommodation",
     "alt": "the Old Butter Factory",
     "address": "14 Jonson Street, Byron Bay, NSW 2481",
@@ -14566,7 +14566,7 @@
     "id": 4462
 },
 {
-    "title": "Jakarta/Central",
+    "location": "Jakarta/Central",
     "name": "Tune Hotels Pasar Baru Jakarta",
     "alt": null,
     "address": "Jalan K.H. Samanhudi no. 25, Pasar Baru",
@@ -14591,7 +14591,7 @@
     "id": 12587
 },
 {
-    "title": "Holbrook (Arizona)",
+    "location": "Holbrook (Arizona)",
     "name": "Wigwam Motel",
     "alt": null,
     "address": "811 W Hopi Dr",
@@ -14617,7 +14617,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Wigwam_motel_1.jpg"
 },
 {
-    "title": "Mugello",
+    "location": "Mugello",
     "name": "Villa Montazzi",
     "alt": "40 min drive to Florence",
     "address": "Via Sagginalese",
@@ -14642,7 +14642,7 @@
     "id": 19301
 },
 {
-    "title": "Montreal/Plateau",
+    "location": "Montreal/Plateau",
     "name": "Le Bleu Balcon",
     "alt": null,
     "address": "4420 rue Saint-Denis",
@@ -14667,7 +14667,7 @@
     "id": 19118
 },
 {
-    "title": "Bakkhali",
+    "location": "Bakkhali",
     "name": "Bakkhali Tourist Lodge",
     "alt": null,
     "address": null,
@@ -14692,7 +14692,7 @@
     "id": 1512
 },
 {
-    "title": "Kolkata/East",
+    "location": "Kolkata/East",
     "name": "NRI Residency",
     "alt": null,
     "address": "C.I.T Road, Kankurgachi",
@@ -14717,7 +14717,7 @@
     "id": 14356
 },
 {
-    "title": "Bad Gandersheim",
+    "location": "Bad Gandersheim",
     "name": "Rio Gande",
     "alt": null,
     "address": null,
@@ -14742,7 +14742,7 @@
     "id": 1426
 },
 {
-    "title": "Mexico City/Chapultepec",
+    "location": "Mexico City/Chapultepec",
     "name": "JW Marriott Mexico City",
     "alt": null,
     "address": "Calle Andrés Bello 29",
@@ -14767,7 +14767,7 @@
     "id": 18039
 },
 {
-    "title": "Uzhhorod",
+    "location": "Uzhhorod",
     "name": "Vizyt",
     "alt": "Готель-ресторан Візит",
     "address": "Vul. Sobranetska, 150",
@@ -14795,7 +14795,7 @@
     "state": "Zakarpatska oblast"
 },
 {
-    "title": "Munich/Maxvorstadt",
+    "location": "Munich/Maxvorstadt",
     "name": "The Charles Hotel Munich",
     "alt": null,
     "address": "Sophienstraße 28",
@@ -14820,7 +14820,7 @@
     "id": 35220
 },
 {
-    "title": "Travemünde",
+    "location": "Travemünde",
     "name": "Tourist Office",
     "alt": null,
     "address": "Strandbahnhof, Bertlingstraße 21",
@@ -14845,7 +14845,7 @@
     "id": 30925
 },
 {
-    "title": "Nara",
+    "location": "Nara",
     "name": "Takama Guest House",
     "alt": "たかまゲストハウス",
     "address": "27-1 Nasiharacho",
@@ -14870,7 +14870,7 @@
     "id": 19985
 },
 {
-    "title": "Kokkola",
+    "location": "Kokkola",
     "name": "Kokkola Camping",
     "alt": null,
     "address": "Meritie 10",
@@ -14895,7 +14895,7 @@
     "id": 14323
 },
 {
-    "title": "Antwerp",
+    "location": "Antwerp",
     "name": "Novotel Antwerpen",
     "alt": null,
     "address": "Luithagen - Haven 6",
@@ -14920,7 +14920,7 @@
     "id": 1023
 },
 {
-    "title": "Seoul/East",
+    "location": "Seoul/East",
     "name": "Sheraton Walker Hill Hotel",
     "alt": null,
     "address": null,
@@ -14945,7 +14945,7 @@
     "id": 37598
 },
 {
-    "title": "Springdale (Utah)",
+    "location": "Springdale (Utah)",
     "name": "Driftwood Lodge",
     "alt": null,
     "address": "1515 Zion Park Blvd",
@@ -14970,7 +14970,7 @@
     "id": 28202
 },
 {
-    "title": "Kalundborg",
+    "location": "Kalundborg",
     "name": "Debbies Bed&Breakfast",
     "alt": null,
     "address": "114 Hovvejen",
@@ -14995,7 +14995,7 @@
     "id": 13058
 },
 {
-    "title": "Moscow Outskirts",
+    "location": "Moscow Outskirts",
     "name": "Moscow Home-hostel",
     "alt": null,
     "address": "2-y Neopalimovsky per., 1/12",
@@ -15023,7 +15023,7 @@
     "state": "Moscow"
 },
 {
-    "title": "Iseo",
+    "location": "Iseo",
     "name": "Locanda Diana",
     "alt": null,
     "address": "Via XX Settembre, 25",
@@ -15048,7 +15048,7 @@
     "id": 37468
 },
 {
-    "title": "Sedona",
+    "location": "Sedona",
     "name": "The Penrose Inn Bed and Breakfast",
     "alt": null,
     "address": "250 Red Butte Dr",
@@ -15073,7 +15073,7 @@
     "id": 26895
 },
 {
-    "title": "Charleston (South Carolina)",
+    "location": "Charleston (South Carolina)",
     "name": "Courtyard North Charleston",
     "alt": null,
     "address": "2415 Mall Drive, North Charleston",
@@ -15098,7 +15098,7 @@
     "id": 5438
 },
 {
-    "title": "Jasper National Park",
+    "location": "Jasper National Park",
     "name": "Fairmont Jasper Park Lodge",
     "alt": null,
     "address": "1 Old Lodge Road",
@@ -15123,7 +15123,7 @@
     "id": 12771
 },
 {
-    "title": "Jimbaran",
+    "location": "Jimbaran",
     "name": "Karma Jimbaran Resort",
     "alt": null,
     "address": "Jl Bukit Permai",
@@ -15148,7 +15148,7 @@
     "id": 12874
 },
 {
-    "title": "Karachi",
+    "location": "Karachi",
     "name": "Airport Hotel",
     "alt": null,
     "address": "Star Gate Rd, Near Old Airport Rd",
@@ -15173,7 +15173,7 @@
     "id": 13237
 },
 {
-    "title": "Crowden-in-Longdendale",
+    "location": "Crowden-in-Longdendale",
     "name": "The Old House",
     "alt": null,
     "address": null,
@@ -15198,7 +15198,7 @@
     "id": 35668
 },
 {
-    "title": "Amsterdam/Oost",
+    "location": "Amsterdam/Oost",
     "name": "Camping Zeeburg",
     "alt": null,
     "address": "Zuider IJdijk 20",
@@ -15223,7 +15223,7 @@
     "id": 804
 },
 {
-    "title": "Berlin/East",
+    "location": "Berlin/East",
     "name": "Youth hostel Pro-social",
     "alt": null,
     "address": "Blumberger Damm 12, 12683 Berlin",
@@ -15248,7 +15248,7 @@
     "id": 3131
 },
 {
-    "title": "Freetown",
+    "location": "Freetown",
     "name": "Radisson Blu Mammy Yoko Hotel",
     "alt": null,
     "address": "17 Lumley Beach Road",
@@ -15273,7 +15273,7 @@
     "id": 9594
 },
 {
-    "title": "Paris/1st arrondissement",
+    "location": "Paris/1st arrondissement",
     "name": "Hôtel Montpensier",
     "alt": null,
     "address": "12, rue de Richelieu",
@@ -15298,7 +15298,7 @@
     "id": 21723
 },
 {
-    "title": "Skiathos",
+    "location": "Skiathos",
     "name": "Aphrodite Studios",
     "alt": null,
     "address": "Megali Ammos",
@@ -15323,7 +15323,7 @@
     "id": 27579
 },
 {
-    "title": "Pangmapha",
+    "location": "Pangmapha",
     "name": "Soppong River Inn",
     "alt": null,
     "address": null,
@@ -15348,7 +15348,7 @@
     "id": 21579
 },
 {
-    "title": "Dunedin",
+    "location": "Dunedin",
     "name": "On Top Backpackers",
     "alt": null,
     "address": "Filleul St near The Octagon and Moray St",
@@ -15373,7 +15373,7 @@
     "id": 8376
 },
 {
-    "title": "Milwaukee",
+    "location": "Milwaukee",
     "name": "Pfister Hotel",
     "alt": null,
     "address": "424 E Wisconsin Ave",
@@ -15398,7 +15398,7 @@
     "id": 18235
 },
 {
-    "title": "San Francisco/Union Square-Financial District",
+    "location": "San Francisco/Union Square-Financial District",
     "name": "Omni San Francisco Hotel",
     "alt": null,
     "address": "500 California St",
@@ -15423,7 +15423,7 @@
     "id": 26232
 },
 {
-    "title": "Monopoli",
+    "location": "Monopoli",
     "name": "Bed And Breakfast Mari e Monti",
     "alt": "Near Castellana Grotte, Zoosafari and Alberobello",
     "address": "Contrada aratico,352",
@@ -15448,7 +15448,7 @@
     "id": 18820
 },
 {
-    "title": "Windermere",
+    "location": "Windermere",
     "name": "Windermere Lodge",
     "alt": null,
     "address": "Limefitt Park, Troutbeck, Cumbria LA23 1PA",
@@ -15473,7 +15473,7 @@
     "id": 33425
 },
 {
-    "title": "Ames",
+    "location": "Ames",
     "name": "Iowa House",
     "alt": null,
     "address": "405 Hayward Ave",
@@ -15498,7 +15498,7 @@
     "id": 700
 },
 {
-    "title": "Guanajuato",
+    "location": "Guanajuato",
     "name": "El Zopilote Mojado",
     "alt": null,
     "address": "Plaza Mexiamora 51 y 53",
@@ -15523,7 +15523,7 @@
     "id": 10589
 },
 {
-    "title": "Iwaizumi",
+    "location": "Iwaizumi",
     "name": "Ryusendo Onsen Hotel",
     "alt": "龍泉洞温泉ホテル",
     "address": "日本 〒027-0501 岩手県下閉伊郡岩泉町岩泉町字府金48",
@@ -15548,7 +15548,7 @@
     "id": 12529
 },
 {
-    "title": "Øresund Coast",
+    "location": "Øresund Coast",
     "name": "Sophienberg Slot",
     "alt": "Sopienberg Mansion",
     "address": "Rungsted Strandvej 219",
@@ -15573,7 +15573,7 @@
     "id": 4535
 },
 {
-    "title": "Port Stephens (New South Wales)",
+    "location": "Port Stephens (New South Wales)",
     "name": "Botaba Bed and Breakfast",
     "alt": "B&B Accommodation in Port Stephens Boat Harbour",
     "address": "32 Andrew Close, Boat Harbour NSW 2316",
@@ -15598,7 +15598,7 @@
     "id": 22940
 },
 {
-    "title": "Woking",
+    "location": "Woking",
     "name": "Holiday Inn Woking",
     "alt": null,
     "address": "Victoria Way",
@@ -15623,7 +15623,7 @@
     "id": 33546
 },
 {
-    "title": "Zelenograd and New Moscow",
+    "location": "Zelenograd and New Moscow",
     "name": "Hotel-Vintage",
     "alt": null,
     "address": "Leningradskoe shosse 297",
@@ -15651,7 +15651,7 @@
     "state": "Moscow"
 },
 {
-    "title": "Globe (Arizona)",
+    "location": "Globe (Arizona)",
     "name": "Quality Inn",
     "alt": null,
     "address": "1565 East S St",
@@ -15676,7 +15676,7 @@
     "id": 36801
 },
 {
-    "title": "Vilnius",
+    "location": "Vilnius",
     "name": "Hotel Rudninku vartai",
     "alt": null,
     "address": "Rūdninkų str. 15/46",
@@ -15701,7 +15701,7 @@
     "id": 32769
 },
 {
-    "title": "Northern suburbs of Stockholm",
+    "location": "Northern suburbs of Stockholm",
     "name": "Jumbostay",
     "alt": null,
     "address": null,
@@ -15726,7 +15726,7 @@
     "id": 34862
 },
 {
-    "title": "Eleuthera",
+    "location": "Eleuthera",
     "name": "Pineapple Fields Hotel",
     "alt": null,
     "address": "Banks Road",
@@ -15751,7 +15751,7 @@
     "id": 8849
 },
 {
-    "title": "Blue Ash",
+    "location": "Blue Ash",
     "name": "Wingate by Wyndham Cincinnati Blue Ash",
     "alt": null,
     "address": "4320 Glendale Milford Road",
@@ -15776,7 +15776,7 @@
     "id": 3775
 },
 {
-    "title": "Monsaraz",
+    "location": "Monsaraz",
     "name": "Turismo Rural Monsaraz - Casa D. Antónia",
     "alt": "Casa D. Antónia",
     "address": "Rua Direita, 15",
@@ -15801,7 +15801,7 @@
     "id": 18829
 },
 {
-    "title": "Taitung",
+    "location": "Taitung",
     "name": "Formosan Naruwan Hotel",
     "alt": "娜路彎大酒店",
     "address": "66 Lianhang Rd",
@@ -15826,7 +15826,7 @@
     "id": 29233
 },
 {
-    "title": "Turin",
+    "location": "Turin",
     "name": "NH Art + Tech",
     "alt": null,
     "address": "Via Nizza, 230",
@@ -15851,7 +15851,7 @@
     "id": 31341
 },
 {
-    "title": "Kota Kinabalu",
+    "location": "Kota Kinabalu",
     "name": "Borneo BeacHouse Backpackers",
     "alt": null,
     "address": "122 Lorong Ikan Lais, Jalan Mat Salleh, Tanjung Aru",
@@ -15876,7 +15876,7 @@
     "id": 14506
 },
 {
-    "title": "Northern suburbs of Stockholm",
+    "location": "Northern suburbs of Stockholm",
     "name": "Radisson Blu",
     "alt": null,
     "address": null,
@@ -15901,7 +15901,7 @@
     "id": 34864
 },
 {
-    "title": "Salalah",
+    "location": "Salalah",
     "name": "Hilton Salalah",
     "alt": null,
     "address": "As Sultan Qaboos St",
@@ -15926,7 +15926,7 @@
     "id": 24872
 },
 {
-    "title": "Paris/8th arrondissement",
+    "location": "Paris/8th arrondissement",
     "name": "Intercontinental Paris Avenue Marceau",
     "alt": null,
     "address": "Avenue Marceau 64",
@@ -15951,7 +15951,7 @@
     "id": 21854
 },
 {
-    "title": "Northern suburbs of Stockholm",
+    "location": "Northern suburbs of Stockholm",
     "name": "Venngarn Palace",
     "alt": "Wenngarns slott",
     "address": null,
@@ -15976,7 +15976,7 @@
     "id": 34861
 },
 {
-    "title": "Valparaíso",
+    "location": "Valparaíso",
     "name": "Apartments Valparaiso Experience",
     "alt": null,
     "address": "Pasaje Santa Margarita 234, cerro Bellavista",
@@ -16001,7 +16001,7 @@
     "id": 31966
 },
 {
-    "title": "Llandysul",
+    "location": "Llandysul",
     "name": "Typoeth Cottage",
     "alt": null,
     "address": "Typoeth Cottage Llandysul SA44 4RS",
@@ -16026,7 +16026,7 @@
     "id": 38019
 },
 {
-    "title": "Dumaguete",
+    "location": "Dumaguete",
     "name": "DND Building",
     "alt": null,
     "address": "Perdices Street",
@@ -16051,7 +16051,7 @@
     "id": 8333
 },
 {
-    "title": "Munich/Ludwigsvorstadt-Isarvorstadt",
+    "location": "Munich/Ludwigsvorstadt-Isarvorstadt",
     "name": "Hotel Royal",
     "alt": null,
     "address": "Schillerstraße 11",
@@ -16076,7 +16076,7 @@
     "id": 35265
 },
 {
-    "title": "Pristina",
+    "location": "Pristina",
     "name": "Hotel Sara",
     "alt": null,
     "address": "Maliq Pashë Gjinolli St",
@@ -16101,7 +16101,7 @@
     "id": 23293
 },
 {
-    "title": "Camp Hill",
+    "location": "Camp Hill",
     "name": "Radisson Hotel Harrisburg Hershey",
     "alt": null,
     "address": "1150 Camp Hill Bypass",
@@ -16126,7 +16126,7 @@
     "id": 4971
 },
 {
-    "title": "Thousand Islands National Park",
+    "location": "Thousand Islands National Park",
     "name": "Putri Island Resort",
     "alt": "Pulau Putri Barat",
     "address": null,
@@ -16151,7 +16151,7 @@
     "id": 13689
 },
 {
-    "title": "Siuntio",
+    "location": "Siuntio",
     "name": "Störsby Bed & Breakfast",
     "alt": null,
     "address": "Störsby 17",
@@ -16176,7 +16176,7 @@
     "id": 27568
 },
 {
-    "title": "Quartzsite",
+    "location": "Quartzsite",
     "name": "Crystal Hill Kofa Campground",
     "alt": null,
     "address": null,
@@ -16201,7 +16201,7 @@
     "id": 23427
 },
 {
-    "title": "Mombasa",
+    "location": "Mombasa",
     "name": "Tamarind Village",
     "alt": null,
     "address": "Link Road, Kongowea",
@@ -16226,7 +16226,7 @@
     "id": 18798
 },
 {
-    "title": "Los Angeles/Wilshire",
+    "location": "Los Angeles/Wilshire",
     "name": "Beverly Laurel Motor Hotel",
     "alt": null,
     "address": "8018 Beverly Blvd",
@@ -16251,7 +16251,7 @@
     "id": 16708
 },
 {
-    "title": "Barcelona/Sant Martí",
+    "location": "Barcelona/Sant Martí",
     "name": "Melia Barcelona Sky",
     "alt": "formerly ME Barcelona",
     "address": "Carrer de Pere IV, 272 28",
@@ -16276,7 +16276,7 @@
     "id": 2428
 },
 {
-    "title": "Cincinnati",
+    "location": "Cincinnati",
     "name": "Ramada Inn Downtown",
     "alt": null,
     "address": "800 West 8th St",
@@ -16301,7 +16301,7 @@
     "id": 6054
 },
 {
-    "title": "Niagara Falls (New York)",
+    "location": "Niagara Falls (New York)",
     "name": "Gorge View",
     "alt": null,
     "address": "723 3rd St",
@@ -16326,7 +16326,7 @@
     "id": 20384
 },
 {
-    "title": "Granada (province)",
+    "location": "Granada (province)",
     "name": "Hostels Granada Nest",
     "alt": "Hostels Granada Spain",
     "address": "Calle Santísimo,4 Spain",
@@ -16351,7 +16351,7 @@
     "id": 10298
 },
 {
-    "title": "Fox Glacier",
+    "location": "Fox Glacier",
     "name": "Lake Paringa Heritage Lodge",
     "alt": null,
     "address": null,
@@ -16376,7 +16376,7 @@
     "id": 9404
 },
 {
-    "title": "Williams (Arizona)",
+    "location": "Williams (Arizona)",
     "name": "Red Garter Bed and Bakery",
     "alt": null,
     "address": "137 W Railroad Ave",
@@ -16402,7 +16402,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Williams-Arizona_01.JPG"
 },
 {
-    "title": "Tallinn",
+    "location": "Tallinn",
     "name": "Sokos Hotel Viru",
     "alt": null,
     "address": "Viru väljak 4",
@@ -16427,7 +16427,7 @@
     "id": 29399
 },
 {
-    "title": "Alcobaça",
+    "location": "Alcobaça",
     "name": "Hotel Santa Maria",
     "alt": null,
     "address": "R. Dr. Francisco Zagalo, 20/22",
@@ -16452,7 +16452,7 @@
     "id": 458
 },
 {
-    "title": "Tucson",
+    "location": "Tucson",
     "name": "Lodge on the Desert",
     "alt": null,
     "address": "306 N Alvernon Way",
@@ -16477,7 +16477,7 @@
     "id": 31265
 },
 {
-    "title": "Hamar",
+    "location": "Hamar",
     "name": "Hamar Hostel",
     "alt": "Hamar Vandrerhjem Vikingskipet",
     "address": "Åkersvikavegen 24",
@@ -16502,7 +16502,7 @@
     "id": 11074
 },
 {
-    "title": "Luxembourg (city)",
+    "location": "Luxembourg (city)",
     "name": "Luxembourg Youth Hostel",
     "alt": null,
     "address": null,
@@ -16527,7 +16527,7 @@
     "id": 16852
 },
 {
-    "title": "Berlin/City West",
+    "location": "Berlin/City West",
     "name": "Pullman Berlin Schweitzerhof",
     "alt": "Sofitel Berlin Schweitzerhof",
     "address": "Budapester Strasse 25",
@@ -16552,7 +16552,7 @@
     "id": 3104
 },
 {
-    "title": "Tashkent",
+    "location": "Tashkent",
     "name": "Jahongir Hotel",
     "alt": "Частный гостевой дом Джахонгир",
     "address": "Chirokchi 4",
@@ -16580,7 +16580,7 @@
     "state": null
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Corvin Hotel",
     "alt": null,
     "address": "Corvin u. 17-19",
@@ -16605,7 +16605,7 @@
     "id": 10794
 },
 {
-    "title": "Turku",
+    "location": "Turku",
     "name": "Interpoint Hostel",
     "alt": null,
     "address": "Vähä-Hämeenkatu 12 A",
@@ -16630,7 +16630,7 @@
     "id": 31516
 },
 {
-    "title": "Copenhagen/Vestegnen",
+    "location": "Copenhagen/Vestegnen",
     "name": "Ishøj Strand Camping",
     "alt": null,
     "address": "Ishøj Strandvej 13",
@@ -16655,7 +16655,7 @@
     "id": 6810
 },
 {
-    "title": "Copenhagen/Indre By",
+    "location": "Copenhagen/Indre By",
     "name": "Danhostel - Copenhagen City",
     "alt": null,
     "address": "H.C. Andersens Boulevard 50",
@@ -16680,7 +16680,7 @@
     "id": 6620
 },
 {
-    "title": "Dingle Peninsula",
+    "location": "Dingle Peninsula",
     "name": "Moan Laur Bed and Breakfast",
     "alt": null,
     "address": "Slieve East, Camp",
@@ -16705,7 +16705,7 @@
     "id": 7895
 },
 {
-    "title": "San Francisco/Twin Peaks-Lake Merced",
+    "location": "San Francisco/Twin Peaks-Lake Merced",
     "name": "Days Inn at the Beach",
     "alt": null,
     "address": "2600 Sloat Blvd",
@@ -16730,7 +16730,7 @@
     "id": 26167
 },
 {
-    "title": "Avignon",
+    "location": "Avignon",
     "name": "Hotel d 'Europe",
     "alt": null,
     "address": "12 Place Crillon, F84000 -AVIGNON",
@@ -16755,7 +16755,7 @@
     "id": 1363
 },
 {
-    "title": "Dudinka",
+    "location": "Dudinka",
     "name": "Hotel Northern Lights",
     "alt": "Гостиница Северное сияние",
     "address": "st. Matrosov 14",
@@ -16783,7 +16783,7 @@
     "state": "Krasnoyarskiy kray"
 },
 {
-    "title": "Toronto/Downtown East",
+    "location": "Toronto/Downtown East",
     "name": "Ramada Plaza Toronto",
     "alt": null,
     "address": "300 Jarvis St",
@@ -16808,7 +16808,7 @@
     "id": 30626
 },
 {
-    "title": "Valleyview",
+    "location": "Valleyview",
     "name": "Paradise Inn & Suites Hotel",
     "alt": null,
     "address": "3609 Highway Street",
@@ -16833,7 +16833,7 @@
     "id": 31965
 },
 {
-    "title": "Yosemite National Park",
+    "location": "Yosemite National Park",
     "name": "Hodgdon Meadow",
     "alt": null,
     "address": null,
@@ -16858,7 +16858,7 @@
     "id": 33897
 },
 {
-    "title": "Barcelona/Sant Martí",
+    "location": "Barcelona/Sant Martí",
     "name": "Catalonia Albeniz",
     "alt": null,
     "address": "Aragon 591-593",
@@ -16883,7 +16883,7 @@
     "id": 2410
 },
 {
-    "title": "Ivano-Frankivsk",
+    "location": "Ivano-Frankivsk",
     "name": "Auscoprut hotel",
     "alt": "«Аускопрут»",
     "address": "Str. Grunvaldska (вулиця Грюнвальдська) 7/9",
@@ -16912,7 +16912,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Hotel_Auskoprut_1.jpg"
 },
 {
-    "title": "Troy (Michigan)",
+    "location": "Troy (Michigan)",
     "name": "Courtyard Detroit Troy",
     "alt": null,
     "address": "1525 East Maple Road",
@@ -16937,7 +16937,7 @@
     "id": 31095
 },
 {
-    "title": "Pogradec",
+    "location": "Pogradec",
     "name": "Millenium Hotel",
     "alt": null,
     "address": "Rruga Driloni, Tushemisht",
@@ -16962,7 +16962,7 @@
     "id": 22593
 },
 {
-    "title": "Yangon",
+    "location": "Yangon",
     "name": "Yuzana Garden Hotel",
     "alt": null,
     "address": "44, Signal Pagoda Rd, Mingalartaungnyunt Township",
@@ -16987,7 +16987,7 @@
     "id": 33660
 },
 {
-    "title": "Santiniketan",
+    "location": "Santiniketan",
     "name": "Krishna Chura Homestay",
     "alt": null,
     "address": "Purbapally, Shantiniketan, Bolpur",
@@ -17012,7 +17012,7 @@
     "id": 26528
 },
 {
-    "title": "Roatán",
+    "location": "Roatán",
     "name": "Coconut Tree Hotel (West End, Half Moon Bay)",
     "alt": null,
     "address": null,
@@ -17037,7 +17037,7 @@
     "id": 24150
 },
 {
-    "title": "Cuzco",
+    "location": "Cuzco",
     "name": "KM Apartments",
     "alt": null,
     "address": "Calle Clorinda Matto - Magisterio - Cusco",
@@ -17062,7 +17062,7 @@
     "id": 7071
 },
 {
-    "title": "Lac-Mégantic",
+    "location": "Lac-Mégantic",
     "name": "Auberge et Chalets sur le Lac",
     "alt": null,
     "address": "2000, chemin du Motel-sur-le-lac, Frontenac G6B 2S1",
@@ -17087,7 +17087,7 @@
     "id": 36559
 },
 {
-    "title": "Lochmaddy",
+    "location": "Lochmaddy",
     "name": "Hamersay House",
     "alt": null,
     "address": null,
@@ -17112,7 +17112,7 @@
     "id": 15978
 },
 {
-    "title": "Cincinnati",
+    "location": "Cincinnati",
     "name": "Hilton Netherland Plaza",
     "alt": null,
     "address": "35 West Fifth St",
@@ -17137,7 +17137,7 @@
     "id": 6058
 },
 {
-    "title": "Matsue",
+    "location": "Matsue",
     "name": "Matsue Urban Hotel",
     "alt": null,
     "address": "Asahi-machi 590-3",
@@ -17162,7 +17162,7 @@
     "id": 17732
 },
 {
-    "title": "Red Wing",
+    "location": "Red Wing",
     "name": "St. James Hotel",
     "alt": null,
     "address": "406 Main St",
@@ -17188,7 +17188,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/StJamesHotel.jpg"
 },
 {
-    "title": "Moscow Central-North",
+    "location": "Moscow Central-North",
     "name": "TNT Hostel Moscow",
     "alt": null,
     "address": "Zvonarskiy pereulok, 5, 3F",
@@ -17216,7 +17216,7 @@
     "state": "Moscow"
 },
 {
-    "title": "Cadaqués",
+    "location": "Cadaqués",
     "name": "Hotel Playa Sol",
     "alt": null,
     "address": "Platja Pianc, 3",
@@ -17241,7 +17241,7 @@
     "id": 4666
 },
 {
-    "title": "Montevideo",
+    "location": "Montevideo",
     "name": "Spléndido Hotel",
     "alt": null,
     "address": "Bartolome Mitre 1314",
@@ -17266,7 +17266,7 @@
     "id": 18971
 },
 {
-    "title": "Federated States of Micronesia",
+    "location": "Federated States of Micronesia",
     "name": "Kosrae Nautilus Resort",
     "alt": null,
     "address": "P.O. Box 135, Kosrae, Micronesia",
@@ -17291,7 +17291,7 @@
     "id": 9098
 },
 {
-    "title": "Doha",
+    "location": "Doha",
     "name": "Merweb Hotel",
     "alt": null,
     "address": "Al Sadd St",
@@ -17317,7 +17317,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Merwebhotel_Central_Doha.jpg"
 },
 {
-    "title": "Chipata",
+    "location": "Chipata",
     "name": "Chipata Motel",
     "alt": null,
     "address": null,
@@ -17342,7 +17342,7 @@
     "id": 5833
 },
 {
-    "title": "Lesotho",
+    "location": "Lesotho",
     "name": "Maliba River Lodge",
     "alt": null,
     "address": null,
@@ -17367,7 +17367,7 @@
     "id": 15541
 },
 {
-    "title": "Death Valley National Park",
+    "location": "Death Valley National Park",
     "name": "Furnace Creek",
     "alt": null,
     "address": null,
@@ -17392,7 +17392,7 @@
     "id": 7388
 },
 {
-    "title": "Isalo National Park",
+    "location": "Isalo National Park",
     "name": "Isalo Rock Lodge",
     "alt": null,
     "address": null,
@@ -17417,7 +17417,7 @@
     "id": 12316
 },
 {
-    "title": "Cleveland/East Side",
+    "location": "Cleveland/East Side",
     "name": "Glidden House",
     "alt": null,
     "address": "1901 Ford Dr",
@@ -17442,7 +17442,7 @@
     "id": 6153
 },
 {
-    "title": "Paris/15th arrondissement",
+    "location": "Paris/15th arrondissement",
     "name": "Hotel Mirabeau Eiffel",
     "alt": null,
     "address": "35 rue Sebastien Mercier",
@@ -17467,7 +17467,7 @@
     "id": 21651
 },
 {
-    "title": "Barcelona/Sant Martí",
+    "location": "Barcelona/Sant Martí",
     "name": "Hotel & Spa Villa Olimpic",
     "alt": null,
     "address": "Pallars, 121-125",
@@ -17492,7 +17492,7 @@
     "id": 2433
 },
 {
-    "title": "Quelimane",
+    "location": "Quelimane",
     "name": "Hotel Flamingo",
     "alt": null,
     "address": "Av. 1 Julho",
@@ -17517,7 +17517,7 @@
     "id": 23445
 },
 {
-    "title": "Saint Petersburg/Center",
+    "location": "Saint Petersburg/Center",
     "name": "Old Vienna, mini hotel",
     "alt": null,
     "address": "Malaya Morskaya ulitsa, 13/ Gorohovaya 8 ( Малая Морская ул., д. 13 / Гороховая ул., д. 8)",
@@ -17545,7 +17545,7 @@
     "state": "Saint Petersburg"
 },
 {
-    "title": "Perth (Ontario)",
+    "location": "Perth (Ontario)",
     "name": "Tay Inn",
     "alt": null,
     "address": "125 Dufferin Street (Hwy #7)",
@@ -17570,7 +17570,7 @@
     "id": 22196
 },
 {
-    "title": "Banff",
+    "location": "Banff",
     "name": "The Fairmont Banff Springs Hotel",
     "alt": null,
     "address": "405 Spray Ave",
@@ -17595,7 +17595,7 @@
     "id": 1792
 },
 {
-    "title": "Tashkent",
+    "location": "Tashkent",
     "name": "Hotel Ichan Qala",
     "alt": null,
     "address": "Yusuf Hos Hojib ko'chasi ( ул. Юсуф-Хос-Хожиб), 75/10",
@@ -17623,7 +17623,7 @@
     "state": null
 },
 {
-    "title": "Saint Petersburg/Center",
+    "location": "Saint Petersburg/Center",
     "name": "Ermitage Hotel",
     "alt": "Мини-отель Ermitage ****, Отель Эрмитаж",
     "address": "Millionnaya st.11",
@@ -17651,7 +17651,7 @@
     "state": "Saint Petersburg"
 },
 {
-    "title": "Archangelos",
+    "location": "Archangelos",
     "name": "Porto Angeli Hotel",
     "alt": null,
     "address": "Stegna Beach",
@@ -17676,7 +17676,7 @@
     "id": 1070
 },
 {
-    "title": "Auburn (New York)",
+    "location": "Auburn (New York)",
     "name": "Sleepy Hollow Motel",
     "alt": null,
     "address": "3401 E. Genesee Street",
@@ -17701,7 +17701,7 @@
     "id": 1280
 },
 {
-    "title": "Santiago de Chile/Sanhattan",
+    "location": "Santiago de Chile/Sanhattan",
     "name": "Santiago Marriott Hotel",
     "alt": null,
     "address": "Av Presidente Kennedy 5741",
@@ -17726,7 +17726,7 @@
     "id": 35657
 },
 {
-    "title": "Montreal/Old Montreal",
+    "location": "Montreal/Old Montreal",
     "name": "Auberge Vieux Port",
     "alt": null,
     "address": "97 rue de la Commune est",
@@ -17751,7 +17751,7 @@
     "id": 19063
 },
 {
-    "title": "Vaasa",
+    "location": "Vaasa",
     "name": "Westbay Inn",
     "alt": null,
     "address": "Västervikintie 271",
@@ -17776,7 +17776,7 @@
     "id": 31931
 },
 {
-    "title": "Kyoto/North",
+    "location": "Kyoto/North",
     "name": "GuestHouse Bon",
     "alt": "ゲストハウス『凡』",
     "address": "63-2 Kamimonzen-cho Murasakino, Kita-ku",
@@ -17801,7 +17801,7 @@
     "id": 14975
 },
 {
-    "title": "Dunedin",
+    "location": "Dunedin",
     "name": "Central Backpackers Dunedin",
     "alt": null,
     "address": "243 Moray Pl",
@@ -17826,7 +17826,7 @@
     "id": 8370
 },
 {
-    "title": "West Coast (Suriname)",
+    "location": "West Coast (Suriname)",
     "name": "New Kow Loon",
     "alt": null,
     "address": "A.K. Doergasawhstraat 76",
@@ -17851,7 +17851,7 @@
     "id": 37361
 },
 {
-    "title": "Ulaanbaatar",
+    "location": "Ulaanbaatar",
     "name": "Mandukhai Hotel",
     "alt": null,
     "address": "near State Department Store",
@@ -17876,7 +17876,7 @@
     "id": 31698
 },
 {
-    "title": "Taos",
+    "location": "Taos",
     "name": "El Monte Sagrado",
     "alt": null,
     "address": "317 Kit Carson Rd",
@@ -17901,7 +17901,7 @@
     "id": 29609
 },
 {
-    "title": "Tabriz",
+    "location": "Tabriz",
     "name": "Hotel Darya",
     "alt": null,
     "address": null,
@@ -17926,7 +17926,7 @@
     "id": 29203
 },
 {
-    "title": "Tampere",
+    "location": "Tampere",
     "name": "Cumulus Pinja",
     "alt": null,
     "address": "Satakunnankatu 10",
@@ -17951,7 +17951,7 @@
     "id": 29549
 },
 {
-    "title": "Morenci (Arizona)",
+    "location": "Morenci (Arizona)",
     "name": "North Clifton RV Park",
     "alt": null,
     "address": "380 Frisco Ave, Clifton",
@@ -17976,7 +17976,7 @@
     "id": 19215
 },
 {
-    "title": "Trondheim",
+    "location": "Trondheim",
     "name": "Radisson BLU Royal Garden Hotel",
     "alt": null,
     "address": "Kjopmannsgate 73",
@@ -18001,7 +18001,7 @@
     "id": 31077
 },
 {
-    "title": "Vancouver/City Centre",
+    "location": "Vancouver/City Centre",
     "name": "Quality Hotel - Inn at False Creek",
     "alt": null,
     "address": "1335 Howe St",
@@ -18026,7 +18026,7 @@
     "id": 31999
 },
 {
-    "title": "Dresden",
+    "location": "Dresden",
     "name": "Ramada Hotel Dresden",
     "alt": null,
     "address": "Wilhelm-Franke-Strasse 90",
@@ -18051,7 +18051,7 @@
     "id": 8220
 },
 {
-    "title": "Phnom Penh",
+    "location": "Phnom Penh",
     "name": "Long Lin Guesthouse",
     "alt": null,
     "address": "159 Ang Yukanthor, St 19",
@@ -18076,7 +18076,7 @@
     "id": 22382
 },
 {
-    "title": "Manila/Malate",
+    "location": "Manila/Malate",
     "name": "Pink Manila hostel",
     "alt": null,
     "address": "2551 Don Pedro street cor. Bautista street",
@@ -18101,7 +18101,7 @@
     "id": 17489
 },
 {
-    "title": "Jakarta/South",
+    "location": "Jakarta/South",
     "name": "Amaroossa Cosmo",
     "alt": null,
     "address": "Jl. Pangeran Antasari No.9a-b",
@@ -18126,7 +18126,7 @@
     "id": 12681
 },
 {
-    "title": "Oran",
+    "location": "Oran",
     "name": "Sheraton Oran Hotel & Towers",
     "alt": null,
     "address": "Route Des Falaises Ave",
@@ -18151,7 +18151,7 @@
     "id": 21221
 },
 {
-    "title": "Iqaluit",
+    "location": "Iqaluit",
     "name": "Hotel Arctic",
     "alt": null,
     "address": "923 Federal Road",
@@ -18176,7 +18176,7 @@
     "id": 12270
 },
 {
-    "title": "Montevideo",
+    "location": "Montevideo",
     "name": "Ciudad Vieja Hostel",
     "alt": null,
     "address": "Ituzaingó 1436",
@@ -18201,7 +18201,7 @@
     "id": 18969
 },
 {
-    "title": "Santa Cruz Trek",
+    "location": "Santa Cruz Trek",
     "name": "Llamacorral",
     "alt": null,
     "address": null,
@@ -18226,7 +18226,7 @@
     "id": 37400
 },
 {
-    "title": "Novgorod",
+    "location": "Novgorod",
     "name": "Hotel inside railway station",
     "alt": "Комнаты отдыха «Вокзал Великий Новгород»",
     "address": "5 Oktyabrskaya st",
@@ -18254,7 +18254,7 @@
     "state": "Novgorodskaya oblast"
 },
 {
-    "title": "Logroño",
+    "location": "Logroño",
     "name": "Hotel Carlton Rioja",
     "alt": null,
     "address": "Avda. Gran Vía Rey Juan Carlos I, 5",
@@ -18279,7 +18279,7 @@
     "id": 16001
 },
 {
-    "title": "Minneapolis/Downtown",
+    "location": "Minneapolis/Downtown",
     "name": "Hotel Ivy",
     "alt": null,
     "address": "201 S 11th St",
@@ -18304,7 +18304,7 @@
     "id": 18309
 },
 {
-    "title": "Jasper National Park",
+    "location": "Jasper National Park",
     "name": "HI-Maligne Canyon",
     "alt": null,
     "address": "Maligne Lake Rd",
@@ -18329,7 +18329,7 @@
     "id": 12769
 },
 {
-    "title": "Pécs",
+    "location": "Pécs",
     "name": "Nap Hostel Pecs",
     "alt": null,
     "address": "Király utca 23-25",
@@ -18354,7 +18354,7 @@
     "id": 21970
 },
 {
-    "title": "Odessa",
+    "location": "Odessa",
     "name": "Mini Hostel Odessa",
     "alt": null,
     "address": "24 Dvoryanska Street, Apt. 7",
@@ -18382,7 +18382,7 @@
     "state": "Odeska oblast"
 },
 {
-    "title": "Manuel Antonio",
+    "location": "Manuel Antonio",
     "name": "Brunxu Apartments",
     "alt": null,
     "address": "Between Manuel Antonio and Quepos",
@@ -18407,7 +18407,7 @@
     "id": 17511
 },
 {
-    "title": "South Central Arizona",
+    "location": "South Central Arizona",
     "name": "Chuparosa Inn Bed & Breakfast",
     "alt": null,
     "address": "1300 S Madera Canyon Rd, Madera Canyon",
@@ -18432,7 +18432,7 @@
     "id": 28097
 },
 {
-    "title": "Chiang Mai",
+    "location": "Chiang Mai",
     "name": "7 Century Guest House",
     "alt": null,
     "address": "270 Ratchaphakhinai Rd",
@@ -18457,7 +18457,7 @@
     "id": 5683
 },
 {
-    "title": "Annan",
+    "location": "Annan",
     "name": "Firth Hotel",
     "alt": null,
     "address": "41 Scotts Street, Annan DG12 6JE",
@@ -18482,7 +18482,7 @@
     "id": 37340
 },
 {
-    "title": "Munich/Haidhausen",
+    "location": "Munich/Haidhausen",
     "name": "Courtyard by Marriott Munich City East",
     "alt": null,
     "address": null,
@@ -18507,7 +18507,7 @@
     "id": 19589
 },
 {
-    "title": "Kingston (Ontario)",
+    "location": "Kingston (Ontario)",
     "name": "Delta Kingston Waterfront",
     "alt": null,
     "address": "1 Johnson St",
@@ -18532,7 +18532,7 @@
     "id": 14081
 },
 {
-    "title": "Alajuela",
+    "location": "Alajuela",
     "name": "Jaulares",
     "alt": null,
     "address": null,
@@ -18557,7 +18557,7 @@
     "id": 171
 },
 {
-    "title": "Copenhagen/Indre By",
+    "location": "Copenhagen/Indre By",
     "name": "Radisson BLU Royal Hotel",
     "alt": null,
     "address": "Hammerichsgade 1",
@@ -18582,7 +18582,7 @@
     "id": 6637
 },
 {
-    "title": "Jakarta/Central",
+    "location": "Jakarta/Central",
     "name": "Atlet Century Park",
     "alt": null,
     "address": "Jl. Pintu Satu Senayan",
@@ -18597,7 +18597,7 @@
     "checkout": null,
     "image": null,
     "price": "from Rp1,100,000",
-    "content": "A cheap hotel in the middle of Senayan close to Gelora Bung Karno. Semi-Olympic size swimming pool. The restaurant only provides Indonesian food. The 16th floor executive room will also entitle you to an executive lounge with never ending helping of snacks.",
+    "content": "A cheap hotel in the middle of Senayan close to Gelora Bung Karno. Semi-Olympic size swimming pool. The restaurant only provides Indonesian food. The 16th floor executive room will also enlocation you to an executive lounge with never ending helping of snacks.",
     "geo": {
         "lat": -6.2232,
         "lon": 106.8028
@@ -18607,7 +18607,7 @@
     "id": 12614
 },
 {
-    "title": "Stockholm/Norrmalm",
+    "location": "Stockholm/Norrmalm",
     "name": "Nobis",
     "alt": null,
     "address": "Norrmalmstorg",
@@ -18632,7 +18632,7 @@
     "id": 28499
 },
 {
-    "title": "Kentucky Dam Village State Resort Park",
+    "location": "Kentucky Dam Village State Resort Park",
     "name": "Kentucky Dam Village State Resort Park",
     "alt": null,
     "address": "113 Administration Dr. Gilbertsville, KY 42044",
@@ -18657,7 +18657,7 @@
     "id": 36563
 },
 {
-    "title": "Farnborough",
+    "location": "Farnborough",
     "name": "The Aviator Hotel",
     "alt": null,
     "address": "55 Farnborough Road",
@@ -18682,7 +18682,7 @@
     "id": 9084
 },
 {
-    "title": "Nairobi",
+    "location": "Nairobi",
     "name": "Giraffe Manor",
     "alt": null,
     "address": null,
@@ -18707,7 +18707,7 @@
     "id": 19916
 },
 {
-    "title": "Jakarta/West",
+    "location": "Jakarta/West",
     "name": "Pullman Central Park",
     "alt": null,
     "address": "Jl. Letjen S. Parman",
@@ -18732,7 +18732,7 @@
     "id": 12728
 },
 {
-    "title": "Paris/15th arrondissement",
+    "location": "Paris/15th arrondissement",
     "name": "Pullman Paris Tour Eiffel",
     "alt": null,
     "address": "18 avenue de Suffren",
@@ -18757,7 +18757,7 @@
     "id": 21657
 },
 {
-    "title": "New Orleans/French Quarter",
+    "location": "New Orleans/French Quarter",
     "name": "Royal Barracks Guest House",
     "alt": null,
     "address": "717 Barracks St",
@@ -18782,7 +18782,7 @@
     "id": 20293
 },
 {
-    "title": "San Francisco/Union Square-Financial District",
+    "location": "San Francisco/Union Square-Financial District",
     "name": "The Clift Hotel",
     "alt": null,
     "address": "495 Geary St",
@@ -18807,7 +18807,7 @@
     "id": 26218
 },
 {
-    "title": "Jakarta/Central",
+    "location": "Jakarta/Central",
     "name": "Le Grandeur Jakarta",
     "alt": null,
     "address": "Jl. Mangga Dua Raya, Jakarta 10730, Indonesia",
@@ -18832,7 +18832,7 @@
     "id": 12617
 },
 {
-    "title": "Benson (Arizona)",
+    "location": "Benson (Arizona)",
     "name": "Benson KOA",
     "alt": null,
     "address": "180 W Four Feathers Ln",
@@ -18857,7 +18857,7 @@
     "id": 36742
 },
 {
-    "title": "Liverpool",
+    "location": "Liverpool",
     "name": "Premier Inn, Albert Dock",
     "alt": null,
     "address": "East Britannia Building, Albert Dock",
@@ -18882,7 +18882,7 @@
     "id": 15916
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Oasis Las Vegas RV Resort",
     "alt": null,
     "address": "2711 W Windmill Ln",
@@ -18907,7 +18907,7 @@
     "id": 15376
 },
 {
-    "title": "North Uist",
+    "location": "North Uist",
     "name": "The Old Courthouse",
     "alt": null,
     "address": "Lochmaddy HS6 5AE",
@@ -18932,7 +18932,7 @@
     "id": 20738
 },
 {
-    "title": "Towada-Hachimantai National Park",
+    "location": "Towada-Hachimantai National Park",
     "name": "Sukayu Onsen",
     "alt": "酸ヶ湯温泉",
     "address": null,
@@ -18957,7 +18957,7 @@
     "id": 30679
 },
 {
-    "title": "Thousand Oaks",
+    "location": "Thousand Oaks",
     "name": "Hampton Inn & Suites Thousand Oaks, CA",
     "alt": null,
     "address": "510 North Ventu Park Road",
@@ -18982,7 +18982,7 @@
     "id": 30128
 },
 {
-    "title": "Baker (Nevada)",
+    "location": "Baker (Nevada)",
     "name": "End of the Trail...er",
     "alt": null,
     "address": "End of Page Ave",
@@ -19007,7 +19007,7 @@
     "id": 1500
 },
 {
-    "title": "Chipata",
+    "location": "Chipata",
     "name": "Pine View Guest House",
     "alt": null,
     "address": null,
@@ -19032,7 +19032,7 @@
     "id": 5834
 },
 {
-    "title": "Ayacucho",
+    "location": "Ayacucho",
     "name": "Hostal Tres Mascaras",
     "alt": null,
     "address": "Jr. Tres Mascaras 194",
@@ -19057,7 +19057,7 @@
     "id": 1365
 },
 {
-    "title": "Brookline",
+    "location": "Brookline",
     "name": "The Beech Tree Inn",
     "alt": "Brookline, Massachusetts B & B",
     "address": "83 Longwood Avenue",
@@ -19082,7 +19082,7 @@
     "id": 4135
 },
 {
-    "title": "Tel Aviv/Central Tel Aviv",
+    "location": "Tel Aviv/Central Tel Aviv",
     "name": "Mercure B&P Tel Aviv",
     "alt": null,
     "address": "14 Ben Yehoda St",
@@ -19107,7 +19107,7 @@
     "id": 29952
 },
 {
-    "title": "New Orleans/Faubourg Marigny",
+    "location": "New Orleans/Faubourg Marigny",
     "name": "Elysian Fields Inn",
     "alt": null,
     "address": "930 Elysian Fields Ave",
@@ -19132,7 +19132,7 @@
     "id": 20199
 },
 {
-    "title": "Mikkeli",
+    "location": "Mikkeli",
     "name": "Raijan Aitta",
     "alt": null,
     "address": "Kipparintie 2, Majavesi",
@@ -19157,7 +19157,7 @@
     "id": 18137
 },
 {
-    "title": "Tempe",
+    "location": "Tempe",
     "name": "Holiday Inn Express Hotel & Suites Tempe",
     "alt": null,
     "address": "1520 W Baseline Rd",
@@ -19182,7 +19182,7 @@
     "id": 30007
 },
 {
-    "title": "Umeå",
+    "location": "Umeå",
     "name": "YMCA hostel",
     "alt": null,
     "address": "Järnvägsallén 20",
@@ -19207,7 +19207,7 @@
     "id": 31727
 },
 {
-    "title": "Chandler (Quebec)",
+    "location": "Chandler (Quebec)",
     "name": "La Petite Auberge",
     "alt": null,
     "address": "493, rue Réhel",
@@ -19232,7 +19232,7 @@
     "id": 41119
 },
 {
-    "title": "Calgary",
+    "location": "Calgary",
     "name": "Mount Royal University Guest & Visitor Housing",
     "alt": null,
     "address": "200 Mount Royal Circle SW",
@@ -19257,7 +19257,7 @@
     "id": 4896
 },
 {
-    "title": "Cairo/Downtown",
+    "location": "Cairo/Downtown",
     "name": "Arabian Nights Hostel",
     "alt": null,
     "address": "10 Al Aded St.",
@@ -19282,7 +19282,7 @@
     "id": 4696
 },
 {
-    "title": "Seminyak",
+    "location": "Seminyak",
     "name": "Villa Seminyak Estate & Spa",
     "alt": null,
     "address": "Jl Baik Baik,",
@@ -19307,7 +19307,7 @@
     "id": 26975
 },
 {
-    "title": "Lahti",
+    "location": "Lahti",
     "name": "Hotelli Cumulus Lahti",
     "alt": null,
     "address": "Vapaudenkatu 24",
@@ -19332,7 +19332,7 @@
     "id": 15059
 },
 {
-    "title": "Santa Cruz Trek",
+    "location": "Santa Cruz Trek",
     "name": "Ahruaycocha",
     "alt": null,
     "address": null,
@@ -19357,7 +19357,7 @@
     "id": 37399
 },
 {
-    "title": "Smiths Falls",
+    "location": "Smiths Falls",
     "name": "Comfort Inn",
     "alt": null,
     "address": "33 Centre Street, K7A 3B8",
@@ -19382,7 +19382,7 @@
     "id": 27615
 },
 {
-    "title": "Ambleside",
+    "location": "Ambleside",
     "name": "Waterhead",
     "alt": null,
     "address": "Lake Road",
@@ -19407,7 +19407,7 @@
     "id": 635
 },
 {
-    "title": "Simferopol",
+    "location": "Simferopol",
     "name": "Hotel Sportivnaya",
     "alt": null,
     "address": "50 Zhelyabova st.",
@@ -19435,7 +19435,7 @@
     "state": "Avtonomnaya Respublika Krym"
 },
 {
-    "title": "Puy-de-Dôme",
+    "location": "Puy-de-Dôme",
     "name": "Chateau Royal de Saint-Saturnin",
     "alt": null,
     "address": "Place de l'Ormeau, 63450 - Saint-Saturnin",
@@ -19460,7 +19460,7 @@
     "id": 23386
 },
 {
-    "title": "Okayama",
+    "location": "Okayama",
     "name": "Hotel Granvia Okayama",
     "alt": null,
     "address": "1-5 Ekimoto-cho",
@@ -19485,7 +19485,7 @@
     "id": 21170
 },
 {
-    "title": "Benson (Arizona)",
+    "location": "Benson (Arizona)",
     "name": "Comfort Inn",
     "alt": null,
     "address": "630 S Village Loop",
@@ -19510,7 +19510,7 @@
     "id": 36739
 },
 {
-    "title": "Cebu (city)",
+    "location": "Cebu (city)",
     "name": "Cebuview Tourist Inn",
     "alt": null,
     "address": "200 Sanciangko St Brgy. Kalubihan",
@@ -19535,7 +19535,7 @@
     "id": 5271
 },
 {
-    "title": "Lake Wales",
+    "location": "Lake Wales",
     "name": "Camp Mack's River Resort",
     "alt": null,
     "address": "14900 Camp Mack Rd",
@@ -19560,7 +19560,7 @@
     "id": 15093
 },
 {
-    "title": "San Francisco/Union Square-Financial District",
+    "location": "San Francisco/Union Square-Financial District",
     "name": "Hotel des Arts",
     "alt": null,
     "address": "447 Bush St",
@@ -19585,7 +19585,7 @@
     "id": 26216
 },
 {
-    "title": "Tel Aviv/Central Tel Aviv",
+    "location": "Tel Aviv/Central Tel Aviv",
     "name": "Dan Tel Aviv Hotel",
     "alt": "Dan",
     "address": "99 Yarkon St.",
@@ -19610,7 +19610,7 @@
     "id": 29954
 },
 {
-    "title": "Houston/Neartown",
+    "location": "Houston/Neartown",
     "name": "Hostelling International Houston",
     "alt": "Morty Rich Hostel",
     "address": "501 Lovett Blvd",
@@ -19635,7 +19635,7 @@
     "id": 11994
 },
 {
-    "title": "Jerusalem/Old City",
+    "location": "Jerusalem/Old City",
     "name": "Abraham Hostel Jerusalem",
     "alt": null,
     "address": "67 HaNevi'im at Davidka Square",
@@ -19660,7 +19660,7 @@
     "id": 12836
 },
 {
-    "title": "Batumi",
+    "location": "Batumi",
     "name": "Sheraton Batumi",
     "alt": null,
     "address": "Ninoshvili St",
@@ -19688,7 +19688,7 @@
     "state": "Avtonomnaya Respublika Adzhariya"
 },
 {
-    "title": "Altrincham",
+    "location": "Altrincham",
     "name": "Bull's Head and Lodge",
     "alt": null,
     "address": "Wicker Ln, Hale Barns",
@@ -19713,7 +19713,7 @@
     "id": 597
 },
 {
-    "title": "Organ Pipe Cactus National Monument",
+    "location": "Organ Pipe Cactus National Monument",
     "name": "Alamo Campground",
     "alt": null,
     "address": null,
@@ -19739,7 +19739,7 @@
     "image_direct_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Campsite_at_Organ_Pipe_National_Monument.jpg"
 },
 {
-    "title": "Malacca",
+    "location": "Malacca",
     "name": "Time Hotel Melaka",
     "alt": null,
     "address": "Lot 467, Jl Melaka Raya 12",
@@ -19764,7 +19764,7 @@
     "id": 17270
 },
 {
-    "title": "Aswan",
+    "location": "Aswan",
     "name": "Old Cataract Hotel",
     "alt": null,
     "address": null,
@@ -19789,7 +19789,7 @@
     "id": 1218
 },
 {
-    "title": "Boston/South Boston",
+    "location": "Boston/South Boston",
     "name": "Seaport Hotel",
     "alt": null,
     "address": "1 Seaport Lane",
@@ -19814,7 +19814,7 @@
     "id": 3958
 },
 {
-    "title": "Granada",
+    "location": "Granada",
     "name": "Oasis Backpackers' Hostel",
     "alt": null,
     "address": "Placeta Correo Viejo",
@@ -19839,7 +19839,7 @@
     "id": 10333
 },
 {
-    "title": "Bodrum",
+    "location": "Bodrum",
     "name": "Kaya Pansiyon",
     "alt": null,
     "address": "çarşı m. Hükümet str. No 10",
@@ -19867,7 +19867,7 @@
     "state": "Muğla"
 },
 {
-    "title": "Rio de Janeiro/Zona Sul",
+    "location": "Rio de Janeiro/Zona Sul",
     "name": "Art Hostel Rio",
     "alt": null,
     "address": "Rua Silveira Martins 135 - Catete",
@@ -19892,7 +19892,7 @@
     "id": 24071
 },
 {
-    "title": "Budapest/Central Pest",
+    "location": "Budapest/Central Pest",
     "name": "Mellow mood Marco Polo hostel",
     "alt": null,
     "address": "VII. Nyár utca 6",
@@ -19917,7 +19917,7 @@
     "id": 40862
 },
 {
-    "title": "Lac-Mégantic",
+    "location": "Lac-Mégantic",
     "name": "Le Quiet",
     "alt": null,
     "address": "3284 Laval St, G6B 1A4",
@@ -19942,7 +19942,7 @@
     "id": 36560
 },
 {
-    "title": "San Francisco/Civic Center-Tenderloin",
+    "location": "San Francisco/Civic Center-Tenderloin",
     "name": "USA Hostels San Francisco",
     "alt": null,
     "address": "711 Post St",
@@ -19967,7 +19967,7 @@
     "id": 25592
 },
 {
-    "title": "Chumphon",
+    "location": "Chumphon",
     "name": "Had Suay Resort",
     "alt": null,
     "address": "Ao Bo Mao Beach, Pathio, Chumphon",
@@ -19992,7 +19992,7 @@
     "id": 5907
 },
 {
-    "title": "Pécs",
+    "location": "Pécs",
     "name": "Hotel Laterum ****",
     "alt": "Laterum Konferencia és Wellness Hotel",
     "address": "Hajnóczy József utca 37-39",
@@ -20017,7 +20017,7 @@
     "id": 21975
 },
 {
-    "title": "Freeport (Maine)",
+    "location": "Freeport (Maine)",
     "name": "Recompence Shore Campground",
     "alt": null,
     "address": "134 Burnett Road",
@@ -20042,7 +20042,7 @@
     "id": 9589
 },
 {
-    "title": "Banja Luka",
+    "location": "Banja Luka",
     "name": "Hostel Zeleni Most",
     "alt": "Green bridge",
     "address": "9. ul. Braca Moraca",
@@ -20067,7 +20067,7 @@
     "id": 2250
 },
 {
-    "title": "Tornio",
+    "location": "Tornio",
     "name": "Tornion Kaupunginhotelli",
     "alt": null,
     "address": "Itäranta 4",
@@ -20092,7 +20092,7 @@
     "id": 30624
 },
 {
-    "title": "Marrakech",
+    "location": "Marrakech",
     "name": "Riad Basma",
     "alt": null,
     "address": "Marrakech-Medina, 22 Derb Jamaa, Riad Basma",
@@ -20117,7 +20117,7 @@
     "id": 17635
 },
 {
-    "title": "Okayama",
+    "location": "Okayama",
     "name": "Toyoko Inn Okayama-eki Nishiguchi Hiroba",
     "alt": "東横INN岡山駅西口広場",
     "address": "22-10 Ekimotomachi Kita-ku",
@@ -20142,7 +20142,7 @@
     "id": 21162
 },
 {
-    "title": "Eindhoven",
+    "location": "Eindhoven",
     "name": "Park Plaza Mandarin Eindhoven",
     "alt": null,
     "address": "Geldropseweg 17",
@@ -20167,7 +20167,7 @@
     "id": 8828
 },
 {
-    "title": "Budapest/Central Pest",
+    "location": "Budapest/Central Pest",
     "name": "Hotel Gloria Budapest and Szapáry Restaurant",
     "alt": null,
     "address": "VIII. Blathy Otto street 22",
@@ -20192,7 +20192,7 @@
     "id": 40871
 },
 {
-    "title": "Charles Town",
+    "location": "Charles Town",
     "name": "Hillbrook Inn",
     "alt": null,
     "address": "4490 Summit Point Road",
@@ -20217,7 +20217,7 @@
     "id": 5453
 },
 {
-    "title": "Esino Lario",
+    "location": "Esino Lario",
     "name": "Albergo Ristorante Santa Maria",
     "alt": null,
     "address": "Via Cainallo 20",
@@ -20242,7 +20242,7 @@
     "id": 41187
 },
 {
-    "title": "Montreal/Downtown",
+    "location": "Montreal/Downtown",
     "name": "Loews Hotel Vogue",
     "alt": null,
     "address": "1425 rue de la Montagne",
@@ -20267,7 +20267,7 @@
     "id": 19029
 },
 {
-    "title": "León (Mexico)",
+    "location": "León (Mexico)",
     "name": "Real Azteca Hotel",
     "alt": null,
     "address": "Blvd Adolfo López Mateos 1701 Ote",
@@ -20292,7 +20292,7 @@
     "id": 15482
 },
 {
-    "title": "Dumaguete",
+    "location": "Dumaguete",
     "name": "Harolds Mansion",
     "alt": null,
     "address": "Hibbard Avenue",
@@ -20317,7 +20317,7 @@
     "id": 8321
 },
 {
-    "title": "Munich/Ludwigsvorstadt-Isarvorstadt",
+    "location": "Munich/Ludwigsvorstadt-Isarvorstadt",
     "name": "Courtyard by Marriott Munich City Center",
     "alt": null,
     "address": "Schwanthaler Strasse 37",
@@ -20342,7 +20342,7 @@
     "id": 35267
 },
 {
-    "title": "Mitzpe Ramon",
+    "location": "Mitzpe Ramon",
     "name": "The JNF Grove",
     "alt": null,
     "address": null,
@@ -20367,7 +20367,7 @@
     "id": 18646
 },
 {
-    "title": "Minnetonka",
+    "location": "Minnetonka",
     "name": "Holiday Inn Express",
     "alt": null,
     "address": "10985 Red Circle Dr",
@@ -20392,7 +20392,7 @@
     "id": 18522
 },
 {
-    "title": "Malacca",
+    "location": "Malacca",
     "name": "Chong Hoe Hotel",
     "alt": "忠和旅店",
     "address": "26, Jalan Tukang Emas",
@@ -20417,7 +20417,7 @@
     "id": 17255
 },
 {
-    "title": "Kőszeg",
+    "location": "Kőszeg",
     "name": "Csikar Inn Pension",
     "alt": "Csikar Csárda & Panzió",
     "address": "Alsó körút 12.",
@@ -20442,7 +20442,7 @@
     "id": 40548
 },
 {
-    "title": "Front Royal",
+    "location": "Front Royal",
     "name": "Holiday Inn & Suites Front Royal Blue Ridge Shadows",
     "alt": null,
     "address": "111 Hospitality Drive",
@@ -20467,7 +20467,7 @@
     "id": 9636
 },
 {
-    "title": "Rheinburgenweg",
+    "location": "Rheinburgenweg",
     "name": "Romantik Hotel Schloss Rheinfels",
     "alt": null,
     "address": "Schloßberg 47",
@@ -20492,7 +20492,7 @@
     "id": 37119
 },
 {
-    "title": "Oracle",
+    "location": "Oracle",
     "name": "Peppersauce Campground",
     "alt": null,
     "address": null,
@@ -20517,7 +20517,7 @@
     "id": 21210
 },
 {
-    "title": "Stuttgart",
+    "location": "Stuttgart",
     "name": "Alex30 Hostel",
     "alt": null,
     "address": "Alexanderstrasse 30",
@@ -20542,7 +20542,7 @@
     "id": 28809
 },
 {
-    "title": "Bayreuth",
+    "location": "Bayreuth",
     "name": "Hotel-Gasthof Opel",
     "alt": null,
     "address": "Bayreuther Str. 1, 95500 Heinersreuth",
@@ -20567,7 +20567,7 @@
     "id": 2594
 },
 {
-    "title": "Sopron",
+    "location": "Sopron",
     "name": "Danubius Bio Sport Hotel Lövér",
     "alt": null,
     "address": "Várisi ut 4",
@@ -20592,7 +20592,7 @@
     "id": 28062
 },
 {
-    "title": "Kisangani",
+    "location": "Kisangani",
     "name": "Palm Beach Hôtel",
     "alt": null,
     "address": "Av Colonel Tshatshi",
@@ -20617,7 +20617,7 @@
     "id": 14146
 },
 {
-    "title": "Halifax (Nova Scotia)",
+    "location": "Halifax (Nova Scotia)",
     "name": "Prince George",
     "alt": null,
     "address": "1725 Market St",
@@ -20642,7 +20642,7 @@
     "id": 10943
 },
 {
-    "title": "Manila/Malate",
+    "location": "Manila/Malate",
     "name": "Chill Out Guest house",
     "alt": null,
     "address": "612 Remedios street",
@@ -20667,7 +20667,7 @@
     "id": 17484
 },
 {
-    "title": "San Pedro de Atacama",
+    "location": "San Pedro de Atacama",
     "name": "Backpackers San Pedro",
     "alt": null,
     "address": "Pasaje Portal del Inca No. 486",
@@ -20692,7 +20692,7 @@
     "id": 26342
 },
 {
-    "title": "Lahad Datu",
+    "location": "Lahad Datu",
     "name": "Bike and Tours Rooms",
     "alt": null,
     "address": "Lot 50 Taman Kafoh, MDLD 1470, Jalan Segama",
@@ -20717,7 +20717,7 @@
     "id": 15015
 },
 {
-    "title": "Santiniketan",
+    "location": "Santiniketan",
     "name": "Mark & Meadows Resort",
     "alt": null,
     "address": "Sriniketan Rd",
@@ -20742,7 +20742,7 @@
     "id": 26526
 },
 {
-    "title": "Jimbaran",
+    "location": "Jimbaran",
     "name": "Puri Bambu Hotel",
     "alt": null,
     "address": "Jl Pengeracikan, Kedonganan",
@@ -20767,7 +20767,7 @@
     "id": 12867
 },
 {
-    "title": "Davenport",
+    "location": "Davenport",
     "name": "Residence Inn Davenport",
     "alt": null,
     "address": "120 E. 55th St.",
@@ -20792,7 +20792,7 @@
     "id": 7290
 },
 {
-    "title": "Leamington Spa",
+    "location": "Leamington Spa",
     "name": "8 Clarendon Crescent",
     "alt": null,
     "address": "8 Clarendon Crescent, Leamington Spa, Warwickshire",
@@ -20817,7 +20817,7 @@
     "id": 15466
 },
 {
-    "title": "Łódź",
+    "location": "Łódź",
     "name": "Hostelling International Youth Hostel",
     "alt": null,
     "address": "ul. Legionów 27",
@@ -20842,7 +20842,7 @@
     "id": 4612
 },
 {
-    "title": "Santiago de Chile/Historic Center",
+    "location": "Santiago de Chile/Historic Center",
     "name": "Casa Moro",
     "alt": null,
     "address": "Corte Suprema 177",
@@ -20867,7 +20867,7 @@
     "id": 35611
 },
 {
-    "title": "Győr",
+    "location": "Győr",
     "name": "Amarillis Hotel",
     "alt": null,
     "address": "Királyszék u. 25.",
@@ -20892,7 +20892,7 @@
     "id": 10789
 },
 {
-    "title": "Jakarta/North",
+    "location": "Jakarta/North",
     "name": "Aston Marina",
     "alt": null,
     "address": "Marina Mediterania,Tower A, Jl. Lodan Raya No. 2A,",
@@ -20917,7 +20917,7 @@
     "id": 12667
 },
 {
-    "title": "Bangkok/Silom",
+    "location": "Bangkok/Silom",
     "name": "Narai Hotel",
     "alt": "โรงแรมนารายณ์",
     "address": "222 Silom Rd",
@@ -20942,7 +20942,7 @@
     "id": 2122
 },
 {
-    "title": "Gili Air",
+    "location": "Gili Air",
     "name": "Scallywags Mango Retreat",
     "alt": null,
     "address": null,
@@ -20967,7 +20967,7 @@
     "id": 10018
 },
 {
-    "title": "Kuala Lumpur/Golden Triangle",
+    "location": "Kuala Lumpur/Golden Triangle",
     "name": "Sunshine Bedz",
     "alt": null,
     "address": "65B Jl Sultan Ismail",
@@ -20992,7 +20992,7 @@
     "id": 14733
 },
 {
-    "title": "Orchha",
+    "location": "Orchha",
     "name": "Gantapi Guesthouse",
     "alt": null,
     "address": "North end of town",
@@ -21017,7 +21017,7 @@
     "id": 21264
 },
 {
-    "title": "Belper",
+    "location": "Belper",
     "name": "The Lion Hotel",
     "alt": null,
     "address": "24 Bridge Street",
@@ -21042,7 +21042,7 @@
     "id": 2814
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Bally's",
     "alt": null,
     "address": "3645 S Las Vegas Blvd",
@@ -21067,7 +21067,7 @@
     "id": 15318
 },
 {
-    "title": "Siliguri",
+    "location": "Siliguri",
     "name": "Barsana Hotel",
     "alt": null,
     "address": null,
@@ -21092,7 +21092,7 @@
     "id": 27298
 },
 {
-    "title": "Palmarin",
+    "location": "Palmarin",
     "name": "Lodge de Palmarin",
     "alt": null,
     "address": "Palmarin Diakhanor",
@@ -21117,7 +21117,7 @@
     "id": 21546
 },
 {
-    "title": "Berlin/Mitte",
+    "location": "Berlin/Mitte",
     "name": "Helter Skelter Hostel Berlin",
     "alt": "former Clubhouse Hostel",
     "address": "Kalkscheunenstr. 4-5",
@@ -21142,7 +21142,7 @@
     "id": 3352
 },
 {
-    "title": "London/South Kensington-Chelsea",
+    "location": "London/South Kensington-Chelsea",
     "name": "54 Boutique Hotel",
     "alt": null,
     "address": "54 Queen's Gate, SW7 5JW",
@@ -21167,7 +21167,7 @@
     "id": 16456
 },
 {
-    "title": "Geneva",
+    "location": "Geneva",
     "name": "Mon-Repos",
     "alt": null,
     "address": "131, rue de Lausanne",
@@ -21192,7 +21192,7 @@
     "id": 9917
 },
 {
-    "title": "Las Vegas",
+    "location": "Las Vegas",
     "name": "Palace Station",
     "alt": null,
     "address": "2411 W. Sahara Ave",
@@ -21217,7 +21217,7 @@
     "id": 15345
 },
 {
-    "title": "Percé",
+    "location": "Percé",
     "name": "À la Revasse",
     "alt": null,
     "address": "16, rue St-Michel",
@@ -21242,7 +21242,7 @@
     "id": 22139
 },
 {
-    "title": "Tolú",
+    "location": "Tolú",
     "name": "Hostal El Velero",
     "alt": null,
     "address": "Avenida 1A No. 9 - 31",
@@ -21267,7 +21267,7 @@
     "id": 38531
 },
 {
-    "title": "Saint Petersburg/Vasilievsky Island",
+    "location": "Saint Petersburg/Vasilievsky Island",
     "name": "Park Inn by Radisson Pribaltiyskaya",
     "alt": null,
     "address": "14 Korablestroiteley Street",
@@ -21295,7 +21295,7 @@
     "state": "Saint Petersburg"
 },
 {
-    "title": "Copenhagen/Vesterbro",
+    "location": "Copenhagen/Vesterbro",
     "name": "Hotel Astoria",
     "alt": null,
     "address": "Banegårdspladsen 4",
@@ -21320,7 +21320,7 @@
     "id": 6855
 },
 {
-    "title": "Kyoto/North",
+    "location": "Kyoto/North",
     "name": "Duo Inn",
     "alt": "デュオ・イン",
     "address": "3F, 1039-31 Kamiyagawa-cho, Nishi-iru, Onmae, Imakoji-dōri, Kamigyo-ku",
@@ -21345,7 +21345,7 @@
     "id": 14974
 },
 {
-    "title": "North Branch (Minnesota)",
+    "location": "North Branch (Minnesota)",
     "name": "AmericInn",
     "alt": null,
     "address": "38675 14th Ave",
@@ -21370,7 +21370,7 @@
     "id": 38145
 },
 {
-    "title": "Munich/East",
+    "location": "Munich/East",
     "name": "Golden Leaf Hotel Perlach Allee Hof",
     "alt": null,
     "address": "Therese-Giehse-Allee 76",
@@ -21395,7 +21395,7 @@
     "id": 35694
 },
 {
-    "title": "Princeton (British Columbia)",
+    "location": "Princeton (British Columbia)",
     "name": "Ponderosa Motel",
     "alt": null,
     "address": "130 Bridge St",
@@ -21420,7 +21420,7 @@
     "id": 23232
 },
 {
-    "title": "Mombasa",
+    "location": "Mombasa",
     "name": "PrideInn",
     "alt": null,
     "address": "Haile Selassie Road",
@@ -21445,7 +21445,7 @@
     "id": 18777
 },
 {
-    "title": "Tashkent",
+    "location": "Tashkent",
     "name": "Shodlik Palace Hotel",
     "alt": null,
     "address": "Pakhtakor Street (Пахтакор кўчаси), 5",
@@ -21473,7 +21473,7 @@
     "state": null
 },
 {
-    "title": "Siliguri",
+    "location": "Siliguri",
     "name": "Hotel Central Plaza",
     "alt": null,
     "address": null,
@@ -21498,7 +21498,7 @@
     "id": 27295
 },
 {
-    "title": "Zakynthos",
+    "location": "Zakynthos",
     "name": "Daphnes Villas and Apartments",
     "alt": null,
     "address": "Porto Roma, Vasilikos",
@@ -21523,7 +21523,7 @@
     "id": 34088
 },
 {
-    "title": "Minneapolis/Downtown",
+    "location": "Minneapolis/Downtown",
     "name": "Aloft Minneapolis",
     "alt": null,
     "address": "900 Washington Ave S",
@@ -21548,7 +21548,7 @@
     "id": 18301
 },
 {
-    "title": "San Francisco/Golden Gate",
+    "location": "San Francisco/Golden Gate",
     "name": "Americas Best Value Inn - Golden Gate",
     "alt": null,
     "address": "2322 Lombard St",
@@ -21573,7 +21573,7 @@
     "id": 25792
 },
 {
-    "title": "Rio de Janeiro/Zona Sul",
+    "location": "Rio de Janeiro/Zona Sul",
     "name": "Che Lagarto Suites Copacabana Santa Clara",
     "alt": null,
     "address": "Rua Santa Clara, 304",
@@ -21598,7 +21598,7 @@
     "id": 24090
 },
 {
-    "title": "Lancaster (Pennsylvania)",
+    "location": "Lancaster (Pennsylvania)",
     "name": "The Red Caboose Motel",
     "alt": null,
     "address": "312 Paradise Lane, Ronks",
@@ -21623,7 +21623,7 @@
     "id": 15151
 },
 {
-    "title": "Albuquerque",
+    "location": "Albuquerque",
     "name": "Days Inn Midtown Albuquerque",
     "alt": null,
     "address": "2120 Menaul Blvd NE",
@@ -21648,7 +21648,7 @@
     "id": 430
 },
 {
-    "title": "Tallinn",
+    "location": "Tallinn",
     "name": "My City Hotel",
     "alt": null,
     "address": "Vana Posti 11/13",
@@ -21673,7 +21673,7 @@
     "id": 29384
 },
 {
-    "title": "Tabriz",
+    "location": "Tabriz",
     "name": "Hotel International",
     "alt": null,
     "address": "In Front of Blour Tower, Emam Ave.",
@@ -21698,7 +21698,7 @@
     "id": 29199
 },
 {
-    "title": "Pine City",
+    "location": "Pine City",
     "name": "Snake River Campground",
     "alt": null,
     "address": "Snake River Campground Road",
@@ -21723,7 +21723,7 @@
     "id": 22446
 },
 {
-    "title": "San Francisco/Civic Center-Tenderloin",
+    "location": "San Francisco/Civic Center-Tenderloin",
     "name": "Cova Hotel",
     "alt": null,
     "address": "655 Ellis St",
@@ -21748,7 +21748,7 @@
     "id": 25594
 },
 {
-    "title": "Uzhhorod",
+    "location": "Uzhhorod",
     "name": "Five Flags Hostel",
     "alt": null,
     "address": "19, Vul. Voloshyna, #3",
@@ -21776,7 +21776,7 @@
     "state": "Zakarpatska oblast"
 },
 {
-    "title": "Lalibela",
+    "location": "Lalibela",
     "name": "Cliff Edge Hotel",
     "alt": null,
     "address": null,
@@ -21801,7 +21801,7 @@
     "id": 15113
 },
 {
-    "title": "Fredensborg",
+    "location": "Fredensborg",
     "name": "Fredensborg Store Kro",
     "alt": null,
     "address": "Slotsgade 6",
@@ -21826,7 +21826,7 @@
     "id": 9580
 },
 {
-    "title": "Jammu",
+    "location": "Jammu",
     "name": "Vardaan Hotel Jammu",
     "alt": null,
     "address": null,
@@ -21851,7 +21851,7 @@
     "id": 12736
 },
 {
-    "title": "Patan",
+    "location": "Patan",
     "name": "Greenwich Village Hotel",
     "alt": null,
     "address": "Kupondole Heights Rd",
@@ -21876,7 +21876,7 @@
     "id": 21913
 },
 {
-    "title": "Safford (Arizona)",
+    "location": "Safford (Arizona)",
     "name": "Best Western Desert Inn",
     "alt": null,
     "address": "1391 West Thatcher Blved",
@@ -21901,7 +21901,7 @@
     "id": 37052
 },
 {
-    "title": "Shebekino",
+    "location": "Shebekino",
     "name": "Hotel Dve reki",
     "alt": "Two Rivers",
     "address": "Titovka",
@@ -21929,7 +21929,7 @@
     "state": "Belgorodskaya oblast"
 },
 {
-    "title": "Kerikeri",
+    "location": "Kerikeri",
     "name": "Moon Gate Villa",
     "alt": null,
     "address": "462 Kerikeri Road",
@@ -21954,7 +21954,7 @@
     "id": 13693
 },
 {
-    "title": "Lieksa",
+    "location": "Lieksa",
     "name": "Hotelli Puustelli",
     "alt": null,
     "address": "Hovileirinkatu 3",
@@ -21979,7 +21979,7 @@
     "id": 35911
 },
 {
-    "title": "Belitung",
+    "location": "Belitung",
     "name": "Martani Hotel",
     "alt": null,
     "address": "Jl. Yos Sudarso no.18, Tanjung Pandan",
@@ -22004,7 +22004,7 @@
     "id": 2778
 },
 {
-    "title": "Karachi",
+    "location": "Karachi",
     "name": "Bloom Luxury Hotel",
     "alt": null,
     "address": "Golf Club Rd",
@@ -22029,7 +22029,7 @@
     "id": 13232
 },
 {
-    "title": "Kota Kinabalu",
+    "location": "Kota Kinabalu",
     "name": "Lucy Backpackers",
     "alt": "Lucy's Homestay",
     "address": "Lot No.25, Lorong Dewan, Australia Place",
@@ -22054,7 +22054,7 @@
     "id": 14510
 },
 {
-    "title": "Nikko",
+    "location": "Nikko",
     "name": "Annex Turtle Hotori-An",
     "alt": null,
     "address": "8-28 Takumi-cho",
@@ -22079,7 +22079,7 @@
     "id": 20460
 },
 {
-    "title": "Amritsar",
+    "location": "Amritsar",
     "name": "Hotel City Heart and Café Heart",
     "alt": null,
     "address": "Golden Temple Rd, Jallan Wala Bagh",
@@ -22104,7 +22104,7 @@
     "id": 750
 },
 {
-    "title": "Bishkek",
+    "location": "Bishkek",
     "name": "Alpinist",
     "alt": null,
     "address": "Panfilov 113",
@@ -22132,7 +22132,7 @@
     "state": null
 },
 {
-    "title": "San Francisco/Golden Gate",
+    "location": "San Francisco/Golden Gate",
     "name": "La Luna Inn",
     "alt": null,
     "address": "2599 Lombard St",
@@ -22157,7 +22157,7 @@
     "id": 25803
 },
 {
-    "title": "Marblehead (Massachusetts)",
+    "location": "Marblehead (Massachusetts)",
     "name": "The Seagull Inn Bed & Breakfast",
     "alt": null,
     "address": "106 Harbor Ave.",
@@ -22182,7 +22182,7 @@
     "id": 17547
 },
 {
-    "title": "Ylläs",
+    "location": "Ylläs",
     "name": "Hotel Kolari",
     "alt": null,
     "address": "Muoniontie 1",
@@ -22207,7 +22207,7 @@
     "id": 33799
 },
 {
-    "title": "Reykjavík",
+    "location": "Reykjavík",
     "name": "101 Hotel",
     "alt": null,
     "address": "Hverfisgata 10",
@@ -22232,7 +22232,7 @@
     "id": 23759
 },
 {
-    "title": "Kőszeg",
+    "location": "Kőszeg",
     "name": "Kóbor Macska Pansion",
     "alt": "Kóbor Macska fogadó",
     "address": "Várkör 100.",
@@ -22257,7 +22257,7 @@
     "id": 40560
 },
 {
-    "title": "Stillwater (Minnesota)",
+    "location": "Stillwater (Minnesota)",
     "name": "Water Street Inn",
     "alt": null,
     "address": "101 S Water St",
@@ -22282,7 +22282,7 @@
     "id": 28297
 },
 {
-    "title": "Seinäjoki",
+    "location": "Seinäjoki",
     "name": "Omena Hotel",
     "alt": null,
     "address": "Kalevankatu 2",
@@ -22307,7 +22307,7 @@
     "id": 26917
 },
 {
-    "title": "Stornoway",
+    "location": "Stornoway",
     "name": "Caladh Inn",
     "alt": null,
     "address": "James Street, HS1 2QN",
@@ -22332,7 +22332,7 @@
     "id": 28656
 },
 {
-    "title": "Bayreuth",
+    "location": "Bayreuth",
     "name": "Grunau Hotel",
     "alt": null,
     "address": "Kemnather Straße 27",
@@ -22357,7 +22357,7 @@
     "id": 2596
 },
 {
-    "title": "Trondheim",
+    "location": "Trondheim",
     "name": "Best Western Chesterfield Hotel",
     "alt": null,
     "address": "Søndre gate 26",
@@ -22382,7 +22382,7 @@
     "id": 31072
 },
 {
-    "title": "Stockholm/Södermalm",
+    "location": "Stockholm/Södermalm",
     "name": "Rygerfjord",
     "alt": null,
     "address": "Kajplats 12-14, Söder Mälarstrand",
@@ -22407,7 +22407,7 @@
     "id": 28594
 },
 {
-    "title": "Vaasa",
+    "location": "Vaasa",
     "name": "Radisson Blu Royal Hotel",
     "alt": null,
     "address": "Hovioikeudenpuistikko 18",
@@ -22432,7 +22432,7 @@
     "id": 31938
 },
 {
-    "title": "Baku",
+    "location": "Baku",
     "name": "Caspian Hostel",
     "alt": null,
     "address": "Asef Zeynalli 29",
@@ -22460,7 +22460,7 @@
     "state": null
 },
 {
-    "title": "Regensburg",
+    "location": "Regensburg",
     "name": "Hotel Goliath am Dom",
     "alt": null,
     "address": "Goliathstraße 10",
@@ -22485,7 +22485,7 @@
     "id": 23660
 },
 {
-    "title": "Christchurch",
+    "location": "Christchurch",
     "name": "Jailhouse Accommodation",
     "alt": null,
     "address": "338 Lincoln Rd, Addington",

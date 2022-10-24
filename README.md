@@ -11,8 +11,7 @@
 
 ### APIs
    * [CovidAPi](https://rapidapi.com/api-sports/api/covid-193/) - To Display Covid Statistics for a sertain day
-   * 
 
 ### Domain models
 - First model <br>
-   <img src="./img/firstDomain.png" height=300px>
+   <img src="./img/firstDomain.svg" height=300px>
