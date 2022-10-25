@@ -1,12 +1,12 @@
 # Idea
 
-The idea was to build a simple API, which responds multiple data as JSON based on a location the user wants to travel to.
+The idea was to build a simple API, which responds multiple data as JSON based on a destination the user wants to travel to.
 
-## API's we use for the response
+## API's we use for our response
 
-1. [CovidAPI](covidAPI.md), to get real time statistics about the covid situation in different countries, selected through a query
-2. [WeatherAPI](weatherAPI.md), to get a forcasts of the next 7 days based on the location given through a query
-3. [FlightAPI](flightAPI.md), to get flights in a chosen city to a spesific country/city
+1. [CovidAPI](covidAPI.md) to get real time statistics about the covid situation in different countries, selected through a query
+2. [WeatherAPI](weatherAPI.md) to get a forcasts of the next 7 days based on the location given through a query
+3. [FlightAPI](flightAPI.md) to get flights in a chosen city to a specific destination
 4. [SightSeeingAPI]
 
 ## Self Written API's

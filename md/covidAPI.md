@@ -1,37 +1,14 @@
-# CovidApi 
+# The CovidAPI
 
-## Initial API
-The initial API returns a JSON with statistics about a spesific day in a spesific country, <br>
-more details:
+<br>
 
-<details>
-<summary>Example return or "localhost:3000/history-for-day"</summary>
+## Description of the API
 
-```JSON
+The initial API responds with a `JSON`, which contains statistics, such as the `incidence` on a given day, in a given `country`. 
 
-{
-    "country": "Germany",
-    "population": 84400420,
-    "cases": {
-        "new": null,
-        "active": 1740911,
-        "critical": 1406,
-        "recovered": 33279300,
-        "1M_pop": "416736",
-        "total": 35172693
-    },
-    "day": "2022-10-23"
-}
+<br>
 
-```
-</details>
-
-## Our API overwrite
-Our response (as an intermediate) will only contain the information we will later need to write our JSON <br>
-more details:
-
-<details>
-<summary>Example return or "localhost:3000/history-for-day"</summary>
+A sample output of the API looks like this:
 
 ```JSON
 
@@ -62,4 +39,41 @@ more details:
     ]
 
 ```
-</details>
+
+<br>
+
+## What we changed to get the information we want
+
+We have removed non-essential returns from the API, so we only receive information relevant to us for further processing. We have achieved this by filling a separate object with the received information.
+
+<br>
+
+```JSON
+
+    {
+        "country": "Germany",
+        "population": 84400420,
+        "cases": {
+            "new": null,
+            "active": 1740911,
+            "critical": 1406,
+            "recovered": 33279300,
+            "1M_pop": "416736",
+            "total": 35172693
+        },
+        "day": "2022-10-23"
+    }
+
+```
+
+<br>
+
+In addition, we have introduced the function to select Germany as default for an unspecified country and return the associated values.
+
+<br>
+
+## Why are we using this specific API
+
+First of all, a great advantage of this API is that it is free and has as its only limitation a maximum of 60 requests per minute. Furthermore, no data of concern are collected. All you have to do is hand over a `country` as a parameter to get a specific response.
+
+One drawback of this API is the fact that if data for the specified date is not available, the API responds with an empty object.
