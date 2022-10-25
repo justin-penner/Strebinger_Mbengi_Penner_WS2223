@@ -72,6 +72,14 @@ In addition, we have introduced the function to select Germany as default for an
 
 <br>
 
+## Further Rework on the Covid API
+
+First we get the `current Date` and format the response to be able to use it in an algorithm. Based on this an algorithm can request all `JSON` data from the past 7 days and displays them all in an `Array`, every entry is formatted like above example.
+
+* So the Response from our API is the History of statistics in a given Country for the past 7 days
+
+<br>
+
 ## Why are we using this specific API
 
 First of all, a great advantage of this API is that it is free and has as its only limitation a maximum of 60 requests per minute. Furthermore, no data of concern are collected. All you have to do is hand over a `country` as a parameter to get a specific response.
