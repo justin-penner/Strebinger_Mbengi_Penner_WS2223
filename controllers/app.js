@@ -3,6 +3,9 @@ const app = express()
 const {covidHistory} = require("./covidApiController.js")
 const {hotelForCity, getCities} = require("./hotelApiController.js");
 
+const user = require("./userController.js")
+//router for User
+app.get('/users/index', user.index)
 
 //router for CovidApi
 app.get('/history-past-day', async function (req, res) {

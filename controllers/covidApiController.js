@@ -77,7 +77,7 @@ async function day(req, res, assembledDay) {
 
     let formatedReturnedDays = await formatJson(returnedDays);
 
-    return formatedReturnedDays;
+    return formatedReturnedDays
 }
 
 /**
