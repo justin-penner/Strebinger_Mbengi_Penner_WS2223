@@ -30,3 +30,19 @@
    <img src="./img/firstDomain.svg" height=300px>
 - Second model <br>
    <img src="./img/secondDomain.svg" height=300px>
+
+<br>
+
+### Database
+
+Run each commands in terminal, close terminal. run app.js
+
+```console
+   docker run \
+      --name travel \
+      -e POSTGRES_PASSWORD=traveldb \
+      -p 5432:5432 \
+      -d postgres
+
+   docker exec -ti -u postgres travel psql
+```
