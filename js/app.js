@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const {covidHistory} = require("./covidApi.js");
-const {hotelForCity, getCities} = require("./hotelApi.js");
 const user = require("../controllers/userController.js");
+const hotels = require("../controllers/hotelController.js");
 var bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
@@ -23,8 +23,6 @@ app.get('/covid', async function (req, res) {
 })
 
 //router for HotelApi
-app.get('/hotels', async function(req, res) {
-   getCities(req, res);
-})
+app.get('/hotels', hotels.hotels);
 
 app.listen(3000);

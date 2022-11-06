@@ -33,6 +33,7 @@ exports.info = async function(req, res) {
 exports.login = async function(req, res) {
     let usr = await userDB.getUserByEmail(req, res, req.body.email);
     usr = await usr.rows[0];
+    
     if((await usr) == null) {
         console.log({error:"Wrong Email!"})
         res.status(400).sendFile('login.html', { root: path.join(__dirname, '../views')});
