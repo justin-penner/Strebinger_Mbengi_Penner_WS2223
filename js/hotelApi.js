@@ -8,10 +8,12 @@ exports.hotels = async function(req, res) {
 
 
     if(searchCountry!=null && searchCity !=null) {
-        isCityInCountry(req, res)?res.status(200).send(await getHotelsInCity(req, res)):res.status(400).send({error:"city is not in Country"})
+        if(await isCityInCountry(req, res)) {
+            res.status(200).send(await getHotelsInCity(searchCity, req, res));
+        } else {res.status(400).send({error:"city is not in Country"})}
     }
     else if(searchCity!=null) {
-        res.status(200).send(await getHotelsInCity(req, res));
+        res.status(200).send(await getHotelsInCity(searchCity, req, res));
     } else {
         res.status(200).send(await getHotelsForEveryCity(req, res))
     }
@@ -19,17 +21,16 @@ exports.hotels = async function(req, res) {
 
 async function isCityInCountry(req, res) {
     let searchCity = req.query.city;
-    const citiesInCountry = await countries[req.query.country];
-    console.log(searchCity)
-    for(let i = 0; i < citiesInCountry.length; i++) {
-        if(element == searchCity.toLowerCase()) {console.log("true");return true}
+    let searchCountry = req.query.country;
+    const citiesInCountry = await countries[searchCountry];
+    for(let i = 0; i < await citiesInCountry.length; i++) {
+        if(citiesInCountry[i].toLowerCase() == searchCity.toLowerCase()) {return true}
     }
     return false
 }
 
-async function getHotelsInCity(req, res) {
+async function getHotelsInCity(searchCity, req, res) {
     try {
-        let searchCity = req.query.city;
         let countries = new Array();
         hotels.forEach(element => {
             if(element.location.toLowerCase().includes(searchCity.toLowerCase())) {
