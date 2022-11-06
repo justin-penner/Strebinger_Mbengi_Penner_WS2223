@@ -1,3 +1,5 @@
+const express = require('express');
+const app = express();
 const { Pool } = require("pg");
 
 const credentials = {
@@ -9,22 +11,46 @@ const credentials = {
 };
 
 // Connect with a connection pool.
+const pool = new Pool(credentials);
 
 async function poolDemo() {
-  const pool = new Pool(credentials);
-  const now = await pool.query(
+  await pool.query(
     `create table users (
-    id SERIAL primary key not null,
-    name varchar(250) not null,
-    email varchar(250) not null unique,
-    password varchar(250));`
+      id SERIAL primary key not null,
+      name varchar(250) not null,
+      email varchar(250) not null unique,
+      password varchar(250),
+      apikey uuid DEFAULT uuid_generate_v4()
+    );`
   );
-  await pool.end();
-
-  return now;
+  await pool.query(
+    `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";`
+  )
 }
 
 (async () => {
-    const poolResult = await poolDemo();
+  try {
+    await poolDemo();
+  } catch (err) {}
 })();
 
+exports.create = async function (req, res) {
+    try{
+      const query = 'INSERT INTO users (name, email, password) VALUES ($1, $2, $3)';
+      const values = [req.body.name, req.body.email, req.body.password];
+      await pool.query(query, values);
+      res.redirect('/index');
+    } catch (err) {
+      res.status(500).send({error:err.code + " - " + err.constraint + " - email already exists"})
+    }
+}
+
+exports.getUserByEmail = async function (req, res, email) {
+    try{
+      const query = 'SELECT * FROM users WHERE email=$1';
+      const values = [email];
+      return await pool.query(query, values);
+    } catch (err) {
+      res.status(500).send({error:err.code + " - " + err.constraint + " - email doesnt exist"})
+    }
+}

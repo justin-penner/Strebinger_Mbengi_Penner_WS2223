@@ -1,15 +1,25 @@
-const express = require('express')
-const app = express()
-const {covidHistory} = require("./covidApi.js")
+const express = require('express');
+const app = express();
+const {covidHistory} = require("./covidApi.js");
 const {hotelForCity, getCities} = require("./hotelApi.js");
+const user = require("../controllers/userController.js");
+var bodyParser = require('body-parser')
 
-const user = require("../controllers/userController.js")
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: false }))
+
 //router for User
-app.get('/index', user.index)
+app.get('/index', user.index);
+app.get('/register', user.register);
+app.post('/create', user.create);
+app.post('/login', user.login);
+app.get('/login', user.loginPage);
+app.get('/user', user.info);
+app.get('/logout', user.logout);
 
 //router for CovidApi
 app.get('/covid', async function (req, res) {
-    res.send(await covidHistory(req, res));
+    res.status(200).send(await covidHistory(req, res));
 })
 
 //router for HotelApi
