@@ -94,7 +94,7 @@ async function day(req, res, assembledDay) {
             let cases = response.cases;
             let day = response.day;
             filteredjs.push({country, population, cases, day})
-        } else {filteredjs.push({Error:error[0].covidApi.noEntry})}
+        }
     }
     return filteredjs;
 }
