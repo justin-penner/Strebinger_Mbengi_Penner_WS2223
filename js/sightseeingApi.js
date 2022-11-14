@@ -35,24 +35,27 @@ async function getPlacesOfInterest(req, res) {
 	// filter given data to get what we really need
 	for(let index = 0; index < data.length; index++) {
 
-		let coordinates = {
-			"lon": data[index].geometry.coordinates[0],
-			"lat": data[index].geometry.coordinates[1]
-		};
-		let name = data[index].properties.name;
-		let distance = data[index].properties.dist.toFixed(2) + "km";
-		let wiki;
+		if(data[index].properties.name.length > 0 || data[index].properties.name.wikidata != undefined) {
 
-		if(data[index].properties.wikidata != undefined) {
-			wiki = "https://www.wikidata.org/wiki/" + data[index].properties.wikidata;
-		}
-		else {
-			wiki = "undefined";
-		}
-		
-		let rating = data[index].properties.rate;
+			let coordinates = {
+				"lon": data[index].geometry.coordinates[0],
+				"lat": data[index].geometry.coordinates[1]
+			};
+			let name = data[index].properties.name;
+			let wiki;
+	
+			if(data[index].properties.wikidata != undefined) {
+				wiki = "https://www.wikidata.org/wiki/" + data[index].properties.wikidata;
+			}
+			else {
+				wiki = "undefined";
+			}
+			
+			let rating = data[index].properties.rate;
+	
+			result.push({name, coordinates, wiki, rating});
 
-		result.push({name, coordinates, wiki, distance, rating});
+		}
 
 	}
 
