@@ -35,14 +35,15 @@
 
 ### Database
 
-Run each commands in terminal, close terminal. run app.js
+- open terminal and run:
 
 ```console
-   docker run \
-      --name travel \
-      -e POSTGRES_PASSWORD=traveldb \
-      -p 5432:5432 \
-      -d postgres
+   docker-compose up
+```
+- open new terminal and run:
 
+```console
    docker exec -ti -u postgres travel psql
 ```
+
+- now open a new terminal and run app.js

@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+  db:
+    container_name: travel
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: traveldb
+      PGDATA: /data/postgres
+    volumes:
+       - db-volume:/bitnami/postgresql
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+
+volumes:
+  db-volume:
+     name: db-volume

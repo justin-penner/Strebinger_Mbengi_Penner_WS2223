@@ -24,7 +24,7 @@ app.get('/covid', async function (req, res) {
 
 //router for HotelApi
 app.get('/hotels', async function(req, res) {
-   getCities(req, res);
+   hotelForCity(req, res);
 })
 
 app.listen(3000);
