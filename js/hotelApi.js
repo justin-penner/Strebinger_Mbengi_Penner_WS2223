@@ -11,11 +11,11 @@ async function hotelForCity(req, res) {
             countries.push(element);
         }
     })
-    res.send(countries);
+    res.status(200).send(countries);
 }
 
 async function getCities(req, res) {
-    res.send(cities);
+    res.status(200).send(cities);
 }
 
 module.exports = {hotelForCity, getCities};
