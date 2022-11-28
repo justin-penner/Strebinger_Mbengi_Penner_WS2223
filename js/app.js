@@ -4,7 +4,8 @@ const {covidHistory} = require("./covidApi.js");
 const {hotelForCity, getCities} = require("./hotelApi.js");
 const {getPlacesOfInterest} = require("./sightseeingApi.js")
 const user = require("../controllers/userController.js");
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
+const {getWeatherForecast} = require("./weatherApi.js")
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -34,5 +35,10 @@ app.get('/poi', async function(req, res) {
  })
 
  // 48.864716, 2.349014 for Paris
+
+ //router for WeatherApi
+app.get('/weather', async function(req, res) {
+    res.send(await getWeatherForecast(req, res));
+})
 
 app.listen(3000);
