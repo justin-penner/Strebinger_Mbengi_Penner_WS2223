@@ -13,11 +13,7 @@ exports.index = async function(req, res) {
     if(req.headers.accept != "application/json") {
         res.status(200).sendFile('index.html', { root: path.join(__dirname, '../views') }); 
     } else {
-        const json = {
-            "status":200,
-            "info": "User created!"
-        }
-        res.status(200).send(json);
+        res.status(200).send(User);
     }
 }
 
@@ -40,7 +36,6 @@ exports.loginPage = async function(req, res) {
     } else {
         const json = {
             "password":null,
-	        "name":null,
 	        "email":null
         }
         res.status(200).send(json);
@@ -79,9 +74,55 @@ exports.login = async function(req, res) {
     }
 }
 
+exports.updatePage = async function(req, res) {
+    if(User.apikey != null) {
+        if(req.headers.accept != "application/json") {
+            res.status(200).sendFile('update.html', { root: path.join(__dirname, '../views') }); 
+        } else {
+            res.status(200).send(User);
+        }
+    } else {
+        if(req.headers.accept != "application/json") {
+            console.log("Log in first")
+            res.status(200).sendFile('login.html', { root: path.join(__dirname, '../views') }); 
+        } else {
+            const json = {
+                "name":null,
+                "password":null,
+                "email":null
+            }
+            res.status(200).send(json);
+        }
+    }
+}
+
+
+exports.update = async function(req, res) {
+    try {
+        let emails = await userDB.getAllEmails(req, res);
+        console.log(await emails.rows);
+        User.email = req.body.email;
+        if(req.headers.accept != "application/json") {
+            res.status(200).redirect("/user");
+        } else {
+            res.status(200).send(User)
+        }
+    } catch (err) {
+        if(req.headers.accept != "applicatiob/json") {
+            res.status(400).sendFile('update.html', { root: path.join(__dirname, '../views') }); 
+        } else {
+            res.status(400).send({"error": err})
+        }
+    }
+}
+
 exports.logout = async function(req, res) {
-    User.name = null; User.email = null; User.apikey = null;
-    res.status(200).redirect("/index");
+    try{
+        User.name = null; User.email = null; User.apikey = null;
+        res.status(200).redirect("/index");
+    } catch (err) {
+        res.status(400).send({"error": err});
+    }
 }
 
 exports.create = async function(req, res) {

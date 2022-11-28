@@ -15,6 +15,8 @@ app.get('/register', user.register);
 app.post('/create', user.create);
 app.post('/login', user.login);
 app.get('/login', user.loginPage);
+app.get('/update', user.updatePage);
+app.post('/update', user.update);
 app.get('/user', user.info);
 app.get('/logout', user.logout);
 
