@@ -10,7 +10,15 @@ const User = {
 }
 
 exports.index = async function(req, res) {
-    res.status(200).sendFile('index.html', { root: path.join(__dirname, '../views') }); 
+    if(req.headers.accept != "application/json") {
+        res.status(200).sendFile('index.html', { root: path.join(__dirname, '../views') }); 
+    } else {
+        const json = {
+            "status":200,
+            "info": "User created!"
+        }
+        res.status(200).send(json);
+    }
 }
 
 exports.register = async function(req, res) {
