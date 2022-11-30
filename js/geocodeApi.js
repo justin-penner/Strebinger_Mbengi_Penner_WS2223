@@ -8,7 +8,10 @@ async function reverseGeoCoding(request, result){
         method: "GET"
     })
     .then(response => response.json())
-    .then(data => coordinates = data)
+    .then(data => coordinates = {
+        "city": data.address.city,
+        "country": data.address.country
+    })
     .catch(error => console.log(error));
 
     return coordinates;
@@ -23,7 +26,10 @@ async function geoCoding(request, result){
         method: "GET"
     })
     .then(response => response.json())
-    .then(data => coordinates = data)
+    .then(data => coordinates = {
+        "latitude": data[0].lat, 
+        "longitude": data[0].lon
+    })
     .catch(error => console.log(error));
 
     return coordinates;
