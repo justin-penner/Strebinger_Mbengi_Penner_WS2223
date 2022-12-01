@@ -13,29 +13,6 @@ const credentials = {
 // Connect with a connection pool.
 const pool = new Pool(credentials);
 
-async function poolDemo() {
-  await pool.query(
-    `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";`
-  )
-  await pool.query(
-    `CREATE TABLE IF NOT EXISTS users (
-      id SERIAL primary key not null,
-      name varchar(250) not null,
-      email varchar(250) not null unique,
-      password varchar(250),
-      apikey uuid DEFAULT uuid_generate_v4()
-    );`
-  );
-}
-
-(async () => {
-  try {
-    await poolDemo();
-  } catch (err) {
-    console.log(err);
-  }
-})();
-
 exports.create = async function (req, res) {
     try{
       const query = 'INSERT INTO users (name, email, password) VALUES ($1, $2, $3)';
