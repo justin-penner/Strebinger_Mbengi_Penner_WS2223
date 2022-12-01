@@ -100,12 +100,34 @@ exports.updatePage = async function(req, res) {
 exports.update = async function(req, res) {
     try {
         let emails = await userDB.getAllEmails(req, res);
-        console.log(await emails.rows);
-        User.email = req.body.email;
         if(req.headers.accept != "application/json") {
-            res.status(200).redirect("/user");
+            if(checkEmail(req.body.email, emails.rows)==true) {
+                try {
+                    userDB.updateUserByEmail(req, res, User.email);
+                } catch(err) {
+                    res.status(400).send({"error":"Failed TO Update!"})
+                }
+                User.email = req.body.email;
+                User.name = req.body.name;
+                User.password = req.body.password;
+                res.status(200).redirect("/user");
+            } else {
+                res.status(400).send({"error":"E-mail Already exists"})
+            }
         } else {
-            res.status(200).send(User)
+            if(checkEmail(req.body.email, emails.rows)==true) {
+                try {
+                    userDB.updateUserByEmail(req, res, User.email);
+                } catch(err) {
+                    res.status(400).send({"error":"Failed TO Update!"})
+                }
+                User.email = req.body.email;
+                User.name = req.body.name;
+                User.password = req.body.password;
+                res.status(200).redirect("/user");
+            } else {
+                res.status(400).send({"error":"E-mail Already exists"})
+            }
         }
     } catch (err) {
         if(req.headers.accept != "applicatiob/json") {
@@ -114,6 +136,14 @@ exports.update = async function(req, res) {
             res.status(400).send({"error": err})
         }
     }
+}
+
+function checkEmail(email, dbEmail) {
+    let boolean = true;
+    dbEmail.forEach(element => {
+        if(element.email == email ) {boolean = false;}
+    });
+    return boolean
 }
 
 exports.logout = async function(req, res) {

@@ -66,7 +66,7 @@ exports.getAllEmails = async function (req, res) {
   }
 }
 
-exports.updateUser = async function(req, res, email) {
+exports.updateUserByEmail = async function(req, res, email) {
   try {
     const query = "UPDATE users SET name=$1, password=$2, email=$3 WHERE email=$4";
     const values = [req.body.name, req.body.password, req.body.email, email];
