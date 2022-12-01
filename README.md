@@ -1,49 +1,42 @@
-# Our TravelAPI
+# The TravelAPI
+
+Group - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 
 <br>
 
-## Table of contents of the different pages
+## Table of contents
 
-1. [The idea](md/idea.md)
-2. [The CovidAPI](md/covidAPI.md)
-
+1. [Idea](md/idea.md)
+2. [Setup](md/setup.md)
+3. [CovidAPI](md/covidAPI.md)
+4. [PlacesAPI](md/placesAPI.md)
+5. [WeatherAPI](md/weatherAPI.md)
+6. [GeoCodeAPI](md/geoCodeAPI.md)
 
 <br>
 
-## A simple way to get information bout a destination
+## A simple way to get information about a destination
 ... by getting Covid statistics <br>
-... by getting flights <br>
-... by getting hotels <br>
-... by getting sightsseeing data <br>
-... by getting statics for cities (e.g. weather) <br>
+... by getting hotels at destination <br>
+... by getting places of interest at destination <br>
+... by getting statics for destination (e.g. weather) <br>
 [... read more](md/idea.md)
 
-### API's we use
-   * [CovidAPi](https://rapidapi.com/api-sports/api/covid-193/) - To Display Covid Statistics for a sertain day
+<br>
 
-
-### Domain
-   Peter möchte mit seiner Frau Lois und seinen Kindern in den Urlaub fahren. Da ihm die Gesundheit seiner Familie sehr am Herzen liegt, möchte er sich ausreichend über die Inzidenz vorort informieren. Außerdem hat er noch keine Unterkunft gefunden. Nun möchte er, um keine unterschiedlichen Informationen zu erhalten, sowohl die Inzidenzwerte, als auch Informationen über mögliche Unterkünfte an einem Ort suchen.
-
-### Domain models
-- First model <br>
-   <img src="./img/firstDomain.svg" height=300px>
-- Second model <br>
-   <img src="./img/secondDomain.svg" height=300px>
+## API's we use
+* [CovidAPI](https://rapidapi.com/api-sports/api/covid-193/) - to display Covid statistics for a certain day
+* [PlacesAPI](https://rapidapi.com/opentripmap/api/places1) - to display places of interest
+* [WeatherAPI](https://open-meteo.com/en/docs) - to display a weather forecast
+* [GeoCodeAPI](https://nominatim.org/release-docs/latest/) - to translate coordinates and city names
 
 <br>
 
-### Database
+## Data we add
+- We get the country by the city with the help of a JSON object
+- We display a list of hotels at the searched destination
 
-- open terminal and run:
+<br>
 
-```console
-   docker-compose up
-```
-- open new terminal and run:
-
-```console
-   docker exec -ti -u postgres travel psql
-```
-
-- now open a new terminal and run app.js
+## Domain (German)
+Peter möchte mit seiner Frau Lois und seinen Kindern in den Urlaub fahren. Da ihm die Gesundheit seiner Familie sehr am Herzen liegt, möchte er sich ausreichend über die Inzidenz vorort informieren. Außerdem hat er noch keine Unterkunft gefunden. Nun möchte er, um keine unterschiedlichen Informationen zu erhalten, sowohl die Inzidenzwerte, als auch Informationen über mögliche Unterkünfte an einem Ort suchen.
