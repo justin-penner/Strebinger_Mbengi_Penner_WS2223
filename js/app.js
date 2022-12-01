@@ -15,8 +15,10 @@ app.get('/register', user.register);
 app.post('/create', user.create);
 app.post('/login', user.login);
 app.get('/login', user.loginPage);
-app.get('/update', user.updatePage);
-app.post('/update', user.update);
+app.get('/update-email', user.updatePageEmail);
+app.post('/update-email', user.updateEmail);
+app.get('/update-password', user.updatePagePassword);
+app.post('/update-password', user.updatePassword);
 app.get('/user', user.info);
 app.get('/logout', user.logout);
 

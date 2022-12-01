@@ -74,10 +74,10 @@ exports.login = async function(req, res) {
     }
 }
 
-exports.updatePage = async function(req, res) {
+exports.updatePageEmail = async function(req, res) {
     if(User.apikey != null) {
         if(req.headers.accept != "application/json") {
-            res.status(200).sendFile('update.html', { root: path.join(__dirname, '../views') }); 
+            res.status(200).sendFile('update-email.html', { root: path.join(__dirname, '../views') }); 
         } else {
             res.status(200).send(User);
         }
@@ -97,7 +97,7 @@ exports.updatePage = async function(req, res) {
 }
 
 
-exports.update = async function(req, res) {
+exports.updateEmail = async function(req, res) {
     try {
         let emails = await userDB.getAllEmails(req, res);
         if(req.headers.accept != "application/json") {
@@ -105,14 +105,12 @@ exports.update = async function(req, res) {
                 try {
                     userDB.updateUserByEmail(req, res, User.email);
                 } catch(err) {
-                    res.status(400).send({"error":"Failed TO Update!"})
+                    res.status(400).send({"error":"Failed TO Update! FILE!!!!"})
                 }
                 User.email = req.body.email;
-                User.name = req.body.name;
-                User.password = req.body.password;
                 res.status(200).redirect("/user");
             } else {
-                res.status(400).send({"error":"E-mail Already exists"})
+                res.status(400).send({"error":"E-mail Already exists FILE!!!!"})
             }
         } else {
             if(checkEmail(req.body.email, emails.rows)==true) {
@@ -122,8 +120,6 @@ exports.update = async function(req, res) {
                     res.status(400).send({"error":"Failed TO Update!"})
                 }
                 User.email = req.body.email;
-                User.name = req.body.name;
-                User.password = req.body.password;
                 res.status(200).redirect("/user");
             } else {
                 res.status(400).send({"error":"E-mail Already exists"})
@@ -131,7 +127,44 @@ exports.update = async function(req, res) {
         }
     } catch (err) {
         if(req.headers.accept != "applicatiob/json") {
-            res.status(400).sendFile('update.html', { root: path.join(__dirname, '../views') }); 
+            res.status(400).sendFile('update-email.html', { root: path.join(__dirname, '../views') }); 
+        } else {
+            res.status(400).send({"error": err})
+        }
+    }
+}
+
+exports.updatePagePassword = async function(req, res) {
+    if(User.apikey != null) {
+        if(req.headers.accept != "application/json") {
+            res.status(200).sendFile('update-password.html', { root: path.join(__dirname, '../views') }); 
+        } else {
+            res.status(200).send(User);
+        }
+    } else {
+        if(req.headers.accept != "application/json") {
+            console.log("Log in first")
+            res.status(200).sendFile('login.html', { root: path.join(__dirname, '../views') }); 
+        } else {
+            const json = {
+                "name":null,
+                "password":null,
+                "email":null
+            }
+            res.status(200).send(json);
+        }
+    }
+}
+
+exports.updatePassword = async function(req, res) {
+    try {
+            userDB.updatePassword(req, res, User.email);
+            User.name = req.body.name;
+            User.password = req.body.password;
+            res.status(200).redirect("/user");
+    } catch(err) {
+        if(req.headers.accept != "applicatiob/json") {
+            res.status(400).sendFile('update-email.html', { root: path.join(__dirname, '../views') }); 
         } else {
             res.status(400).send({"error": err})
         }
