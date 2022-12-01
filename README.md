@@ -7,11 +7,12 @@ Group - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 ## Table of contents
 
 1. [Idea](md/idea.md)
-2. [Setup](md/setup.md)
-3. [CovidAPI](md/covidAPI.md)
-4. [PlacesAPI](md/placesAPI.md)
-5. [WeatherAPI](md/weatherAPI.md)
-6. [GeoCodeAPI](md/geoCodeAPI.md)
+2. [Domain models](md/domainModels.md)
+3. [Setup](md/setup.md)
+4. [CovidAPI](md/covidAPI.md)
+5. [PlacesAPI](md/placesAPI.md)
+6. [WeatherAPI](md/weatherAPI.md)
+7. [GeoCodeAPI](md/geoCodeAPI.md)
 
 <br>
 
@@ -39,4 +40,4 @@ Group - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 <br>
 
 ## Domain (German)
-Peter möchte mit seiner Frau Lois und seinen Kindern in den Urlaub fahren. Da ihm die Gesundheit seiner Familie sehr am Herzen liegt, möchte er sich ausreichend über die Inzidenz vorort informieren. Außerdem hat er noch keine Unterkunft gefunden. Nun möchte er, um keine unterschiedlichen Informationen zu erhalten, sowohl die Inzidenzwerte, als auch Informationen über mögliche Unterkünfte an einem Ort suchen.
+"Peter möchte mit seiner Frau Lois und seinen Kindern in den Urlaub fahren. Da ihm die Gesundheit seiner Familie sehr am Herzen liegt, möchte er sich ausreichend über die Inzidenz vorort informieren. Außerdem hat er noch keine Unterkunft gefunden. Nun möchte er, um keine unterschiedlichen Informationen zu erhalten, sowohl die Inzidenzwerte, als auch Informationen über mögliche Unterkünfte an einem Ort suchen."
