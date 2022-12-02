@@ -6,7 +6,6 @@ exports.hotels = async function(req, res) {
     let searchCity = req.query.city;
     let searchCountry = req.query.country;
 
-
     if(searchCountry!=null && searchCity !=null) {
         if(await isCityInCountry(req, res)) {
             res.status(200).send(await getHotelsInCity(searchCity, req, res));
@@ -22,7 +21,7 @@ exports.hotels = async function(req, res) {
 async function isCityInCountry(req, res) {
     let searchCity = req.query.city;
     let searchCountry = req.query.country;
-    const citiesInCountry = await countries[searchCountry];
+    const citiesInCountry = await countries[searchCountry[0].toUpperCase() + searchCountry.substring(1)];
     for(let i = 0; i < await citiesInCountry.length; i++) {
         if(citiesInCountry[i].toLowerCase() == searchCity.toLowerCase()) {return true}
     }
@@ -46,7 +45,7 @@ async function getHotelsInCity(searchCity, req, res) {
 async function getHotelsForEveryCity(req, res) {
     try {
         let searchCountry = req.query.country;
-        const citiesInCountry = await countries[searchCountry];
+        const citiesInCountry = await countries[searchCountry[0].toUpperCase() + searchCountry.substring(1)];
         let hotels = new Array();
         for(let i = 0; i < citiesInCountry.length; i++) {
             let hotelsInCity = await getHotelsInCity(citiesInCountry[i], req, res)
