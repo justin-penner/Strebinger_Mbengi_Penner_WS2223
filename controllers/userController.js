@@ -50,7 +50,6 @@ exports.loginPage = async function(req, res) {
 exports.info = async function(req, res) {
     if(req.headers.accept != "application/json") {
         if(User.email != null && User.name != null && User.apikey != null) {
-            res.status(200).sendFile('info.html', { root: path.join(__dirname, '../views') }); 
             res.send("<p>Hello, " + User.name + "</p>" +
             "<p>E-mail: " + User.email + "</p>" +
             "<p>Api-Key: " + User.apikey + "</p>" + 
