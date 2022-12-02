@@ -55,7 +55,8 @@ exports.info = async function(req, res) {
             "<p>Api-Key: " + User.apikey + "</p>" + 
             "<a href='/logout'>Logout</a> <br>" +
             "<a href='/update-email'>Update E-mail</a> <br>" +
-            "<a href='/update-password'>Update Password</a>")
+            "<a href='/update-password'>Update Password</a>" + 
+            "<form action='/delete' method='delete'><button type='submit'>Delete</button></form>")
         } else {
             res.status(400).send({"error":"Logged Out!"})
             //res.status(400).sendFile('login.html', { root: path.join(__dirname, '../views') });
@@ -197,4 +198,21 @@ exports.logout = async function(req, res) {
 
 exports.create = async function(req, res) {
     userDB.create(req, res);
+}
+
+exports.delete = async function(req, res) {
+    try{
+        userDB.delete(req, res, User.email).then(() => {
+            User.name = null;
+            User.email = null;
+            User.apikey = null;
+        });
+        res.status(200).redirect("/login");
+    } catch(err) {
+        if(req.body.accept != "application/json") {
+            res.status(500).send({"error":"Could not delete! FILE!!!"});
+        } else {
+            res.status(500).send({"error":"Could not delete!"})
+        }
+    }
 }

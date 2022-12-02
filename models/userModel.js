@@ -85,3 +85,13 @@ exports.updatePassword = async function(req, res, email) {
     res.status(500).send({error:"user doesnt exist"})
   }
 }
+
+exports.delete = async function(res, req, email) {
+  try {
+    const query = "DELETE FROM users WHERE email=$1";
+    const values = [email];
+    return await pool.query(query, values);
+  } catch (err) {
+    res.status(500).send({error:"user doesnt exist"})
+  }
+}
