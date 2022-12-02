@@ -50,6 +50,7 @@ exports.loginPage = async function(req, res) {
 exports.info = async function(req, res) {
     if(req.headers.accept != "application/json") {
         if(User.email != null && User.name != null && User.apikey != null) {
+            res.status(200).sendFile('info.html', { root: path.join(__dirname, '../views') }); 
             res.send("<p>Hello, " + User.name + "</p>" +
             "<p>E-mail: " + User.email + "</p>" +
             "<p>Api-Key: " + User.apikey + "</p>" + 
@@ -57,7 +58,7 @@ exports.info = async function(req, res) {
             "<a href='/update-email'>Update E-mail</a> <br>" +
             "<a href='/update-password'>Update Password</a>")
         } else {
-            res.status(400).send({"error":"Logged Out!"})
+            res.status(400).send({"error":"Logged Out! FILE!!!!"})
             //res.status(400).sendFile('login.html', { root: path.join(__dirname, '../views') });
         }
     } else {
