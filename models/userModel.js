@@ -78,8 +78,8 @@ exports.updateEmail = async function(req, res, email) {
 
 exports.updatePassword = async function(req, res, email) {
   try {
-    const query = "UPDATE users SET name=$1, password=$2 WHERE email=$3";
-    const values = [req.body.name, req.body.password, email];
+    const query = "UPDATE users SET password=$1 WHERE email=$2";
+    const values = [req.body.password, email];
     return await pool.query(query, values);
   } catch (err) {
     res.status(500).send({error:"user doesnt exist"})
