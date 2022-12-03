@@ -15,5 +15,5 @@ The idea was to build a simple API, which responds usefull data as JSON based on
 
 ## Data we add
 
-1. [Hotels](hotels.md) - based on a JSON file, we filter the information we need, to display usefull information for the user
-2. [Countries](countries.md) - based on a JSON file, we get the country of the destination the user wants to travel to (we need this data to run some of the API's)
+1. Hotels - based on a JSON file, we filter the information we need, to display usefull information for the user
+2. Countries - based on a JSON file, we get the country of the destination the user wants to travel to (we need this data to run some of the API's)
