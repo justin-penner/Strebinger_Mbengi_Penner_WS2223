@@ -38,5 +38,5 @@
 - open terminal and run:
 
 ```console
-   docker-compose up
+   docker-compose up --build
 ```
