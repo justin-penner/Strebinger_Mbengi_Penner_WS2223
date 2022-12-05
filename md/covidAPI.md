@@ -1,8 +1,8 @@
-# The CovidAPI
+# CovidAPI
 
 <br>
 
-## Description of the API
+## Description
 
 The initial API responds with a `JSON`, which contains statistics, such as the `incidence` on a given day, in a given `country`. 
 
@@ -44,9 +44,11 @@ A sample output of the API looks like this:
 
 ## What we changed to get the information we want
 
-We have removed non-essential returns from the API, so we only receive information relevant to us for further processing. We have achieved this by filling a separate object with the received information.
+We removed non-essential returns from the API, so we only receive information relevant to us for further processing. We have achieved this by filling a separate object with the received information.
 
 <br>
+
+The changed output:
 
 ```JSON
 
@@ -68,15 +70,13 @@ We have removed non-essential returns from the API, so we only receive informati
 
 <br>
 
-In addition, we have introduced the function to select Germany as default for an unspecified country and return the associated values.
+In addition, we introduced the function to select Germany as default for an unspecified country and return the associated values.
 
 <br>
 
-## Further Rework on the Covid API
+## Further Rework
 
-First we get the `current Date` and format the response to be able to use it in an algorithm. Based on this an algorithm can request all `JSON` data from the past 7 days and displays them all in an `Array`, every entry is formatted like above example.
-
-* So the Response from our API is the History of statistics in a given Country for the past 7 days
+First we get the `current date` and format the response to be able to use it. Based on this an algorithm we can request all data from the past 7 days and display it in an `Array`.
 
 <br>
 
