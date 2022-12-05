@@ -1,15 +1,25 @@
 # Idea
 
-The idea was to build a simple API, which responds multiple data as JSON based on a destination the user wants to travel to.
+The idea was to build a simple API, which responds usefull data as JSON based on a destination the user wants to travel to.
+
+<br>
 
 ## API's we use for our response
 
-1. [CovidAPI](covidAPI.md) to get real time statistics about the covid situation in different countries, selected through a query
-2. [WeatherAPI](weatherAPI.md) to get a forcasts of the next 7 days based on the location given through a query
-3. [FlightAPI](flightAPI.md) to get flights in a chosen city to a specific destination
-4. [SightSeeingAPI]
+1. [CovidAPI](covidAPI.md) - to get real time statistics about the covid situation in different countries, selected through a query
+2. [PlacesAPI](placesAPI.md) - to get places of interest based on the location given through a query
+3. [WeatherAPI](weatherAPI.md) - to get a forecast of the next 7 days based on the location given through a query
+4. [GeoCodeAPI](geoCodeAPI.md) - to tranlate coordinates to a city name or reversed
 
-## Self Written API's
+<br>
 
-1. [Hotel in a city](hotelJSON.md), based on a JSON file, we get the returns and format them to get only the information needed to be seen
-2. [Get the country based on the city](citiesOfCountries.md), based on the data we get from this, we can return every hotel in a country to give the user a selection of possible accomodations
+## Data we add
+
+1. Hotels - based on a JSON file, we filter the information we need, to display usefull information for the user
+2. Countries - based on a JSON file, we get the country of the destination the user wants to travel to (we need this data to run some of the API's)
+
+<br>
+
+## Proof of concept
+
+Navigate [here](proofOfConcept.md) to get a summary of possible queries.
