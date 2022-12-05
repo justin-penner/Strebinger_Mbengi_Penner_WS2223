@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
 const {covidHistory} = require("./covidApi.js");
-const {hotelForCity, getCities} = require("./hotelApi.js");
 const {getPlacesOfInterest} = require("./sightseeingApi.js")
 const user = require("../controllers/userController.js");
-var bodyParser = require('body-parser');
+var bodyParser = require('body-parser')
+const {hotelForCity, getCities} = require("./hotelApi.js");
+const {getPlacesOfInterest} = require("./sightseeingApi.js")
 const {getWeatherForecast} = require("./weatherApi.js")
 
 app.use(bodyParser.json())

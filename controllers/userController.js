@@ -10,7 +10,15 @@ const User = {
 }
 
 exports.index = async function(req, res) {
-    res.status(200).sendFile('index.html', { root: path.join(__dirname, '../views') }); 
+    if(req.headers.accept != "application/json") {
+        res.status(200).sendFile('index.html', { root: path.join(__dirname, '../views') }); 
+    } else {
+        const json = {
+            "status":200,
+            "info": "User created!"
+        }
+        res.status(200).send(json);
+    }
 }
 
 exports.register = async function(req, res) {
@@ -55,6 +63,7 @@ exports.info = async function(req, res) {
 exports.login = async function(req, res) {
     let usr = await userDB.getUserByEmail(req, res, req.body.email);
     usr = await usr.rows[0];
+    
     if((await usr) == null) {
         console.log({error:"Wrong Email!"})
         res.status(400).sendFile('login.html', { root: path.join(__dirname, '../views')});
