@@ -15,7 +15,10 @@ const pool = new Pool(credentials);
 
 async function poolDemo() {
   await pool.query(
-    `create table users (
+    `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";`
+  )
+  await pool.query(
+    `CREATE TABLE IF NOT EXISTS users (
       id SERIAL primary key not null,
       name varchar(250) not null,
       email varchar(250) not null unique,
@@ -23,15 +26,14 @@ async function poolDemo() {
       apikey uuid DEFAULT uuid_generate_v4()
     );`
   );
-  await pool.query(
-    `CREATE EXTENSION IF NOT EXISTS "uuid-ossp";`
-  )
 }
 
 (async () => {
   try {
     await poolDemo();
-  } catch (err) {}
+  } catch (err) {
+    console.log(err);
+  }
 })();
 
 exports.create = async function (req, res) {
