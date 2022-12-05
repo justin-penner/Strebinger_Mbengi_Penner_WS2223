@@ -23,6 +23,8 @@ app.get('/update-password', user.updatePagePassword);
 app.post('/update-password', user.updatePassword);
 app.get('/user', user.info);
 app.get('/logout', user.logout);
+app.post('/delete', user.delete);
+app.get('/delete', user.index);
 
 //router for CovidApi
 app.get('/covid', async function (req, res) {

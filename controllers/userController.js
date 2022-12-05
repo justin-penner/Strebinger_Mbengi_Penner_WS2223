@@ -50,12 +50,14 @@ exports.loginPage = async function(req, res) {
 exports.info = async function(req, res) {
     if(req.headers.accept != "application/json") {
         if(User.email != null && User.name != null && User.apikey != null) {
-            res.send("<p>Hello, " + User.name + "</p>" +
+            res.send("<head><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'></head>" + 
+            "<p>Hello, " + User.name + "</p>" +
             "<p>E-mail: " + User.email + "</p>" +
             "<p>Api-Key: " + User.apikey + "</p>" + 
             "<a href='/logout'>Logout</a> <br>" +
             "<a href='/update-email'>Update E-mail</a> <br>" +
-            "<a href='/update-password'>Update Password</a>")
+            "<a href='/update-password'>Update Password</a>" + 
+            "<form action='/delete?email="+ User.email +"' method='post'><button type='Submit' class='btn btn-danger'>Delete</button></form>")
         } else {
             res.status(400).send({"error":"Logged Out! FILE!!!!"})
             //res.status(400).sendFile('login.html', { root: path.join(__dirname, '../views') });
@@ -198,4 +200,20 @@ exports.logout = async function(req, res) {
 
 exports.create = async function(req, res) {
     userDB.create(req, res);
+}
+
+exports.delete = async function(req, res) {
+    try{
+        userDB.delete(req, res);
+        User.name = null;
+        User.email = null;
+        User.apikey = null;
+        res.status(200).redirect("/login");
+    } catch(err) {
+        if(req.body.accept != "application/json") {
+            res.status(500).send({"error":"Could not delete! FILE!!!"});
+        } else {
+            res.status(500).send({"error":"Could not delete!"})
+        }
+    }
 }
