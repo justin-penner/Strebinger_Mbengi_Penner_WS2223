@@ -33,3 +33,32 @@ exports.getUserByEmail = async function (req, res, email) {
       res.status(500).send({error:err.code + " - " + err.constraint + " - email doesnt exist"})
     }
 }
+
+exports.getAllEmails = async function (req, res) {
+  try {
+    const query = 'SELECT email FROM users';
+    return await pool.query(query);
+  } catch (err) {
+    res.status(500).send({"error": err})
+  }
+}
+
+exports.updateEmail = async function(req, res, email) {
+  try {
+    const query = "UPDATE users SET email=$1 WHERE email=$2";
+    const values = [req.body.email, email];
+    return await pool.query(query, values);
+  } catch (err) {
+    res.status(500).send({error:"user doesnt exist"})
+  }
+}
+
+exports.updatePassword = async function(req, res, email) {
+  try {
+    const query = "UPDATE users SET password=$1 WHERE email=$2";
+    const values = [req.body.password, email];
+    return await pool.query(query, values);
+  } catch (err) {
+    res.status(500).send({error:"user doesnt exist"})
+  }
+}
