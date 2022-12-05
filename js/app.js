@@ -5,7 +5,7 @@ const {getPlacesOfInterest} = require("./sightseeingApi.js")
 const user = require("../controllers/userController.js");
 var bodyParser = require('body-parser');
 const {reverseGeoCoding, geoCoding} = require("./geocodeApi.js")
-const {hotelForCity, getCities} = require("./hotelApi.js");
+const {hotels} = require("./hotelApi.js");
 const {getWeatherForecast} = require("./weatherApi.js")
 
 app.use(bodyParser.json())
@@ -33,7 +33,7 @@ app.get('/covid', async function (req, res) {
 
 //router for HotelApi
 app.get('/hotels', async function(req, res) {
-   hotelForCity(req, res);
+   hotels(req, res);
 })
 
 //router for SightseeingApi
