@@ -43,7 +43,6 @@ app.get('/poi', async function(req, res) {
 
  // 48.864716, 2.349014 for Paris
 
-<<<<<<< HEAD
  app.get('/reverseGeoCode', async function(req, res) {
     res.send(await reverseGeoCoding(req, res));
  })
@@ -51,11 +50,9 @@ app.get('/poi', async function(req, res) {
  app.get('/geoCode', async function(req, res) {
     res.send(await geoCoding(req, res));
  })
-=======
  //router for WeatherApi
 app.get('/weather', async function(req, res) {
     res.send(await getWeatherForecast(req, res));
 })
->>>>>>> main
 
 app.listen(3000);
