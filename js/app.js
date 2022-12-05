@@ -3,7 +3,8 @@ const app = express();
 const {covidHistory} = require("./covidApi.js");
 const {getPlacesOfInterest} = require("./sightseeingApi.js")
 const user = require("../controllers/userController.js");
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
+const {reverseGeoCoding, geoCoding} = require("./geocodeApi.js")
 const {hotelForCity, getCities} = require("./hotelApi.js");
 const {getWeatherForecast} = require("./weatherApi.js")
 
@@ -42,9 +43,19 @@ app.get('/poi', async function(req, res) {
 
  // 48.864716, 2.349014 for Paris
 
+<<<<<<< HEAD
+ app.get('/reverseGeoCode', async function(req, res) {
+    res.send(await reverseGeoCoding(req, res));
+ })
+
+ app.get('/geoCode', async function(req, res) {
+    res.send(await geoCoding(req, res));
+ })
+=======
  //router for WeatherApi
 app.get('/weather', async function(req, res) {
     res.send(await getWeatherForecast(req, res));
 })
+>>>>>>> main
 
 app.listen(3000);
