@@ -13,6 +13,7 @@ Group - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 5. [PlacesAPI](md/placesAPI.md)
 6. [WeatherAPI](md/weatherAPI.md)
 7. [GeoCodeAPI](md/geoCodeAPI.md)
+8. [Proof of concept](md/proofOfConcept.md)
 
 <br>
 
