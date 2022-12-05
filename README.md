@@ -38,12 +38,5 @@
 - open terminal and run:
 
 ```console
-   docker-compose up
+   docker-compose up --build
 ```
-- open new terminal and run:
-
-```console
-   docker exec -ti -u postgres travel psql
-```
-
-- now open a new terminal and run app.js
