@@ -15,13 +15,13 @@ async function getWeatherForecast(request, result) {
     for(let index = 0; index < data.hourly.time.length; index++) {
 
         let time = data.hourly.time[index];
-        let humidity = data.hourly.relativehumidity_2m[index];
-        let temperature = data.hourly.temperature_2m[index];
-        let rain = data.hourly.rain[index];
-        let snowfall = data.hourly.snowfall[index];
-        let snowDepth = data.hourly.snow_depth[index];
-        let cloudCover = data.hourly.cloudcover[index];
-        let soilTemperature = data.hourly.soil_temperature_0cm[index];
+        let humidity = data.hourly.relativehumidity_2m[index] + "%";
+        let temperature = data.hourly.temperature_2m[index] + "°C";
+        let rain = data.hourly.rain[index] + "mm";
+        let snowfall = data.hourly.snowfall[index] + "cm";
+        let snowDepth = data.hourly.snow_depth[index] + "m";
+        let cloudCover = data.hourly.cloudcover[index] + "%";
+        let soilTemperature = data.hourly.soil_temperature_0cm[index] + "°C";
 
         forecast.push({time, temperature, soilTemperature, rain, humidity, snowfall, snowDepth, cloudCover});
 
