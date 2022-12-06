@@ -63,13 +63,18 @@ async function day(req, res, assembledDay) {
     for(let i = 1; i<8; i++) {
         if(date.getDate()-i > 0) {
             let newDate = date.getDate()-i;
-            let assembledDay = year + "-" + month + '-' + newDate;
+            let assembledDay;
+            if(newDate.toString().length > 1) {
+                assembledDay = year + "-" + month + '-' + newDate;
+            } else {
+                assembledDay = year + "-" + month + '-' + '0' + newDate;
+            }
+            
             returnedDays.push(await day(req, res, assembledDay));
         } else {
             let newDate = countDays-counter;
             let newMonth = month-1;
             let assembledDay = year + "-" + newMonth + '-' + newDate;
-            console.log(assembledDay);
             counter++;
             returnedDays.push(await day(req, res, assembledDay));
         }
