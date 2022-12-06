@@ -20,7 +20,7 @@ exports.create = async function (req, res) {
       await pool.query(query, values);
       res.redirect('/index');
     } catch (err) {
-      res.status(500).send({error:err.code + " - " + err.constraint + " - email already exists"})
+      res.status(500).send({error:err.code + " - " + err.constraint})
     }
 }
 
@@ -30,7 +30,7 @@ exports.getUserByEmail = async function (req, res, email) {
       const values = [email];
       return await pool.query(query, values);
     } catch (err) {
-      res.status(500).send({error:err.code + " - " + err.constraint + " - email doesnt exist"})
+      res.status(500).send({error:err.code + " - " + err.constraint})
     }
 }
 
@@ -68,6 +68,15 @@ exports.delete = async function(req, res) {
     const query = "DELETE FROM users WHERE email=$1";
     const values = [req.query.email];
     return await pool.query(query, values);
+  } catch (err) {
+    res.status(500).send({error:err})
+  }
+}
+
+exports.getAllApiKeys = async function(req, res) {
+  try {
+    const query = "SELECT apikey FROM users";
+    return await pool.query(query);
   } catch (err) {
     res.status(500).send({error:err})
   }

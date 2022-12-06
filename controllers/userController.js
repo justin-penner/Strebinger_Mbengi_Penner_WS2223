@@ -217,3 +217,16 @@ exports.delete = async function(req, res) {
         }
     }
 }
+
+exports.getAllApiKeys = async function(req, res) {
+    try{
+        let keys = await userDB.getAllApiKeys(req, res);
+        return await keys.rows;
+    } catch(err) {
+        if(req.body.accept != "application/json") {
+            res.status(500).send({"error":"Could not check API-Key! Try Again Later! FILE!!!"});
+        } else {
+            res.status(500).send({"error":"Could not check API-Key! Try Again Later!"})
+        }
+    }
+}
