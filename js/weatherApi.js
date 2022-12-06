@@ -5,7 +5,7 @@ async function getWeatherForecast(request, result) {
     let data;
     let forecast = Array();
 
-    await fetch("https://api.open-meteo.com/v1/forecast?latitude=" + request.query.lat + "&longitude=" + request.query.lon + "&hourly=temperature_2m,rain,snowfall,snow_depth,cloudcover,soil_temperature_0cm&start_date=" + request.query.start + "&end_date=" + request.query.end, {
+    await fetch("https://api.open-meteo.com/v1/forecast?latitude=" + request.query.lat + "&longitude=" + request.query.lon + "&hourly=relativehumidity_2m,temperature_2m,rain,snowfall,snow_depth,cloudcover,soil_temperature_0cm&start_date=" + request.query.start + "&end_date=" + request.query.end, {
         method: "GET"
     })
     .then(response => response.json())
@@ -15,6 +15,7 @@ async function getWeatherForecast(request, result) {
     for(let index = 0; index < data.hourly.time.length; index++) {
 
         let time = data.hourly.time[index];
+        let humidity = data.hourly.relativehumidity_2m[index];
         let temperature = data.hourly.temperature_2m[index];
         let rain = data.hourly.rain[index];
         let snowfall = data.hourly.snowfall[index];
@@ -22,7 +23,7 @@ async function getWeatherForecast(request, result) {
         let cloudCover = data.hourly.cloudcover[index];
         let soilTemperature = data.hourly.soil_temperature_0cm[index];
 
-        forecast.push({time, temperature, soilTemperature, rain, snowfall, snowDepth, cloudCover});
+        forecast.push({time, temperature, soilTemperature, rain, humidity, snowfall, snowDepth, cloudCover});
 
     }
 
