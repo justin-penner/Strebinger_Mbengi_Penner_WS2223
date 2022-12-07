@@ -11,8 +11,7 @@ async function getPlacesOfInterest(req, res) {
 	const options = {
 		method: 'GET',
 		headers: {
-			'X-RapidAPI-Key':
-				'9e901e3198msh328f043ebfacb97p100ef1jsnc64a274704d8',
+			'X-RapidAPI-Key': '9e901e3198msh328f043ebfacb97p100ef1jsnc64a274704d8',
 			'X-RapidAPI-Host': 'opentripmap-places-v1.p.rapidapi.com',
 		},
 	};
@@ -51,8 +50,7 @@ async function getPlacesOfInterest(req, res) {
 
 			if (data[index].properties.wikidata != undefined) {
 				wiki =
-					'https://www.wikidata.org/wiki/' +
-					data[index].properties.wikidata;
+					'https://www.wikidata.org/wiki/' + data[index].properties.wikidata;
 			} else {
 				wiki = 'undefined';
 			}

@@ -37,11 +37,7 @@ async function getHotelsInCity(searchCity, req, res) {
 	try {
 		let countries = new Array();
 		hotels.forEach((element) => {
-			if (
-				element.location
-					.toLowerCase()
-					.includes(searchCity.toLowerCase())
-			) {
+			if (element.location.toLowerCase().includes(searchCity.toLowerCase())) {
 				countries.push(element);
 			}
 		});
@@ -59,11 +55,7 @@ async function getHotelsForEveryCity(req, res) {
 		];
 		let hotels = new Array();
 		for (let i = 0; i < citiesInCountry.length; i++) {
-			let hotelsInCity = await getHotelsInCity(
-				citiesInCountry[i],
-				req,
-				res
-			);
+			let hotelsInCity = await getHotelsInCity(citiesInCountry[i], req, res);
 			if (hotelsInCity != '') {
 				hotels.push(await hotelsInCity);
 			}

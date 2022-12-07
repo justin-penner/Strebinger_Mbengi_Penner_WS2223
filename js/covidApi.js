@@ -23,8 +23,7 @@ async function day(req, res, assembledDay) {
 	const options = {
 		method: 'GET',
 		headers: {
-			'X-RapidAPI-Key':
-				'af2100d539mshc675720ecb65707p101b6djsnf2a14fe329ad',
+			'X-RapidAPI-Key': 'af2100d539mshc675720ecb65707p101b6djsnf2a14fe329ad',
 			'X-RapidAPI-Host': 'covid-193.p.rapidapi.com',
 		},
 	};

@@ -76324,14 +76324,7 @@
 		"Kemang",
 		"Tabanan"
 	],
-	"Nepal": [
-		"Patan",
-		"Jawlakhel",
-		"Kathmandu",
-		"Bharatpur",
-		"Palpa",
-		"Lumbini"
-	],
+	"Nepal": ["Patan", "Jawlakhel", "Kathmandu", "Bharatpur", "Palpa", "Lumbini"],
 	"Papua New Guinea": [
 		"Waigani",
 		"Madang",
@@ -78952,12 +78945,7 @@
 	"Sint Maarten": ["Philipsburg", ""],
 	"Guinea-Bissau": ["Cacheu", "Bissau", ""],
 	"Saint Martin": ["Marigot", "Anse Marcel"],
-	"Saint Vincent and the Grenadines": [
-		"Kingstown",
-		"Georgetown",
-		"Union",
-		""
-	],
+	"Saint Vincent and the Grenadines": ["Kingstown", "Georgetown", "Union", ""],
 	"Saint Pierre and Miquelon": [""],
 	"Saint-Barthélemy": ["Grand Cul-de-Sac", "Gustavia", ""],
 	"Dominica": ["Berekua", "Roseau", "Marigot"],
