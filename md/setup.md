@@ -2,7 +2,7 @@
 
 1. Clone the repository:
 
-    ```terminal
+    ```console
         git clone https://github.com/justin-penner/Strebinger_Mbengi_Penner_WS2223.git
     ```
 
