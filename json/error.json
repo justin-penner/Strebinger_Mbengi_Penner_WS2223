@@ -1,13 +1,13 @@
 [
-    {
-        "error": "something went wrong! u might try later",
-        "covidApi" : {
-            "noCountry": "Country doesnt exist!",
-            "noData": "Country has no data!",
-            "noEntry": "No Entry has been made for this day!"
-        },
-        "database" : {
-            "alreadyexists" : "Database is already running!"
-        }
-    }
+	{
+		"error": "something went wrong! u might try later",
+		"covidApi": {
+			"noCountry": "Country doesnt exist!",
+			"noData": "Country has no data!",
+			"noEntry": "No Entry has been made for this day!"
+		},
+		"database": {
+			"alreadyexists": "Database is already running!"
+		}
+	}
 ]
