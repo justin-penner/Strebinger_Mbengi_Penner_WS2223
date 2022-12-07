@@ -42,3 +42,11 @@ Group - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 
 ## Domain (German)
 "Peter möchte mit seiner Frau Lois und seinen Kindern in den Urlaub fahren. Da ihm die Gesundheit seiner Familie sehr am Herzen liegt, möchte er sich ausreichend über die Inzidenz vorort informieren. Außerdem hat er noch keine Unterkunft gefunden. Nun möchte er, um keine unterschiedlichen Informationen zu erhalten, sowohl die Inzidenzwerte, als auch Informationen über mögliche Unterkünfte an einem Ort suchen."
+
+<br>
+
+## Setup database
+
+```console
+    docker-compose up --build
+```
