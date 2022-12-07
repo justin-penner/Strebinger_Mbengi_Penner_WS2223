@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const { covidHistory } = require('./covidApi.js');
-const { getPlacesOfInterest } = require('./sightseeingApi.js');
+const { getPlacesOfInterest } = require('./placesApi.js');
 const user = require('../controllers/userController.js');
 var bodyParser = require('body-parser');
 const { reverseGeoCoding, geoCoding } = require('./geocodeApi.js');

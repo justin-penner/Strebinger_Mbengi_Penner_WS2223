@@ -2,13 +2,14 @@
 
 <br>
 
-In order to display example outputs, you have to generate an `API key`. This can be done by using the automatically generated admin account and logging in at `localhost:3000/login`. There you can copy the individually created API key and add it to the respective query.
+In order to display example outputs, you have to generate an `API key`. This can be done by using the automatically generated admin account or you can register at `localhost:3000/register` / login at `localhost:3000/login` (e.g. with the admin account) to get an API key there.
 
 <br>
 
-| **Email**             | **Password** |
-|:---------------------:|:------------:|
-| `admin@traveldb.mail` | `secret`     |
+| Email                 | Password | API-Key                                |
+|-----------------------|----------|----------------------------------------|
+| `admin@traveldb.mail` | `secret` | `d2eee56f-8b93-4436-a920-d8756a8f5972` |
+
 
 
 <br>
