@@ -2,12 +2,12 @@ version: '3.5'
 
 services:
   db:
-    container_name: travel
-    image: postgres
+    container_name: travelence_db
+    image: travelence_db_1
     environment:
-      POSTGRES_USER: postgres
+      POSTGRES_USER: travelence
       POSTGRES_PASSWORD: traveldb
-      PGDATA: /data/postgres
+      PGDATA: /data/travelence
     volumes:
        - db-volume:/bitnami/postgresql
     ports:
