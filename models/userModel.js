@@ -3,9 +3,9 @@ const app = express();
 const { Pool } = require('pg');
 
 const credentials = {
-	user: 'postgres',
+	user: 'travelence',
 	host: 'localhost',
-	database: 'postgres',
+	database: 'travelence',
 	password: 'traveldb',
 	port: 5432,
 };
