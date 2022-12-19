@@ -53,13 +53,13 @@ app.get('/search', async function(request, result) {
 				let covid, weather, placesOfInterest, hotels;
 
 				// covid API
-				if(request.query.options.toLowerCase().includes("covid") || !request.query.options) covid = await covidHistory(request);
+				if(!request.query.options || request.query.options.toLowerCase().includes("covid")) covid = await covidHistory(request);
 
 				// weather API
-				if(request.query.options.toLowerCase().includes("weather") || !request.query.options) weather = await getWeatherForecast(request, coordinates);
+				if(!request.query.options || request.query.options.toLowerCase().includes("weather") ) weather = await getWeatherForecast(request, coordinates);
 
 				// places API
-				if(request.query.options.toLowerCase().includes("places") || !request.query.options) {
+				if(!request.query.options || request.query.options.toLowerCase().includes("places")) {
 					placesOfInterest = await getPlacesOfInterest(request, coordinates);
 
 					placesOfInterest = placesOfInterest.sort(sortByProperty("rating"));
@@ -73,7 +73,7 @@ app.get('/search', async function(request, result) {
 				}
 
 				// hotel API
-				if(request.query.options.toLowerCase().includes("hotels") || !request.query.options) hotels = await getHotels(request, result);
+				if(!request.query.options || request.query.options.toLowerCase().includes("hotels")) hotels = await getHotels(request, result);
 
 
 
@@ -146,7 +146,7 @@ function sortByProperty(property){
 
 
 
-
+/* Proof of concept and endpoints for used API's */
 
 
 //router for CovidApi
