@@ -45,8 +45,8 @@ async function getPlacesOfInterest(request, givenCoordinates) {
 			data[index].properties.name.wikidata != undefined
 		) {
 			let coordinates = {
-				"longitude": data[index].geometry.coordinates[0],
-				"latitude": data[index].geometry.coordinates[1],
+				"lon": data[index].geometry.coordinates[0],
+				"lat": data[index].geometry.coordinates[1],
 			};
 			let name = data[index].properties.name;
 			let wiki;

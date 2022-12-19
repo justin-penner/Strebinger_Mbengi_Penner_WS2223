@@ -47,8 +47,8 @@ async function geoCoding(request) {
 		.then(
 			(data) =>
 				(coordinates = {
-					"latitude": data[0].lat,
-					"longitude": data[0].lon,
+					"lat": data[0].lat,
+					"lon": data[0].lon,
 				})
 		)
 		.catch((error) => console.log(error));
