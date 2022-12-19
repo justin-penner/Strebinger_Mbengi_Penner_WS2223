@@ -17,7 +17,7 @@ async function getWeatherForecast(request, givenCoordinates) {
 	const date = new Date();
 
 	let start = await formatDate(date);
-	let end = await formatDate(new Date(date.getTime() + 7 * 24 * 60 * 60 * 1000));
+	let end = await formatDate(new Date(date.getTime() + 60 * 60 * 24 * 1000));
 
 	let latitude = await (request.query.lat) ? request.query.lat : givenCoordinates.latitude;
 	let longitude = await (request.query.lon) ? request.query.lon : givenCoordinates.longitude;

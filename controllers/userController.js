@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const userDB = require('../models/userModel.js');
 const path = require('path');
-const fs = require('fs')
 
 const User = {
 	name: null,
@@ -57,12 +56,15 @@ exports.info = async function (req, res) {
 	if (req.headers.accept != 'application/json') {
 		if (User.email != null && User.name != null && User.apikey != null) {
 
+			// send html file
 			let path = require('path');
+			res.sendFile(path.resolve('../views/account.html'));
 
-			let html = fs.readFileSync(path.resolve('../views/account.html')).toString();
-			
+			// define output
 
-			// res.send(html);
+			// sessionStorage.setItem("name", User.name);
+			// sessionStorage.setItem("email", User.email);
+			// sessionStorage.setItem("apikey", User.apikey);
 
 
 

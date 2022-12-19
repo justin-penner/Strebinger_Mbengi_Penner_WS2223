@@ -49,28 +49,56 @@ app.get('/search', async function(request, result) {
 				// geoCode API
 				let coordinates = await geoCoding(request);
 
+				// define variables
+				let covid, wather, placesOfInterest, hotels
+
 				// covid API
-				let covid = await covidHistory(request);
+				if(request.query.options.includes("covid")) covid = await covidHistory(request);
 
 				// weather API
-				let weather = await getWeatherForecast(request, coordinates);
+				if(request.query.options.includes("weather")) weather = await getWeatherForecast(request, coordinates);
 
 				// places API
-				let placesOfInterest = await getPlacesOfInterest(request, coordinates);
+				if(request.query.options.includes("places")) {
+					placesOfInterest = await getPlacesOfInterest(request, coordinates);
 
-				placesOfInterest = placesOfInterest.sort(sortByProperty("rating"));
-				if(placesOfInterest.length > 10) placesOfInterest.length = 10;
+					placesOfInterest = placesOfInterest.sort(sortByProperty("rating"));
+					if(placesOfInterest.length > 10) placesOfInterest.length = 10;
 
-				for(let index = 0; index < 10; index++) {
+					for(let index = 0; index < 10; index++) {
 
-					placesOfInterest[index]["address"] = await reverseGeoCoding(request, placesOfInterest[index].coordinates);
+						placesOfInterest[index]["address"] = await reverseGeoCoding(request, placesOfInterest[index].coordinates);
 
+					}
 				}
 
 				// hotel API
-				let hotels = await getHotels(request, result);
+				if(request.query.options.includes("hotels")) hotels = await getHotels(request, result);
 
-				result.send(hotels);
+
+
+
+				// get response
+				const response = require("../json/response.json");
+
+				if(!request.query.options) {
+
+					response["covid"] = covid;
+					response["weather"] = weather;
+					response["places"] = placesOfInterest;
+					response["hotels"] = hotels;
+
+				}
+				else {
+					
+					if(request.query.options.includes("covid")) response["covid"] = covid;
+					if(request.query.options.includes("weather")) response["weather"] = weather;
+					if(request.query.options.includes("places")) response["places"] = placesOfInterest;
+					if(request.query.options.includes("hotels")) response["hotels"] = hotels;
+
+				}
+
+				result.send(response);
 			}
 			else {
 				result.send("City is not in country")
