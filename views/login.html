@@ -4,19 +4,98 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Login</title>
 	</head>
+	<style>
+
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+		body {
+			padding: 0;
+			margin: 0;
+			font-family: 'Roboto';
+			background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+			height: 100vh;
+			width: 100vw;
+		}
+
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: fit-content;
+		}
+
+		h1 {
+			font-size: 30px;
+			font-weight: bold;
+		}
+
+		p {
+			font-size: 16px;
+			margin-top: 20px;
+			margin-bottom: 5px;
+		}
+
+		input {
+			border: 2px solid #c4c4c4;
+			border-radius: 5px;
+			outline: none;
+			background: transparent;
+			height: 30px;
+			width: 200px;
+			padding: 0 10px;
+		}
+
+		input::placeholder {
+			font-size: 14px;
+			color: #c4c4c4;
+		}
+
+		input:focus {
+			border: 2px solid #489fb5;
+		}
+
+		/* input:invalid {
+			border: 2px solid #ef233c;
+		} */
+
+		button {
+			margin-top: 20px;
+
+			width: 100%;
+			height: 34px;
+			border: 2px solid #489fb5;
+			border-radius: 5px;
+			background: #489fb5;
+			color: #fcfcfc;
+			font-size: 14px;
+			transition: 300ms ease-in-out;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background: transparent;
+			color: #489fb5;
+		}
+
+	</style>
 	<body>
-		<form action="/login" method="post">
-			<div class="email">
-				<p for="email">Email</p>
-				<input type="text" name="email" required />
-			</div>
-			<div class="password">
-				<p for="password">Password</p>
-				<input type="password" name="password" required />
-			</div>
-			<button type="submit">Log in!</button>
-		</form>
+		<div class="container">
+			<h1>Login</h1>
+			<form action="/login" method="post">
+				<div class="email">
+					<p for="email">Email</p>
+					<input type="text" name="email" placeholder="Insert email..." required />
+				</div>
+				<div class="password">
+					<p for="password">Password</p>
+					<input type="password" name="password" placeholder="Insert password..." required />
+				</div>
+				<button type="submit">Log in</button>
+			</form>
+		</div>
+		
 	</body>
 </html>

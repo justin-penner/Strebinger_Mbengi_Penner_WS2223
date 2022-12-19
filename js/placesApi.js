@@ -6,26 +6,29 @@ const fetch = require('node-fetch');
  * @param {*} res
  * @returns a list of places of interest
  */
-async function getPlacesOfInterest(req, res) {
+async function getPlacesOfInterest(request, givenCoordinates) {
 	// define API key
 	const options = {
 		method: 'GET',
 		headers: {
 			'X-RapidAPI-Key': '9e901e3198msh328f043ebfacb97p100ef1jsnc64a274704d8',
-			'X-RapidAPI-Host': 'opentripmap-places-v1.p.rapidapi.com',
-		},
+			'X-RapidAPI-Host': 'opentripmap-places-v1.p.rapidapi.com'
+		}
 	};
 
 	// public variables which will contain the data later
 	let data;
 	let result = Array();
 
+	let latitude = await (request.query.lat) ? request.query.lat : givenCoordinates.latitude;
+	let longitude = await (request.query.lon) ? request.query.lon : givenCoordinates.longitude;
+
 	// fetch opentripmap API
 	await fetch(
 		'https://opentripmap-places-v1.p.rapidapi.com/en/places/radius?radius=250&lon=' +
-			req.query.lon +
+			longitude +
 			'&lat=' +
-			req.query.lat,
+			latitude,
 		options
 	)
 		.then((response) => response.json())
@@ -42,8 +45,8 @@ async function getPlacesOfInterest(req, res) {
 			data[index].properties.name.wikidata != undefined
 		) {
 			let coordinates = {
-				lon: data[index].geometry.coordinates[0],
-				lat: data[index].geometry.coordinates[1],
+				"lon": data[index].geometry.coordinates[0],
+				"lat": data[index].geometry.coordinates[1],
 			};
 			let name = data[index].properties.name;
 			let wiki;
