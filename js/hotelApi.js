@@ -2,36 +2,39 @@ const error = require('../json/error.json');
 const hotels = require('../json/hotels.json');
 const countries = require('../json/citiesOfCountries.json');
 
-exports.hotels = async function (req, res) {
-	let searchCity = req.query.city;
-	let searchCountry = req.query.country;
+exports.getHotels = async function (req, res) {
 
-	if (searchCountry != null && searchCity != null) {
-		if (await isCityInCountry(req, res)) {
-			res.status(200).send(await getHotelsInCity(searchCity, req, res));
-		} else {
-			res.status(400).send({ error: 'city is not in Country' });
-		}
-	} else if (searchCity != null) {
-		res.status(200).send(await getHotelsInCity(searchCity, req, res));
-	} else {
-		res.status(200).send(await getHotelsForEveryCity(req, res));
-	}
+	let searchCity = req.query.city;
+	return await getHotelsInCity(searchCity, req, res);
+
+	// let searchCountry = req.query.country;
+
+	// if (searchCountry != null && searchCity != null) {
+	// 	if (await isCityInCountry(req, res)) {
+	// 		return await getHotelsInCity(searchCity, req, res);
+	// 	} else {
+	// 		return { error: 'city is not in Country' };
+	// 	}
+	// } else if (searchCity != null) {
+	// 	return await getHotelsInCity(searchCity, req, res);
+	// } else {
+	// 	return await getHotelsForEveryCity(req, res);
+	// }
 };
 
-async function isCityInCountry(req, res) {
-	let searchCity = req.query.city;
-	let searchCountry = req.query.country;
-	const citiesInCountry = await countries[
-		searchCountry[0].toUpperCase() + searchCountry.substring(1)
-	];
-	for (let i = 0; i < (await citiesInCountry.length); i++) {
-		if (citiesInCountry[i].toLowerCase() == searchCity.toLowerCase()) {
-			return true;
-		}
-	}
-	return false;
-}
+// async function isCityInCountry(req, res) {
+// 	let searchCity = req.query.city;
+// 	let searchCountry = req.query.country;
+// 	const citiesInCountry = await countries[
+// 		searchCountry[0].toUpperCase() + searchCountry.substring(1)
+// 	];
+// 	for (let i = 0; i < (await citiesInCountry.length); i++) {
+// 		if (citiesInCountry[i].toLowerCase() == searchCity.toLowerCase()) {
+// 			return true;
+// 		}
+// 	}
+// 	return false;
+// }
 
 async function getHotelsInCity(searchCity, req, res) {
 	try {
