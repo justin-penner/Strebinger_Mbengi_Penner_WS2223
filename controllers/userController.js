@@ -55,7 +55,6 @@ exports.loginPage = async function (req, res) {
 exports.info = async function (req, res) {
 	if (req.headers.accept != 'application/json') {
 		if (User.email != null && User.name != null && User.apikey != null) {
-
 			// send html file
 			let path = require('path');
 			res.sendFile(path.resolve('../views/account.html'));
@@ -65,13 +64,6 @@ exports.info = async function (req, res) {
 			// sessionStorage.setItem("name", User.name);
 			// sessionStorage.setItem("email", User.email);
 			// sessionStorage.setItem("apikey", User.apikey);
-
-
-
-
-
-
-
 
 			// res.send(
 			// 	"<head><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'></head>" +

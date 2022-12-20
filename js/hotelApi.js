@@ -3,26 +3,23 @@ const hotels = require('../json/hotels.json');
 const countries = require('../json/citiesOfCountries.json');
 
 exports.getHotels = async function (req, res) {
-
 	let object = Array();
 	let data = await getHotelsInCity(req.query.city, req, res);
 
-	data.forEach(element => {
-
+	data.forEach((element) => {
 		object.push({
-			"location": element.location, 
-			"name": element.name, 
-			"address": element.address, 
-			"phone": element.phone, 
-			"email": element.email, 
-			"url": element.url, 
-			"currency": element.currency, 
-			"price": element.price, 
-			"content": element.content, 
-			"geo": element.geo
+			location: element.location,
+			name: element.name,
+			address: element.address,
+			phone: element.phone,
+			email: element.email,
+			url: element.url,
+			currency: element.currency,
+			price: element.price,
+			content: element.content,
+			geo: element.geo,
 		});
-
-	})
+	});
 
 	return object;
 

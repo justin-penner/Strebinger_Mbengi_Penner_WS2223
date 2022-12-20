@@ -12,16 +12,20 @@ async function getPlacesOfInterest(request, givenCoordinates) {
 		method: 'GET',
 		headers: {
 			'X-RapidAPI-Key': '9e901e3198msh328f043ebfacb97p100ef1jsnc64a274704d8',
-			'X-RapidAPI-Host': 'opentripmap-places-v1.p.rapidapi.com'
-		}
+			'X-RapidAPI-Host': 'opentripmap-places-v1.p.rapidapi.com',
+		},
 	};
 
 	// public variables which will contain the data later
 	let data;
 	let result = Array();
 
-	let latitude = await (request.query.lat) ? request.query.lat : givenCoordinates.latitude;
-	let longitude = await (request.query.lon) ? request.query.lon : givenCoordinates.longitude;
+	let latitude = (await request.query.lat)
+		? request.query.lat
+		: givenCoordinates.lat;
+	let longitude = (await request.query.lon)
+		? request.query.lon
+		: givenCoordinates.lon;
 
 	// fetch opentripmap API
 	await fetch(
@@ -45,8 +49,8 @@ async function getPlacesOfInterest(request, givenCoordinates) {
 			data[index].properties.name.wikidata != undefined
 		) {
 			let coordinates = {
-				"lon": data[index].geometry.coordinates[0],
-				"lat": data[index].geometry.coordinates[1],
+				lon: data[index].geometry.coordinates[0],
+				lat: data[index].geometry.coordinates[1],
 			};
 			let name = data[index].properties.name;
 			let wiki;
