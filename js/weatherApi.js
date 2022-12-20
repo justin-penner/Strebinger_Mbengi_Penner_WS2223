@@ -1,13 +1,11 @@
 const fetch = require('node-fetch');
 
 async function formatDate(date) {
-
 	var year = date.getFullYear();
 	var month = date.getMonth();
 	var day = date.getDate();
 
-	return year + "-" + month + "-" + day;
-
+	return year + '-' + month + '-' + day;
 }
 
 async function getWeatherForecast(request, givenCoordinates) {
@@ -19,8 +17,12 @@ async function getWeatherForecast(request, givenCoordinates) {
 	let start = await formatDate(date);
 	let end = await formatDate(new Date(date.getTime() + 60 * 60 * 24 * 1000));
 
-	let latitude = await (request.query.lat) ? request.query.lat : givenCoordinates.latitude;
-	let longitude = await (request.query.lon) ? request.query.lon : givenCoordinates.longitude;
+	let latitude = (await request.query.lat)
+		? request.query.lat
+		: givenCoordinates.lat;
+	let longitude = (await request.query.lon)
+		? request.query.lon
+		: givenCoordinates.lon;
 
 	await fetch(
 		'https://api.open-meteo.com/v1/forecast?latitude=' +
@@ -35,11 +37,11 @@ async function getWeatherForecast(request, givenCoordinates) {
 			method: 'GET',
 		}
 	)
-	.then((response) => response.json())
-	.then((result) => (data = result))
-	.catch((error) => console.log(error));
+		.then((response) => response.json())
+		.then((result) => (data = result))
+		.catch((error) => console.log(error));
 
-	for(let index = 0; index < data.hourly.time.length; index++) {
+	for (let index = 0; index < data.hourly.time.length; index++) {
 		let time = data.hourly.time[index];
 		let humidity = data.hourly.relativehumidity_2m[index] + '%';
 		let temperature = data.hourly.temperature_2m[index] + '°C';
@@ -62,11 +64,11 @@ async function getWeatherForecast(request, givenCoordinates) {
 	}
 
 	return {
-		"coordinates": {
-			"lat": (request.query.lat) ? request.query.lat : givenCoordinates.latitude,
-			"lon": (request.query.lon) ? request.query.lon : givenCoordinates.longitude
+		coordinates: {
+			lat: latitude,
+			lon: longitude,
 		},
-		"forecast": forecast,
+		forecast: forecast,
 	};
 }
 

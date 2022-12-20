@@ -1,3 +1,4 @@
+// imports
 const express = require('express');
 const app = express();
 const { covidHistory } = require('./covidApi.js');
@@ -8,11 +9,13 @@ const { reverseGeoCoding, geoCoding } = require('./geocodeApi.js');
 const { getHotels } = require('./hotelApi.js');
 const { getWeatherForecast } = require('./weatherApi.js');
 const res = require('express/lib/response.js');
+const { isCityInCountry } = require('./country.js');
 
+// setting up express
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-//router for User
+//router for user
 app.get('/index', user.index);
 app.get('/register', user.register);
 app.post('/create', user.create);
@@ -27,127 +30,108 @@ app.get('/logout', user.logout);
 app.post('/delete', user.delete);
 app.get('/delete', user.index);
 
-
-
-
-
-
-
-const {isCityInCountry} = require('./country.js')
-
-// Travelence
-app.get('/search', async function(request, result) {
-
+// endpoint
+app.get('/search', async function (request, result) {
 	// check for key
-	if(await checkApiKey(request, result, request.query.apikey)) {
-
+	if (await checkApiKey(request, result, request.query.apikey)) {
 		// check for city and country
-		if(request.query.city && request.query.country) {
-
+		if (request.query.city && request.query.country) {
 			// check if city is in country
-			if(await isCityInCountry(request.query.city, request.query.country)) {
-				// geoCode API
-				let coordinates = await geoCoding(request);
-
+			if (await isCityInCountry(request.query.city, request.query.country)) {
 				// define variables
 				let covid, weather, placesOfInterest, hotels;
 
+				// geoCode API
+				let coordinates = await geoCoding(request);
+
 				// covid API
-				if(request.query.options.toLowerCase().includes("covid") || !request.query.options) covid = await covidHistory(request);
+				if (
+					request.query.options.toLowerCase().includes('covid') ||
+					!request.query.options
+				)
+					covid = await covidHistory(request);
 
 				// weather API
-				if(request.query.options.toLowerCase().includes("weather") || !request.query.options) weather = await getWeatherForecast(request, coordinates);
+				if (
+					request.query.options.toLowerCase().includes('weather') ||
+					!request.query.options
+				)
+					weather = await getWeatherForecast(request, coordinates);
 
 				// places API
-				if(request.query.options.toLowerCase().includes("places") || !request.query.options) {
+				if (
+					request.query.options.toLowerCase().includes('places') ||
+					!request.query.options
+				) {
 					placesOfInterest = await getPlacesOfInterest(request, coordinates);
 
-					placesOfInterest = placesOfInterest.sort(sortByProperty("rating"));
-					if(placesOfInterest.length > 10) placesOfInterest.length = 10;
+					placesOfInterest = placesOfInterest.sort(sortByProperty('rating'));
+					if (placesOfInterest.length > 10) placesOfInterest.length = 10;
 
-					for(let index = 0; index < 10; index++) {
-
-						placesOfInterest[index]["address"] = await reverseGeoCoding(request, placesOfInterest[index].coordinates);
-
+					for (let index = 0; index < 10; index++) {
+						placesOfInterest[index]['address'] = await reverseGeoCoding(
+							request,
+							placesOfInterest[index].coordinates
+						);
 					}
 				}
 
 				// hotel API
-				if(request.query.options.toLowerCase().includes("hotels") || !request.query.options) hotels = await getHotels(request, result);
+				if (
+					request.query.options.toLowerCase().includes('hotels') ||
+					!request.query.options
+				)
+					hotels = await getHotels(request, result);
 
+				// get reponse json
+				const response = require('../json/response.json');
 
+				// clear response
+				delete response['covid'];
+				delete response['weather'];
+				delete response['places'];
+				delete response['hotels'];
 
-
-				// get response
-				const response = require("../json/response.json");
-
-				if(!request.query.options) {
-
-					response["covid"] = covid;
-					response["weather"] = weather;
-					response["places"] = placesOfInterest;
-					response["hotels"] = hotels;
-
-				}
-				else {
-					
-					if(request.query.options.includes("covid")) response["covid"] = covid;
-					if(request.query.options.includes("weather")) response["weather"] = weather;
-					if(request.query.options.includes("places")) response["places"] = placesOfInterest;
-					if(request.query.options.includes("hotels")) response["hotels"] = hotels;
-
+				// fill response
+				if (!request.query.options) {
+					response['covid'] = covid;
+					response['weather'] = weather;
+					response['places'] = placesOfInterest;
+					response['hotels'] = hotels;
+				} else {
+					if (request.query.options.includes('covid'))
+						response['covid'] = covid;
+					if (request.query.options.includes('weather'))
+						response['weather'] = weather;
+					if (request.query.options.includes('places'))
+						response['places'] = placesOfInterest;
+					if (request.query.options.includes('hotels'))
+						response['hotels'] = hotels;
 				}
 
 				result.send(response);
+			} else {
+				result.send('City is not in country');
 			}
-			else {
-				result.send("City is not in country")
-			}
-
-			
-
-		}	
-		else {
-			result.send("Missing city or / and country");
+		} else {
+			result.send('Missing city or / and country');
 		}
-
+	} else {
+		result.send('Invalid key');
 	}
-	else {
-		result.send("Invalid key");
-	}
-
-
 });
 
+// sort data
+function sortByProperty(property) {
+	return function (a, b) {
+		if (a[property] > b[property]) return -1;
+		else if (a[property] < b[property]) return 1;
 
-
-function sortByProperty(property){  
-   return function(a,b){  
-      if(a[property] > b[property])  
-         return -1;  
-      else if(a[property] < b[property])  
-         return 1;  
-  
-      return 0;  
-   }  
+		return 0;
+	};
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// proof of concept
 
 //router for CovidApi
 app.get('/covid', async function (req, res) {
@@ -202,17 +186,11 @@ app.get('/weather', async function (req, res) {
 	}
 });
 
-
-
-
-
-
-
-//function to check if Api Key does exist
+//function to check if apikey exists
 async function checkApiKey(req, res, apikey) {
 	let boolean = false;
 	let apikeys = await user.getAllApiKeys(req, res);
-	await apikeys.forEach((element) => {
+	apikeys.forEach((element) => {
 		if (element.apikey == apikey) {
 			boolean = true;
 		}
