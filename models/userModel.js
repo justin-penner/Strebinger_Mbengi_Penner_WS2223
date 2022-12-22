@@ -19,7 +19,11 @@ exports.create = async function (req, res) {
 			'INSERT INTO users (name, email, password) VALUES ($1, $2, $3)';
 		const values = [req.body.name, req.body.email, req.body.password];
 		await pool.query(query, values);
-		res.redirect('/index');
+		if(req.headers.accept != 'application/json') {
+			res.status(200).redirect('/index')
+		} else {
+			res.status(200).send({info:'created! post on /login to log in'})
+		}
 	} catch (err) {
 		res.status(500).send({ error: err.code + ' - ' + err.constraint });
 	}
@@ -44,20 +48,20 @@ exports.getAllEmails = async function (req, res) {
 	}
 };
 
-exports.updateEmail = async function (req, res, email) {
+exports.updateEmail = async function (req, res) {
 	try {
 		const query = 'UPDATE users SET email=$1 WHERE email=$2';
-		const values = [req.body.email, email];
+		const values = [req.body.email, req.query.email];
 		return await pool.query(query, values);
 	} catch (err) {
 		res.status(500).send({ error: 'user doesnt exist' });
 	}
 };
 
-exports.updatePassword = async function (req, res, email) {
+exports.updatePassword = async function (req, res) {
 	try {
 		const query = 'UPDATE users SET password=$1 WHERE email=$2';
-		const values = [req.body.password, email];
+		const values = [req.body.password, req.query.email];
 		return await pool.query(query, values);
 	} catch (err) {
 		res.status(500).send({ error: 'user doesnt exist' });

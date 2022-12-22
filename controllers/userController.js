@@ -114,7 +114,11 @@ exports.login = async function (req, res) {
 		User.name = (await usr).name;
 		User.email = (await usr).email;
 		User.apikey = (await usr).apikey;
-		res.status(200).redirect('/user');
+		if(req.headers.accept != 'application/json') {
+			res.status(200).redirect('/user');
+		} else {
+			res.status(200).send({info: 'logged in, try GET /user to get UserInfo'});
+		}
 	}
 };
 
@@ -143,7 +147,7 @@ exports.updateEmail = async function (req, res) {
 		if (req.headers.accept != 'application/json') {
 			if (checkEmail(req.body.email, emails.rows) == true) {
 				try {
-					userDB.updateEmail(req, res, User.email);
+					userDB.updateEmail(req, res);
 				} catch (err) {
 					res.status(400).send({
 						error: 'Failed TO Update! FILE!!!!',
@@ -159,12 +163,12 @@ exports.updateEmail = async function (req, res) {
 		} else {
 			if (checkEmail(req.body.email, emails.rows) == true) {
 				try {
-					userDB.updateEmail(req, res, User.email);
+					userDB.updateEmail(req, res);
 				} catch (err) {
 					res.status(400).send({ error: 'Failed to Update!' });
 				}
 				User.email = req.body.email;
-				res.status(200).redirect('/user');
+				res.status(200).send({info:'updated user email!'})
 			} else {
 				res.status(400).send({ error: 'E-mail Already exists' });
 			}
@@ -203,7 +207,11 @@ exports.updatePassword = async function (req, res) {
 	try {
 		userDB.updatePassword(req, res, User.email);
 		User.password = req.body.password;
-		res.status(200).redirect('/user');
+		if(req.headers.accept != 'application/json') {
+			res.status(200).redirect('/user');
+		} else {
+			res.status(200).send({info:'updated user password!'})
+		}
 	} catch (err) {
 		if (req.headers.accept != 'applicatiob/json') {
 			res.status(500).send({
@@ -247,7 +255,11 @@ exports.delete = async function (req, res) {
 		User.name = null;
 		User.email = null;
 		User.apikey = null;
-		res.status(200).redirect('/login');
+		if(req.headers.accept != 'application/json') {
+			res.status(200).redirect('/index')
+		} else {
+			res.status(200).send({info:'deleted! post on register to create an account!'})
+		}
 	} catch (err) {
 		if (req.body.accept != 'application/json') {
 			res.status(500).send({ error: 'Could not delete! FILE!!!' });
