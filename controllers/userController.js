@@ -209,7 +209,7 @@ exports.updateEmail = async function (req, res) {
 		if (req.headers.accept != 'application/json') {
 			if (checkEmail(req.body.email, emails.rows) == true) {
 				try {
-					userDB.updateEmail(req, res);
+					userDB.updateEmail(req, res, User.email);
 				} catch (err) {
 					res.status(400).send({
 						error: 'Failed TO Update! FILE!!!!',
@@ -225,7 +225,7 @@ exports.updateEmail = async function (req, res) {
 		} else {
 			if (checkEmail(req.body.email, emails.rows) == true) {
 				try {
-					userDB.updateEmail(req, res);
+					userDB.updateEmail(req, res, User.email);
 				} catch (err) {
 					res.status(400).send({ error: 'Failed to Update!' });
 				}
