@@ -55,34 +55,96 @@ exports.loginPage = async function (req, res) {
 exports.info = async function (req, res) {
 	if (req.headers.accept != 'application/json') {
 		if (User.email != null && User.name != null && User.apikey != null) {
-			// send html file
-			let path = require('path');
-			res.sendFile(path.resolve('../views/account.html'));
+			res.status(200).send(`
+				<head>
+					<meta charset="UTF-8">
+					<meta http-equiv="X-UA-Compatible" content="IE=edge">
+					<meta name="viewport" content="width=device-width, initial-scale=1.0">
+					<title>Account</title>
+				</head>
 
-			// define output
+				<style>
 
-			// sessionStorage.setItem("name", User.name);
-			// sessionStorage.setItem("email", User.email);
-			// sessionStorage.setItem("apikey", User.apikey);
+					@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-			// res.send(
-			// 	"<head><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'></head>" +
-			// 		'<p>Hello, ' +
-			// 		User.name +
-			// 		'</p>' +
-			// 		'<p>E-mail: ' +
-			// 		User.email +
-			// 		'</p>' +
-			// 		'<p>Api-Key: ' +
-			// 		User.apikey +
-			// 		'</p>' +
-			// 		"<a href='/logout'>Logout</a> <br>" +
-			// 		"<a href='/update-email'>Update E-mail</a> <br>" +
-			// 		"<a href='/update-password'>Update Password</a>" +
-			// 		"<form action='/delete?email=" +
-			// 		User.email +
-			// 		"' method='post'><button type='Submit' class='btn btn-danger'>Delete</button></form>"
-			// );
+					body {
+						padding: 0;
+						margin: 0;
+						font-family: 'Roboto';
+						/* background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%); */
+						height: 100vh;
+						width: 100vw;
+					}
+				
+					.container {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: fit-content;
+						padding: 100px;
+					}
+				
+					h1 {
+						font-size: 30px;
+						font-weight: bold;
+					}
+				
+					h2 {
+						font-size: 18px;
+						font-weight: bold;
+						margin-top: 20px;
+						margin-bottom: 0;
+					}
+				
+					p {
+						font-size: 16px;
+						margin-top: 5px;
+					}
+				
+				</style>
+				
+				<body>
+				
+					<div class="container">
+				
+						<h1>
+							Account
+						</h1>
+				
+						<div class="personal-data">
+				
+							<p class="welcome">Hello </p>
+				
+							<h2>E-Mail</h2>
+							<p class="email"></p>
+				
+							<h2>API-Key</h2>
+							<p class="apikey"></p>
+				
+						</div>
+
+						<div class="user-actions">
+							<a href='/logout'>Logout</a> <br>
+							<a href='/update-email'>Update E-mail</a> <br>
+							<a href='/update-password'>Update Password</a>
+							<form action='/delete?email=' method='post'><button type='Submit' class='btn btn-danger'>Delete</button></form> 
+						</div>
+				
+					</div>
+
+				</body>
+				
+					<script>
+					
+						document.querySelector(".welcome").textContent += "${User.name}";
+						document.querySelector(".email").textContent = "${User.email}";
+						document.querySelector(".apikey").textContent = "${User.apikey}";
+						document.querySelector('form').action += "${User.email}";
+					
+					</script>
+				
+				</html>
+			`);
 		} else {
 			res.status(400).send({ error: 'Logged Out! FILE!!!!' });
 			//res.status(400).sendFile('login.html', { root: path.join(__dirname, '../views') });
