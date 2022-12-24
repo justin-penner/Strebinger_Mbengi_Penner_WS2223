@@ -1,23 +1,23 @@
-# The TravelAPI
+# Travelence - Die UrlaubsAPI
 
-Group - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
-
-<br>
-
-## Table of contents
-
-1. [Idea](md/idea.md)
-2. [Domain models](md/domainModels.md)
-3. [Setup](md/setup.md)
-4. [CovidAPI](md/covidAPI.md)
-5. [PlacesAPI](md/placesAPI.md)
-6. [WeatherAPI](md/weatherAPI.md)
-7. [GeoCodeAPI](md/geoCodeAPI.md)
-8. [Proof of concept](md/proofOfConcept.md)
+Gruppe - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 
 <br>
 
-## A simple way to get information about a destination
+## Inhaltsverzeichnis
+
+1. [Die Domäne](#die-domäne)
+2. [Domänenmodelle](#domänenmodelle)
+3. [Die Idee](md/idea.md)
+4. [Unsere Zielsetzung](#unsere-zielsetzung)
+5. [Die Anwendungslogik](md/applicationLogic.md)
+6. [Webservices, die wir nutzen](md/webservices.md)
+7. [Proof of Concept](md/proofOfConcept.md)
+8. [Setup](#setup)
+
+<br>
+
+<!-- ## A simple way to get information about a destination
 ... by getting Covid statistics <br>
 ... by getting hotels at destination <br>
 ... by getting places of interest at destination <br>
@@ -38,7 +38,58 @@ Group - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 - We get the country by the city with the help of a JSON object
 - We display a list of hotels at the searched destination
 
+<br> -->
+
+## Die Domäne
+
+### Das Problemszenario
+
+"Peter möchte mit seiner Frau Lois und seinen Kindern in den Urlaub fahren. Da ihm das Wohl seiner Familie sehr am Herzen liegt, möchte er sich ausreichend über Unterkünfte, Aktivitäten und Risiken vorort informieren. Nun hat er jedoch das Problem, dass sich die gesuchten Informationen stark unterscheiden und er weiß nicht, welchen Quellen er trauen soll."
+
 <br>
 
-## Domain (German)
-"Peter möchte mit seiner Frau Lois und seinen Kindern in den Urlaub fahren. Da ihm die Gesundheit seiner Familie sehr am Herzen liegt, möchte er sich ausreichend über die Inzidenz vorort informieren. Außerdem hat er noch keine Unterkunft gefunden. Nun möchte er, um keine unterschiedlichen Informationen zu erhalten, sowohl die Inzidenzwerte, als auch Informationen über mögliche Unterkünfte an einem Ort suchen."
+### Unsere Lösung
+
+"Um sich überschneidene Informationen zu erhalten, nutzt Peter unsere API. Mit dieser kann er sich sowohl über die `Inzidenzwerte` und das `Wetter` informieren, als auch eine geeignete `Unterkunft` und damit verbundene `Aktivitäten` finden."
+
+<br>
+
+## Domänenmodelle
+
+<br>
+
+## Unsere Zielsetzung
+
+<br>
+
+## Setup
+
+Zunächst müssen Sie das Repository klonen. Dies können sie tun, indem sie den folgenden Befehl in Ihrem `Terminal` ausführen:
+
+```console
+git clone https://github.com/justin-penner/Strebinger_Mbengi_Penner_WS2223.git
+```
+
+<br>
+
+Im nächsten Schritt müssen Sie `Node.js` initialisieren. Dies können sie tun, indem sie den folgenden Befehl in Ihrem `Terminal` ausführen:
+
+```console
+npm i
+```
+
+<br>
+
+Anschließend müssen Sie noch die Datenbank aufbauen. Dies können sie tun, indem sie den folgenden Befehl in Ihrem `Terminal` ausführen:
+
+```console
+docker-compose up --build
+```
+
+<br>
+
+Um das Projekt auszuführen, gehen sie mit `cd js` in das Verzeichnis `js` und führen sie den folgenden Command in ihrem Terminal aus:
+
+```console
+node app.js
+```
