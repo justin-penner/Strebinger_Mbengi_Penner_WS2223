@@ -1,6 +1,10 @@
-# Idea
+# Die Idee
 
-The idea was to build a simple API, which responds usefull data as JSON based on a destination the user wants to travel to.
+
+
+Die Idee war es eine einfache API zu entwickeln, welche nur nützliche und angeforderte Daten in Form eines `JSON-Objekts` zurückgibt, sodass eine weitere Verarbeitung durch den Nutzer stark vereinfacht wird.
+
+<!-- The idea was to build a simple API, which responds usefull data as JSON based on a destination the user wants to travel to.
 
 <br>
 
@@ -22,4 +26,4 @@ The idea was to build a simple API, which responds usefull data as JSON based on
 
 ## Proof of concept
 
-Navigate [here](proofOfConcept.md) to get a summary of possible queries.
+Navigate [here](proofOfConcept.md) to get a summary of possible queries. -->
