@@ -176,8 +176,6 @@ Ein großer Vorteil dieser API ist, dass Orte, welche sich in der nahen Umgebung
 
 # Die WeatherAPI
 
-<br>
-
 ## Beschreibung
 
 Die ursprüngliche API antwortet mit einem `JSON-Objekt`, welches Statistiken wie die Temperatur zwischen einem Start-Datum und einem End-Datum beinhaltet. Als Übergabeparameter werden `Koordinaten` benötigt. 
@@ -278,8 +276,6 @@ Zunächst ist ein großer Vorteil dieser API, dass sie vollkommen kostenlos und 
 <br>
 
 # Die GeoCodeAPI
-
-<br>
 
 ## Beschreibung
 
