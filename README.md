@@ -79,7 +79,7 @@ Nachdem wir recherche zu möglichen Lösungsansätzen betrieben haben, haben wir
 ## Unsere Zielsetzung
 
 - Statistiken zu `Covid` und `Wetter` sollen zurückgegeben werden
-- `Hotels`, welche am Zielort liegen sollen zurückgegeben werden
+- `Hotels`, welche am Zielort liegen, sollen zurückgegeben werden
 - `interessante Orte` für Aktivitäten sollen zurückgegeben werden
 - die API soll leicht zu bedienen sein
 - der Nutzer soll entscheiden können welche Informationen angezeigt werden
