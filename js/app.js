@@ -46,22 +46,22 @@ app.get('/search', async function (request, result) {
 
 				// covid API
 				if (
-					request.query.options.toLowerCase().includes('covid') ||
-					!request.query.options
+					!request.query.options ||
+					request.query.options.toLowerCase().includes('covid') 
 				)
 					covid = await covidHistory(request);
 
 				// weather API
 				if (
-					request.query.options.toLowerCase().includes('weather') ||
-					!request.query.options
+					!request.query.options ||
+					request.query.options.toLowerCase().includes('weather')
 				)
 					weather = await getWeatherForecast(request, coordinates);
 
 				// places API
 				if (
-					request.query.options.toLowerCase().includes('places') ||
-					!request.query.options
+					!request.query.options ||
+					request.query.options.toLowerCase().includes('places')
 				) {
 					placesOfInterest = await getPlacesOfInterest(request, coordinates);
 
@@ -78,8 +78,8 @@ app.get('/search', async function (request, result) {
 
 				// hotel API
 				if (
-					request.query.options.toLowerCase().includes('hotels') ||
-					!request.query.options
+					!request.query.options ||
+					request.query.options.toLowerCase().includes('hotels')
 				)
 					hotels = await getHotels(request, result);
 

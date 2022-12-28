@@ -19,7 +19,11 @@ exports.create = async function (req, res) {
 			'INSERT INTO users (name, email, password) VALUES ($1, $2, $3)';
 		const values = [req.body.name, req.body.email, req.body.password];
 		await pool.query(query, values);
-		res.redirect('/index');
+		if(req.headers.accept != 'application/json') {
+			res.status(200).redirect('/index')
+		} else {
+			res.status(200).send({info:'created! post on /login to log in'})
+		}
 	} catch (err) {
 		res.status(500).send({ error: err.code + ' - ' + err.constraint });
 	}
