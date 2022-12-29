@@ -361,23 +361,22 @@ Das Land für den Fetch automatisch auf Deutschland gesetzt:
 ```
 
 Die `covidHistory()` Funktion sorgt dafür, dass mit einer `for-schleife` die `day()` Funktion sieben mal ausgeführt wird, wobei das Datum (`assembledDay`) immer um einen Tag zurückgesetzt wird. <br>
-Dabei wird auch darauf geachtet das es passieren kann, das die sieben Tage in den letzen Monat reichen können, wobei dann der Monat auch einen zurückgesetzt wird.
+Dabei wird auch darauf geachtet das es passieren kann, das die sieben Tage in den letzen Monat reichen können, wobei dann der Monat auch einen zurückgesetzt wird. Auch an das Jahresende wurde hierbei gedacht und wenn der Monat 0 erreicht wird das Jahr um eines zurück gerechnet und der Monat auf 12 gesetzt.
 
 ```Javascript
 	for (let i = 1; i < 8; i++) {
 		if (date.getDate() - i > 0) {
 			let newDate = date.getDate() - i;
-			let assembledDay;
-			if (newDate.toString().length > 1) {
-				assembledDay = year + '-' + month + '-' + newDate;
-			} else {
-				assembledDay = year + '-' + month + '-' + '0' + newDate;
-			}
-			returnedDays.push(await day(req, res, assembledDay));
+			if(!newDate.toString().length > 1) newDate = "0" + newDate;
+			if(month.toString().length == 1) month = "0" + month;
 
+			let	assembledDay = year + '-' + month + '-' + newDate;
+			returnedDays.push(await day(req, res, assembledDay));
 		} else {
-			let newDate = countDays - counter;
-			let newMonth = month - 1;
+			let newDate = countDays - i;
+			if(newMonth == 0) {year -= 1; newMonth = 12}
+			if(newMonth.toString().length == 1) newMonth = "0" + newMonth;
+			
 			let assembledDay = year + '-' + newMonth + '-' + newDate;
 			counter++;
 			returnedDays.push(await day(req, res, assembledDay));
