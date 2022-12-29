@@ -38,25 +38,47 @@ app.get('/search', async function (request, result) {
 		if (request.query.city && request.query.country) {
 			// check if city is in country
 			if (await isCityInCountry(request.query.city, request.query.country)) {
-				// define variables
+				// define response variables
 				let covid, weather, placesOfInterest, hotels;
+				
+				// define query variables
+				let dates = {};
 
 				// geoCode API
 				let coordinates = await geoCoding(request);
+
+				// check if dates are given
+				if(request.query.start) dates["start"] = request.query.start;
+				if(request.query.end) dates["end"] = request.query.end;
 
 				// covid API
 				if (
 					!request.query.options ||
 					request.query.options.toLowerCase().includes('covid') 
-				)
+				){
 					covid = await covidHistory(request);
+
+					// let tendency = Array();
+
+					// for(let index = covid.length - 2; index > 0; index--) {
+
+					// 	if(covid[index].cases.active > covid[index - 1].cases.active) tendency.push("+");
+					// 	else tendency.push("-");
+
+					// }
+
+					// if(tendency.filter(entry => entry === "+").length > tendency.filter(entry => entry === "-").length) console.log("steigend");
+					// else if(tendency.filter(entry => entry === "+").length < tendency.filter(entry => entry === "-").length) console.log("fallend");
+					// else console.log("keine Vorhersage möglich");
+
+				}
 
 				// weather API
 				if (
 					!request.query.options ||
 					request.query.options.toLowerCase().includes('weather')
 				)
-					weather = await getWeatherForecast(request, coordinates);
+					weather = await getWeatherForecast(request, coordinates, dates);
 
 				// places API
 				if (
