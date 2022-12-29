@@ -175,7 +175,9 @@ wobei mit hilfe einer `Geo Code API` die Coordinaten der Stadt geholt werden und
 		return coordinates;
 	}
 ```
+
 <br>
+
 Nachdem nun alle über die Query eingegebene Daten erfasst und überprüft wurden, werden die in der query angegebenen `options` in einer Reihe von `If-Abfragen` überprüft. <br>
 Die Rückgabe kann also `covid`, `weather`, `places` (nach rating sortiert) und `hotels` in einem angegebenen Land enthalten und dabei ist noch wichtig, dass wenn keine options angegeben sind, alle vier dieser in der Rückgabe vorhanden sind.
 
