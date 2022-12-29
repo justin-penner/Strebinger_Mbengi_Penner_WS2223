@@ -63,26 +63,26 @@ async function day(req, res, assembledDay) {
  */
 async function covidHistory(req, res) {
 	let returnedDays = new Array();
-	let date = new Date();
+	let date = new Date(2023, 0, 4);
 	let year = date.getFullYear();
 	let month = date.getMonth() + 1;
 	let countDays = new Date(year, month - 1, 0).getDate();
+	let newMonth = month - 1;
 
 	let counter = 0;
 	for (let i = 1; i < 8; i++) {
 		if (date.getDate() - i > 0) {
 			let newDate = date.getDate() - i;
-			let assembledDay;
-			if (newDate.toString().length > 1) {
-				assembledDay = year + '-' + month + '-' + newDate;
-			} else {
-				assembledDay = year + '-' + month + '-' + '0' + newDate;
-			}
+			if(!newDate.toString().length > 1) newDate = "0" + newDate;
+			if(month.toString().length == 1) month = "0" + month;
 
+			let	assembledDay = year + '-' + month + '-' + newDate;
 			returnedDays.push(await day(req, res, assembledDay));
 		} else {
-			let newDate = countDays - counter;
-			let newMonth = month - 1;
+			let newDate = countDays - i;
+			if(newMonth == 0) {year -= 1; newMonth = 12}
+			if(newMonth.toString().length == 1) newMonth = "0" + newMonth;
+			
 			let assembledDay = year + '-' + newMonth + '-' + newDate;
 			counter++;
 			returnedDays.push(await day(req, res, assembledDay));
