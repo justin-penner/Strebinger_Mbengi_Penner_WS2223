@@ -85,7 +85,6 @@ Im folgenden sollen Handlungen mit unserer Anwendung aufgelistet werden. Exit-Kr
 	});	
 
 ```
-<br>
 
 ### 1.2 `/search` - Funktionsweise
 
@@ -146,7 +145,7 @@ Der Code für die Überprüfung ob eine Stadt in einem Land liegt so:
 		return countries[country].includes(city);
 	}
 ```
-<br>
+
 Hierbei wird bei einer Stadt, die nicht in dem jeweiligen Land liegt ein JSON mit Fehlercode `{City is not in country}` zurückgegeben. Für den anderen Fall wird mit der Funktion fortgefahren,
 wobei mit hilfe einer `Geo Code API` die Coordinaten der Stadt geholt werden und im späteren Verlauf für die `Wettervorhersage` und die `Places of Interest` genutzt werden.
 
@@ -175,9 +174,6 @@ wobei mit hilfe einer `Geo Code API` die Coordinaten der Stadt geholt werden und
 		return coordinates;
 	}
 ```
-
-<br>
-
 Nachdem nun alle über die Query eingegebene Daten erfasst und überprüft wurden, werden die in der query angegebenen `options` in einer Reihe von `If-Abfragen` überprüft. <br>
 Die Rückgabe kann also `covid`, `weather`, `places` (nach rating sortiert) und `hotels` in einem angegebenen Land enthalten und dabei ist noch wichtig, dass wenn keine options angegeben sind, alle vier dieser in der Rückgabe vorhanden sind.
 
@@ -217,7 +213,6 @@ Die Rückgabe kann also `covid`, `weather`, `places` (nach rating sortiert) und 
 	)
 		hotels = await getHotels(request, result);
 ```
-<br>
 
 Nun werden die responses der einzeln geschriebenen API's (die im Folgenden noch näher erklärt werden, siehe: [covid](###Covid), [weather](###Weather), [places](###Places) und [hotels](###hotels)) in ein JSON objekt geschrieben und mit einem res.send zurückgegeben.
 
