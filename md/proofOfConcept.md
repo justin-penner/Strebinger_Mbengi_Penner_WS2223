@@ -85,8 +85,10 @@ Im folgenden sollen Handlungen mit unserer Anwendung aufgelistet werden. Exit-Kr
 	});	
 
 ```
+<br>
 
 ### 1.2 `/search` - Funktionsweise
+<hr>
 
 Hierbei wird mit der Funktion `checkApiKey()` überprüft ob ein in der URI angegebener API-key in der Datenbank registriert wurde. So sichern wir, dass ein Nutzer sich anmelden müsste, um die Anwendung nutzen zu können. <br>
 Die `checkApiKey()` Funktion holt sich aus der Datenbank alle API-keys und überprüft mit einer `for-Schleife`, ob es diesen darunter gibt:
@@ -214,7 +216,7 @@ Die Rückgabe kann also `covid`, `weather`, `places` (nach rating sortiert) und 
 		hotels = await getHotels(request, result);
 ```
 
-Nun werden die responses der einzeln geschriebenen API's (die im Folgenden noch näher erklärt werden, siehe: [covid](###Covid), [weather](###Weather), [places](###Places) und [hotels](###hotels)) in ein JSON objekt geschrieben und mit einem res.send zurückgegeben.
+Nun werden die responses der einzeln geschriebenen API's (die im Folgenden noch näher erklärt werden, siehe: [covid](#covid), [weather](#weather), [places](#places) und [hotels](#hotels)) in ein JSON objekt geschrieben und mit einem res.send zurückgegeben.
 
 ```Javascript
 	const response = require('../json/response.json');
@@ -247,101 +249,359 @@ Hierzu wird eine JSON file erstellt, die eine `success message` als Objekt schon
 
 <br>
 
+## API's für das zurückgegebene JSON Objekt
+<hr> <br>
+
 ## `Covid`
 
 ### 2.1 `/covid` - Aufbau
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <br>
-
-In the following some points of intersection will be shown.
-
+<hr>
 <br>
 
-## CovidAPI
+Die Abfrage an die Covid Api um einen Tag zu bekommen:
 
-```console
+```Javascript
+	async function day(req, res, assembledDay) {
+		const url =
+			'https://covid-193.p.rapidapi.com/history?day=' +
+			assembledDay +
+			'&country=' +
+			evalCountry(req.query.country);
 
-    localhost:3000/covid?country=<param>
+		const options = {
+			method: 'GET',
+			headers: {
+				'X-RapidAPI-Key': 'af2100d539mshc675720ecb65707p101b6djsnf2a14fe329ad',
+				'X-RapidAPI-Host': 'covid-193.p.rapidapi.com',
+			},
+		};
+
+		function evalCountry(country) {
+			if (country == null) {
+				return 'Germany';
+			} else return country;
+		}
+
+		fetch(url, options)
+			.then((res) => res.json())
+			.then((json) => {
+				return json.response;
+			})
+			.catch((err) => console.error('error:' + err));
+
+		try {
+			let response = await fetch(url, options);
+			response = await response.json();
+			if (response.response[0] != 0) {
+				return response.response[0];
+			} else {
+				return response.response[1];
+			}
+		} catch (err) {
+			console.log(err);
+			res.status(500).json({ msg: `Internal Server Error.` });
+		}
+	}
+```
+
+Die Abfrage um daraus eine Abfrage für die gesamte letzte Woche zu machen:
+
+```Javascript
+	async function covidHistory(req, res) {
+		let returnedDays = new Array();
+		let date = new Date();
+		let year = date.getFullYear();
+		let month = date.getMonth() + 1;
+		let countDays = new Date(year, month - 1, 0).getDate();
+
+		let counter = 0;
+		for (let i = 1; i < 8; i++) {
+			if (date.getDate() - i > 0) {
+				let newDate = date.getDate() - i;
+				let assembledDay;
+				if (newDate.toString().length > 1) {
+					assembledDay = year + '-' + month + '-' + newDate;
+				} else {
+					assembledDay = year + '-' + month + '-' + '0' + newDate;
+				}
+
+				returnedDays.push(await day(req, res, assembledDay));
+			} else {
+				let newDate = countDays - counter;
+				let newMonth = month - 1;
+				let assembledDay = year + '-' + newMonth + '-' + newDate;
+				counter++;
+				returnedDays.push(await day(req, res, assembledDay));
+			}
+		}
+
+		let formatedReturnedDays = await formatJson(returnedDays);
+
+		return formatedReturnedDays;
+	}
+```
+<br>
+
+### 2.2 `/covid` - Funktionsweise
+<hr>
+<br>
+
+Die `day()` Funktion nimmt einen `Tag`, `req` und `res` (in der `req.query auch ein Land`) entgegen, womit dann ein Fetch-Request gestellt wird. 
+Das Land für den Fetch automatisch auf Deutschland gesetzt:
+
+```Javascript
+	evalCountry(req.query.country)
+
+	function evalCountry(country) {
+		if (country == null) {
+			return 'Germany';
+		} else return country;
+	}
 
 ```
 
-<br>
+Die `covidHistory()` Funktion sorgt dafür, dass mit einer `for-schleife` die `day()` Funktion sieben mal ausgeführt wird, wobei das Datum (`assembledDay`) immer um einen Tag zurückgesetzt wird. <br>
+Dabei wird auch darauf geachtet das es passieren kann, das die sieben Tage in den letzen Monat reichen können, wobei dann der Monat auch einen zurückgesetzt wird.
 
-## PlacesAPI
+```Javascript
+	for (let i = 1; i < 8; i++) {
+		if (date.getDate() - i > 0) {
+			let newDate = date.getDate() - i;
+			let assembledDay;
+			if (newDate.toString().length > 1) {
+				assembledDay = year + '-' + month + '-' + newDate;
+			} else {
+				assembledDay = year + '-' + month + '-' + '0' + newDate;
+			}
+			returnedDays.push(await day(req, res, assembledDay));
 
-```console
-
-    localhost:3000/poi?lat=<param>&lon=<param>
-
+		} else {
+			let newDate = countDays - counter;
+			let newMonth = month - 1;
+			let assembledDay = year + '-' + newMonth + '-' + newDate;
+			counter++;
+			returnedDays.push(await day(req, res, assembledDay));
+		}
+	}
 ```
 
+Hiernach werden noch für unsere Zwecke nicht notwendige Informationen gestrichen und die wichtigen in ein JSON Objekt geschrieben und für das Nutzen in der `/search` query unserer API zurückgegeben.
+
+```Javascript
+	async function formatJson(json) {
+		let filteredjs = new Array();
+		for (let i = 0; i < json.length; i++) {
+			let response = json[i];
+			if (response != null) {
+				let country = response.country;
+				let population = response.population;
+				let cases = response.cases;
+				let day = response.day;
+				filteredjs.push({ country, population, cases, day });
+			}
+		}
+		return filteredjs;
+	}
+```
 <br>
 
-## WeatherAPI
+## `Weather`
 
-```console
+### 3.1 `/weather` - Aufbau
+<hr>
+<br>
 
-    localhost:3000/weather?lat=<param>&lon=<param>&start=<YEAR-MONTH-DAY>&end=<YEAR-MONTH-DAY>
+Aufbau des Fetch-Requests:
 
+```Javascript
+	async function getWeatherForecast(request, givenCoordinates) {
+		let data;
+		let forecast = Array();
+
+		const date = new Date();
+
+		let start = await formatDate(date);
+		let end = await formatDate(new Date(date.getTime() + 60 * 60 * 24 * 1000));
+
+		let latitude = (await request.query.lat)
+			? request.query.lat
+			: givenCoordinates.lat;
+		let longitude = (await request.query.lon)
+			? request.query.lon
+			: givenCoordinates.lon;
+
+		await fetch(
+			'https://api.open-meteo.com/v1/forecast?latitude=' +
+				latitude +
+				'&longitude=' +
+				longitude +
+				'&hourly=relativehumidity_2m,temperature_2m,rain,snowfall,snow_depth,cloudcover,soil_temperature_0cm&start_date=' +
+				start +
+				'&end_date=' +
+				end,
+			{
+				method: 'GET',
+			}
+		)
+			.then((response) => response.json())
+			.then((result) => (data = result))
+			.catch((error) => console.log(error));
+
+		for (let index = 0; index < data.hourly.time.length; index++) {
+			let time = data.hourly.time[index];
+			let humidity = data.hourly.relativehumidity_2m[index] + '%';
+			let temperature = data.hourly.temperature_2m[index] + '°C';
+			let rain = data.hourly.rain[index] + 'mm';
+			let snowfall = data.hourly.snowfall[index] + 'cm';
+			let snowDepth = data.hourly.snow_depth[index] + 'm';
+			let cloudCover = data.hourly.cloudcover[index] + '%';
+			let soilTemperature = data.hourly.soil_temperature_0cm[index] + '°C';
+
+			forecast.push({
+				time,
+				temperature,
+				soilTemperature,
+				rain,
+				humidity,
+				snowfall,
+				snowDepth,
+				cloudCover,
+			});
+		}
+
+		return {
+			coordinates: {
+				lat: latitude,
+				lon: longitude,
+			},
+			forecast: forecast,
+		};
+}
+```
+<br>
+
+### 2.2 `/weather` - Funktionsweise
+<hr>
+<br>
+
+
+<br>
+
+## `Places`
+
+### 3.1 `/places` - Aufbau
+<hr>
+<br>
+
+
+
+
+<br>
+
+### 3.2 `/places` - Funktionsweise
+<hr>
+<br>
+
+
+
+
+
+<br>
+
+## `Hotels`
+
+### 3.1 `/hotels` - Aufbau
+<hr>
+<br>
+
+```Javascript
+	exports.getHotels = async function (req, res) {
+		let object = Array();
+		let data = await getHotelsInCity(req.query.city, req, res);
+
+		data.forEach((element) => {
+			object.push({
+				location: element.location,
+				name: element.name,
+				address: element.address,
+				phone: element.phone,
+				email: element.email,
+				url: element.url,
+				currency: element.currency,
+				price: element.price,
+				content: element.content,
+				geo: element.geo,
+			});
+		});
+
+		return object;
+
+	};
+
+	async function getHotelsInCity(searchCity, req, res) {
+		try {
+			let countries = new Array();
+			hotels.forEach((element) => {
+				if (element.location.toLowerCase().includes(searchCity.toLowerCase())) {
+					countries.push(element);
+				}
+			});
+			return countries;
+		} catch (err) {
+			return err;
+		}
+	}
 ```
 
+
 <br>
 
-## GeoCodeAPI
+### 3.2 `/hotels` - Funktionsweise
+<hr>
+<br>
 
-```console
+Die Hotels werden aus einer JSON File geholt ([here](../json/hotels.json)), die ein Array von Hotels enthällt. Diese JSON file ist so aufgebaut:
 
-    localhost:3000/geocode?city=<param>
-
+```JSON
+	{
+		"location": "Brecon Beacons National Park",
+		"name": "Beili Helyg Guest House",
+		"alt": null,
+		"address": "Cwm Cadlan, Penderyn, CF44 0YJ",
+		"directions": "From Penderyn, follow Cwm Cadlan road from Lamb Hotel for 1.5 miles, you'll see sign and yellow grit bin at the gate on your left.",
+		"phone": "+44 0 1685 813609",
+		"tollfree": null,
+		"email": "willow.walks@hotmail.co.uk",
+		"fax": null,
+		"url": "http://www.beilihelygguesthouse.co.uk",
+		"hours": null,
+		"checkin": null,
+		"checkout": null,
+		"image": null,
+		"currency": "Pound",
+		"price": 80,
+		"content": "Fantastic little B&B with 3 rooms, all en-suite. Very comfortable beds, friendly hosts, delicious breakfasts. Ideally placed for waterfalls and mountains, Walkers and cyclists welcome.",
+		"geo": {
+			"lat": 51.7823,
+			"lon": -3.4959
+		},
+		"activity": "sleep",
+		"type": "landmark",
+		"id": 4042
+	},
+	...
 ```
 
-<br>
+Die JSON File wird mit einer `for-each-Schleife` durchlaufen und sucht alle Hotels raus, bei denen die angegebene `location` den in der query angegebenen Stadtnamen enthält (`.includes`)
 
-## Reverse GeoCodeAPI
+```Javascript
+	const hotels = require('../json/hotels.json');
 
-```console
+	hotels.forEach((element) => {
+		if (element.location.toLowerCase().includes(searchCity.toLowerCase())) {
+			countries.push(element);
+		}
+	});
+```
 
-    localhost:3000/reversegeocode?lat=<param>&lon=<param>
-
-``` -->
+Die Daten, die wir aus der JSON File bekommen, werden auch wieder auf die wichtigsten gekürzt und für die Rückgabe für die `/search` query in ein JSON objekt umgewandelt
