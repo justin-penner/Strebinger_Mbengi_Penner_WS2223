@@ -1,9 +1,9 @@
 # Die Anwendungslogik
 
-Unserer Anwendung soll ein Standort, bestehend aus `Stadt` und `Land`, übergeben werden. Die Daten werden überprüft. Unsere Anwendung fährt vor, wenn sowohl Stadt und Land existieren, als auch in Beziehung zueinander stehen. Auf Basis der übergebenen Daten ermittelt unsere Anwendung folgende Statistiken:
+Unserer Anwendung soll ein Standort, bestehend aus `Stadt` und `Land`, übergeben werden. Die Daten werden überprüft. Unsere Anwendung fährt fort, wenn sowohl Stadt und Land existieren, als auch in Beziehung zueinander stehen. Auf Basis der übergebenen Daten ermittelt unsere Anwendung folgende Statistiken:
 
 - Inzidenzwerte der letzten 7 Tage
-- eine Wettervorhersage für die nächsten 24 Stunden <!-- API überarbeiten, sodass man optional noch ein Datum angeben kann -->
+- eine Wettervorhersage für die nächsten 24 Stunden oder für eine angegebene Zeitspanne
 - Unterkünfte, welche in der direkten Umgebung des Standortes liegen
 - gut bewertete und sehenswerte Orte
 
