@@ -1,21 +1,39 @@
 const fetch = require('node-fetch');
 
+// format a given date and add digits if needed
 async function formatDate(date) {
 	var year = date.getFullYear();
-	var month = date.getMonth();
-	var day = date.getDate();
+	var month = ('0' + (date.getMonth() + 1)).slice(-2);
+	var day = ('0' + date.getDate()).slice(-2);
 
 	return year + '-' + month + '-' + day;
 }
 
-async function getWeatherForecast(request, givenCoordinates) {
+async function getWeatherForecast(request, givenCoordinates, givenDates) {
 	let data;
 	let forecast = Array();
 
 	const date = new Date();
 
-	let start = await formatDate(date);
-	let end = await formatDate(new Date(date.getTime() + 60 * 60 * 24 * 1000));
+	let start;
+
+	if (givenDates.start) {
+		// validate given date
+		if (Date.parse(givenDates.start)) {
+			// format given date to fit API
+			start = await formatDate(new Date(Date.parse(givenDates.start)));
+		} else {
+			start = await formatDate(date);
+		}
+	} else {
+		start = await formatDate(date);
+	}
+
+	let end = givenDates.end
+		? givenDates.end
+		: await formatDate(
+				new Date(new Date(start).getTime() + 60 * 60 * 24 * 1000)
+		  );
 
 	let latitude = (await request.query.lat)
 		? request.query.lat
