@@ -4,9 +4,9 @@ const { Pool } = require('pg');
 
 const credentials = {
 	user: 'travelence',
-	host: 'localhost',
-	database: 'travelence',
-	password: 'traveldb',
+	host: 'dpg-cecdg8mn6mprhjt36vl0-a',
+	database: 'travelence_x8jy',
+	password: 'CD6q2rSzEJ1lYcjgqHWGbNSnQ2LvqbSL',
 	port: 5432,
 };
 
