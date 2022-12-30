@@ -23,34 +23,7 @@ exports.getHotels = async function (req, res) {
 
 	return object;
 
-	// let searchCountry = req.query.country;
-
-	// if (searchCountry != null && searchCity != null) {
-	// 	if (await isCityInCountry(req, res)) {
-	// 		return await getHotelsInCity(searchCity, req, res);
-	// 	} else {
-	// 		return { error: 'city is not in Country' };
-	// 	}
-	// } else if (searchCity != null) {
-	// 	return await getHotelsInCity(searchCity, req, res);
-	// } else {
-	// 	return await getHotelsForEveryCity(req, res);
-	// }
 };
-
-// async function isCityInCountry(req, res) {
-// 	let searchCity = req.query.city;
-// 	let searchCountry = req.query.country;
-// 	const citiesInCountry = await countries[
-// 		searchCountry[0].toUpperCase() + searchCountry.substring(1)
-// 	];
-// 	for (let i = 0; i < (await citiesInCountry.length); i++) {
-// 		if (citiesInCountry[i].toLowerCase() == searchCity.toLowerCase()) {
-// 			return true;
-// 		}
-// 	}
-// 	return false;
-// }
 
 async function getHotelsInCity(searchCity, req, res) {
 	try {
@@ -61,25 +34,6 @@ async function getHotelsInCity(searchCity, req, res) {
 			}
 		});
 		return countries;
-	} catch (err) {
-		return err;
-	}
-}
-
-async function getHotelsForEveryCity(req, res) {
-	try {
-		let searchCountry = req.query.country;
-		const citiesInCountry = await countries[
-			searchCountry[0].toUpperCase() + searchCountry.substring(1)
-		];
-		let hotels = new Array();
-		for (let i = 0; i < citiesInCountry.length; i++) {
-			let hotelsInCity = await getHotelsInCity(citiesInCountry[i], req, res);
-			if (hotelsInCity != '') {
-				hotels.push(await hotelsInCity);
-			}
-		}
-		return hotels;
 	} catch (err) {
 		return err;
 	}
