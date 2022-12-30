@@ -12,8 +12,8 @@ In den nächsten Abschnitten erklären wir zu den unterschiedlichen API's welche
 	1. [Alternativen](#31---alternativen)
 	2. [Konklusion](#32---konklusion)
 4. [GeoCode](#4-geoCode)
-	1. [Alternativen](#31---alternativen)
-	2. [Konklusion](#32---konklusion)
+	1. [Alternativen](#41---alternativen)
+	2. [Konklusion](#42---konklusion)
 
 <br>
 
@@ -61,7 +61,7 @@ Für diese API gibt es auch eine hohe Anzahl an API's die uns die geforderten In
 
 ### 2.2 - Konklusion
 
-Der größte Punkt für das nutzen der Weather Forecast API von Open-Meteo ist das diese `kostenlos` und `ohne beschränkung der Aufrufe` zur verfügung steht.
+Der größte Punkt für das Nutzen der weather Forecast API von Open-Meteo ist, das diese `kostenlos` und `ohne Beschränkung der Aufrufe` zur Verfügung steht.
 Auch die Quantität und Qualität der Rückgabe spielte eine große Rolle beim Aussuchen der API.
 
 <br><br>
@@ -74,24 +74,31 @@ Für die places nutzen wir die `Places` API von [RapidApi](https://rapidapi.com/
 
 ### 3.1 - Alternativen
 
-
+- Geoapify [link](https://www.geoapify.com/places-api)
+- FOURSQUARE [link](https://location.foursquare.com/developer/reference/places-api-overview)
+- SAFE GRAPH [link](https://www.safegraph.com/guides/google-places-api-alternatives)
 
 <br>
 
 ### 3.2 - Konklusion
 
+
+
 <br><br>
 
-## 3. GeoCode
+## 4. GeoCode
 
 Die genutzte API ist die `Nominatim` API von [OpenStreetMap](https://nominatim.openstreetmap.org/ui/search.html)
 
 <br>
 
-### 3.1 - Alternativen
+### 4.1 - Alternativen
 
+- Geocode.xyz [link](https://geocode.xyz/api)
+- Geocoding API [link](https://openweathermap.org/api/geocoding-api)
+- Geoapify [link](https://www.geoapify.com/geocoding-api)
 
 
 <br>
 
-### 3.2 - Konklusion
+### 4.2 - Konklusion
