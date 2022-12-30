@@ -16,6 +16,7 @@ Gruppe - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 8. [Proof of Concept](md/proofOfConcept.md)
 9. [Setup](#setup)
 10. [REST-Schnittstellen](md/REST.md)
+11. [Arbeitsmatrix](md/workingMatrix.md)
 
 <br>
 
