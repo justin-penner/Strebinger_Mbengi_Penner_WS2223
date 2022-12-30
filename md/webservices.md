@@ -99,6 +99,8 @@ Zunächst einmal ist der größte Vorteil dieser API, dass sie vollkommen kosten
 
 Ein Nachteil dieser API ist, dass bei nicht vorhandenen Einträgen kein Fehlercode, sondern ein leeres Objekt zurückgegeben wird.
 
+[Hier](./comparisonApis.md) können sie eine Auflistung von möglichen Alternativen sowie die Diskussion dieser sehen.
+
 <br>
 
 # Die PlacesAPI
@@ -171,6 +173,8 @@ Die veränderte Antwort sieht nun so aus:
 ## Warum benutzen wir diese API?
 
 Ein großer Vorteil dieser API ist, dass Orte, welche sich in der nahen Umgebung der übergebenen Koordinaten befinden, mit Parametern wie den Koordinaten und einer Bewertung zurückgegeben werden. Auch die Tatsache, dass diese API vollkommen kostenlos nutzbar ist und das einzige Limit bei 5000 Aufrufen pro Monat liegt, ist ein großer Vorteil.
+
+[Hier](./comparisonApis.md) können sie eine Auflistung von möglichen Alternativen sowie die Diskussion dieser sehen.
 
 <br>
 
@@ -273,6 +277,8 @@ Die veränderte Antwort sieht so aus:
 
 Zunächst ist ein großer Vorteil dieser API, dass sie vollkommen kostenlos und Open-Source ist. Außerdem werden die Ergebnisse jede Stunde aktualisiert, sodass wir stets aktuelle Daten erhalten.
 
+[Hier](./comparisonApis.md) können sie eine Auflistung von möglichen Alternativen sowie die Diskussion dieser sehen.
+
 <br>
 
 # Die GeoCodeAPI
@@ -340,3 +346,5 @@ Die veränderte Antwort sieht so aus:
 ## Warum benutzen wir diese API?
 
 Zunächst ist ein großer Vorteil der API, dass sie kostenlos ist und man ohne Registrierung auf diese zugreifen kann. Zudem basiert die API auf `OpenStreetMap`, sodass alle Adressen vorhanden sind. Außerdem hat diese API, was die Aufrufe angeht, kein Limit.
+
+[Hier](./comparisonApis.md) können sie eine Auflistung von möglichen Alternativen sowie die Diskussion dieser sehen.

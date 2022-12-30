@@ -12,9 +12,10 @@ Gruppe - `Christian Mbengi`, `Justin Penner` & `Paul Strebinger`
 4. [Unsere Zielsetzung](#unsere-zielsetzung)
 5. [Die Anwendungslogik](md/applicationLogic.md)
 6. [Webservices, die wir nutzen](md/webservices.md)
-7. [Proof of Concept](md/proofOfConcept.md)
-8. [Setup](#setup)
-9. [REST-Schnittstellen](md/REST.md)
+7. [Diskussion der Webservices](md/comparisonApis.md)
+8. [Proof of Concept](md/proofOfConcept.md)
+9. [Setup](#setup)
+10. [REST-Schnittstellen](md/REST.md)
 
 <br>
 
@@ -118,3 +119,7 @@ Um das Projekt auszuführen, gehen sie mit `cd js` in das Verzeichnis `js` und f
 ```console
 node app.js
 ```
+
+<br>
+
+Um eine Anfrage an unsere API zu stellen, müssen sie einen `API-Key` angeben. Dazu können sie den Key `d2eee56f-8b93-4436-a920-d8756a8f5972` nutzen oder einen neuen generieren, indem sie sich einen Account erstellen.
