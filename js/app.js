@@ -154,57 +154,57 @@ app.listen(3000);
 
 
 
-// // proof of concept
+// proof of concept
 
-// //router for CovidApi
-// app.get('/covid', async function (req, res) {
-// 	if (await checkApiKey(req, res, req.query.apikey)) {
-// 		res.status(200).send(await covidHistory(req, res));
-// 	} else {
-// 		res.status(400).send({ error: 'Invalid API-Key' });
-// 	}
-// });
+//router for CovidApi
+app.get('/covid', async function (req, res) {
+	if (await checkApiKey(req, res, req.query.apikey)) {
+		res.status(200).send(await covidHistory(req, res));
+	} else {
+		res.status(400).send({ error: 'Invalid API-Key' });
+	}
+});
 
-// //router for HotelApi
-// app.get('/hotels', async function (req, res) {
-// 	if (await checkApiKey(req, res, req.query.apikey)) {
-// 		getHotels(req, res);
-// 	} else {
-// 		res.status(400).send({ error: 'Invalid API-Key' });
-// 	}
-// });
+//router for HotelApi
+app.get('/hotels', async function (req, res) {
+	if (await checkApiKey(req, res, req.query.apikey)) {
+		getHotels(req, res);
+	} else {
+		res.status(400).send({ error: 'Invalid API-Key' });
+	}
+});
 
-// //router for SightseeingApi
-// app.get('/poi', async function (req, res) {
-// 	if (await checkApiKey(req, res, req.query.apikey)) {
-// 		res.send(await getPlacesOfInterest(req, res));
-// 	} else {
-// 		res.status(400).send({ error: 'Invalid API-Key' });
-// 	}
-// });
+//router for SightseeingApi
+app.get('/poi', async function (req, res) {
+	if (await checkApiKey(req, res, req.query.apikey)) {
+		res.send(await getPlacesOfInterest(req, res));
+	} else {
+		res.status(400).send({ error: 'Invalid API-Key' });
+	}
+});
 
-// // 48.864716, 2.349014 for Paris
+// 48.864716, 2.349014 for Paris
 
-// app.get('/reverseGeoCode', async function (req, res) {
-// 	if (await checkApiKey(req, res, req.query.apikey)) {
-// 		res.send(await reverseGeoCoding(req));
-// 	} else {
-// 		res.status(400).send({ error: 'Invalid API-Key' });
-// 	}
-// });
+app.get('/reverseGeoCode', async function (req, res) {
+	if (await checkApiKey(req, res, req.query.apikey)) {
+		res.send(await reverseGeoCoding(req));
+	} else {
+		res.status(400).send({ error: 'Invalid API-Key' });
+	}
+});
 
-// app.get('/geoCode', async function (req, res) {
-// 	if (await checkApiKey(req, res, req.query.apikey)) {
-// 		res.send(await geoCoding(req));
-// 	} else {
-// 		res.status(400).send({ error: 'Invalid API-Key' });
-// 	}
-// });
-// //router for WeatherApi
-// app.get('/weather', async function (req, res) {
-// 	if (await checkApiKey(req, res, req.query.apikey)) {
-// 		res.send(await getWeatherForecast(req, res));
-// 	} else {
-// 		res.status(400).send({ error: 'Invalid API-Key' });
-// 	}
-// });
+app.get('/geoCode', async function (req, res) {
+	if (await checkApiKey(req, res, req.query.apikey)) {
+		res.send(await geoCoding(req));
+	} else {
+		res.status(400).send({ error: 'Invalid API-Key' });
+	}
+});
+//router for WeatherApi
+app.get('/weather', async function (req, res) {
+	if (await checkApiKey(req, res, req.query.apikey)) {
+		res.send(await getWeatherForecast(req, res));
+	} else {
+		res.status(400).send({ error: 'Invalid API-Key' });
+	}
+});
