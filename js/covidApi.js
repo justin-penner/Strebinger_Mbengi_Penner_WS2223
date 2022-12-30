@@ -63,7 +63,7 @@ async function day(req, res, assembledDay) {
  */
 async function covidHistory(req, res) {
 	let returnedDays = new Array();
-	let date = new Date(2023, 0, 4);
+	let date = new Date();
 	let year = date.getFullYear();
 	let month = date.getMonth() + 1;
 	let countDays = new Date(year, month - 1, 0).getDate();
@@ -110,6 +110,8 @@ async function formatJson(json) {
 			let cases = response.cases;
 			let day = response.day;
 			filteredjs.push({ country, population, cases, day });
+		} else {
+			filteredjs.push({ info: 'no entry for this day'})
 		}
 	}
 	return filteredjs;
