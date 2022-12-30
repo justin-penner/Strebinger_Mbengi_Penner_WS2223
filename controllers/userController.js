@@ -71,7 +71,7 @@ exports.info = async function (req, res) {
 						padding: 0;
 						margin: 0;
 						font-family: 'Roboto';
-						/* background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%); */
+						background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 						height: 100vh;
 						width: 100vw;
 					}
@@ -99,6 +99,29 @@ exports.info = async function (req, res) {
 					p {
 						font-size: 16px;
 						margin-top: 5px;
+					}
+
+					a {
+						color: #000000;
+						margin-top: 10px;
+					}
+
+					button {
+						margin-top: 10px;
+						width: 100%;
+						height: 34px;
+						border: 2px solid #489fb5;
+						border-radius: 5px;
+						background: #489fb5;
+						color: #fcfcfc;
+						font-size: 14px;
+						transition: 300ms ease-in-out;
+						cursor: pointer;
+					}
+
+					button:hover {
+						background: transparent;
+						color: #489fb5;
 					}
 				
 				</style>

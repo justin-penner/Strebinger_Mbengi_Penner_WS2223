@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 //router for user
+app.get('/', user.index);
 app.get('/index', user.index);
 app.get('/register', user.register);
 app.post('/create', user.create);
