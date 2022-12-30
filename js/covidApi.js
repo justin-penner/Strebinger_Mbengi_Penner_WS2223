@@ -77,6 +77,7 @@ async function covidHistory(req, res) {
 			if(month.toString().length == 1) month = "0" + month;
 
 			let	assembledDay = year + '-' + month + '-' + newDate;
+			console.log(assembledDay)
 			returnedDays.push(await day(req, res, assembledDay));
 		} else {
 			let newDate = countDays - i;
@@ -84,6 +85,7 @@ async function covidHistory(req, res) {
 			if(newMonth.toString().length == 1) newMonth = "0" + newMonth;
 			
 			let assembledDay = year + '-' + newMonth + '-' + newDate;
+			console.log(assembledDay)
 			counter++;
 			returnedDays.push(await day(req, res, assembledDay));
 		}
