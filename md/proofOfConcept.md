@@ -169,7 +169,6 @@ Der Code für die Überprüfung, ob eine Stadt in einem Land liegt, sieht so aus
 
 ```Javascript
 async function isCityInCountry(city, country) {
-	return countries[country].includes(city);
 	let countryFirstCharacter = country.charAt(0).toUpperCase();
 	let cityFirstCharacter = city.charAt(0).toUpperCase();
 
