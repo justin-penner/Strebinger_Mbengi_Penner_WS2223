@@ -170,6 +170,15 @@ Der Code für die Überprüfung, ob eine Stadt in einem Land liegt, sieht so aus
 ```Javascript
 async function isCityInCountry(city, country) {
 	return countries[country].includes(city);
+	let countryFirstCharacter = country.charAt(0).toUpperCase();
+	let cityFirstCharacter = city.charAt(0).toUpperCase();
+
+	try {
+		return countries[countryFirstCharacter + country.slice(1)].includes(cityFirstCharacter + city.slice(1));
+	}
+	catch(error) {
+		return false;
+	}
 }
 ```
 
@@ -351,23 +360,23 @@ async function covidHistory(req, res) {
 	let year = date.getFullYear();
 	let month = date.getMonth() + 1;
 	let countDays = new Date(year, month - 1, 0).getDate();
+	let newMonth = month - 1;
 
 	let counter = 0;
 	for (let i = 1; i < 8; i++) {
 		if (date.getDate() - i > 0) {
 			let newDate = date.getDate() - i;
-			let assembledDay;
-			if (newDate.toString().length > 1) {
-				assembledDay = year + '-' + month + '-' + newDate;
-			} else {
-				assembledDay = year + '-' + month + '-' + '0' + newDate;
-			}
-
+			if(newDate.toString().length == 1) newDate = "0" + newDate;
+			if(month.toString().length == 1) month = "0" + month;
+			let	assembledDay = year + '-' + month + '-' + newDate;
+			
 			returnedDays.push(await day(req, res, assembledDay));
 		} else {
-			let newDate = countDays - counter;
-			let newMonth = month - 1;
+			let newDate = countDays - i;
+			if(newMonth == 0) {year -= 1; newMonth = 12}
+			if(newMonth.toString().length == 1) newMonth = "0" + newMonth;
 			let assembledDay = year + '-' + newMonth + '-' + newDate;
+			
 			counter++;
 			returnedDays.push(await day(req, res, assembledDay));
 		}
@@ -499,26 +508,33 @@ async function getWeatherForecast(request, givenCoordinates) {
 		.then((result) => (data = result))
 		.catch((error) => console.log(error));
 
-	for (let index = 0; index < data.hourly.time.length; index++) {
-		let time = data.hourly.time[index];
-		let humidity = data.hourly.relativehumidity_2m[index] + '%';
-		let temperature = data.hourly.temperature_2m[index] + '°C';
-		let rain = data.hourly.rain[index] + 'mm';
-		let snowfall = data.hourly.snowfall[index] + 'cm';
-		let snowDepth = data.hourly.snow_depth[index] + 'm';
-		let cloudCover = data.hourly.cloudcover[index] + '%';
-		let soilTemperature = data.hourly.soil_temperature_0cm[index] + '°C';
-
-		forecast.push({
-			time,
-			temperature,
-			soilTemperature,
-			rain,
-			humidity,
-			snowfall,
-			snowDepth,
-			cloudCover,
-		});
+	try {
+		for (let index = 0; index < data.hourly.time.length; index++) {
+			let time = data.hourly.time[index];
+			let humidity = data.hourly.relativehumidity_2m[index] + '%';
+			let temperature = data.hourly.temperature_2m[index] + '°C';
+			let rain = data.hourly.rain[index] + 'mm';
+			let snowfall = data.hourly.snowfall[index] + 'cm';
+			let snowDepth = data.hourly.snow_depth[index] + 'm';
+			let cloudCover = data.hourly.cloudcover[index] + '%';
+			let soilTemperature = data.hourly.soil_temperature_0cm[index] + '°C';
+	
+			forecast.push({
+				time,
+				temperature,
+				soilTemperature,
+				rain,
+				humidity,
+				snowfall,
+				snowDepth,
+				cloudCover,
+			});
+		}
+	}
+	catch(error) {
+		return {
+			error: "Timespan is too large"
+		}
 	}
 
 	return {

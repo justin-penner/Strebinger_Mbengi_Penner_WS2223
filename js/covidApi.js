@@ -45,10 +45,8 @@ async function day(req, res, assembledDay) {
 		let response = await fetch(url, options);
 		response = await response.json();
 		if (response.response[0] != 0) {
-			console.log(response)
 			return response.response[0];
 		} else {
-			console.log(response)
 			return response.response[1];
 		}
 	} catch (err) {

@@ -117,20 +117,20 @@ app.get('/search', async function (request, result) {
 						response['hotels'] = hotels;
 				}
 
-				result.send(response);
+				result.status(200).send(response);
 			} else {
-				result.send({
+				result.status(400).send({
 					error: 'City is not in country / country does not exist (please note spelling)'
 				});
 			}
 		} else {
-			result.send({
+			result.status(400).send({
 				error: 'Missing city or / and country'
 			});
 		}
 	} else {
-		result.send({
-			error:'Invalid key'
+		result.status(400).send({
+			error: 'Missing apikey'
 		});
 	}
 });
@@ -184,7 +184,7 @@ app.get('/hotels', async function (req, res) {
 //router for SightseeingApi
 app.get('/poi', async function (req, res) {
 	if (await checkApiKey(req, res, req.query.apikey)) {
-		res.send(await getPlacesOfInterest(req, res));
+		res.status(200).send(await getPlacesOfInterest(req, res));
 	} else {
 		res.status(400).send({ error: 'Invalid API-Key' });
 	}
@@ -194,7 +194,7 @@ app.get('/poi', async function (req, res) {
 
 app.get('/reverseGeoCode', async function (req, res) {
 	if (await checkApiKey(req, res, req.query.apikey)) {
-		res.send(await reverseGeoCoding(req));
+		res.status(200).send(await reverseGeoCoding(req));
 	} else {
 		res.status(400).send({ error: 'Invalid API-Key' });
 	}
@@ -202,7 +202,7 @@ app.get('/reverseGeoCode', async function (req, res) {
 
 app.get('/geoCode', async function (req, res) {
 	if (await checkApiKey(req, res, req.query.apikey)) {
-		res.send(await geoCoding(req));
+		res.status(200).send(await geoCoding(req));
 	} else {
 		res.status(400).send({ error: 'Invalid API-Key' });
 	}
@@ -210,7 +210,7 @@ app.get('/geoCode', async function (req, res) {
 //router for WeatherApi
 app.get('/weather', async function (req, res) {
 	if (await checkApiKey(req, res, req.query.apikey)) {
-		res.send(await getWeatherForecast(req, res));
+		res.status(200).send(await getWeatherForecast(req, res));
 	} else {
 		res.status(400).send({ error: 'Invalid API-Key' });
 	}
