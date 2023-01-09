@@ -12,6 +12,7 @@ async function formatDate(date) {
 async function getWeatherForecast(request, givenCoordinates, givenDates) {
 	let data;
 	let forecast = Array();
+	let errorHandler = false;
 
 	const date = new Date();
 
@@ -55,32 +56,39 @@ async function getWeatherForecast(request, givenCoordinates, givenDates) {
 			method: 'GET',
 		}
 	)
-		.then((response) => response.json())
-		.then((result) => (data = result))
-		.catch((error) => console.log(error));
+	.then((response) => response.json())
+	.then((result) => (data = result))
+	.catch((error) => {console.lof(error)});
 
-	for (let index = 0; index < data.hourly.time.length; index++) {
-		let time = data.hourly.time[index];
-		let humidity = data.hourly.relativehumidity_2m[index] + '%';
-		let temperature = data.hourly.temperature_2m[index] + '°C';
-		let rain = data.hourly.rain[index] + 'mm';
-		let snowfall = data.hourly.snowfall[index] + 'cm';
-		let snowDepth = data.hourly.snow_depth[index] + 'm';
-		let cloudCover = data.hourly.cloudcover[index] + '%';
-		let soilTemperature = data.hourly.soil_temperature_0cm[index] + '°C';
-
-		forecast.push({
-			time,
-			temperature,
-			soilTemperature,
-			rain,
-			humidity,
-			snowfall,
-			snowDepth,
-			cloudCover,
-		});
+	try {
+		for (let index = 0; index < data.hourly.time.length; index++) {
+			let time = data.hourly.time[index];
+			let humidity = data.hourly.relativehumidity_2m[index] + '%';
+			let temperature = data.hourly.temperature_2m[index] + '°C';
+			let rain = data.hourly.rain[index] + 'mm';
+			let snowfall = data.hourly.snowfall[index] + 'cm';
+			let snowDepth = data.hourly.snow_depth[index] + 'm';
+			let cloudCover = data.hourly.cloudcover[index] + '%';
+			let soilTemperature = data.hourly.soil_temperature_0cm[index] + '°C';
+	
+			forecast.push({
+				time,
+				temperature,
+				soilTemperature,
+				rain,
+				humidity,
+				snowfall,
+				snowDepth,
+				cloudCover,
+			});
+		}
 	}
-
+	catch(error) {
+		return {
+			error: "Timespan is too large"
+		}
+	}
+	
 	return {
 		coordinates: {
 			lat: latitude,

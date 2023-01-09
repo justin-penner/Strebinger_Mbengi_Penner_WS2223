@@ -21,6 +21,12 @@ exports.getHotels = async function (req, res) {
 		});
 	});
 
+	if(data.length == 0) {
+		object.push({
+			error: "No hotels found in this city"
+		});
+	}
+
 	return object;
 
 };
