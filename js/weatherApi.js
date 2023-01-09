@@ -57,7 +57,9 @@ async function getWeatherForecast(request, givenCoordinates, givenDates) {
 	)
 		.then((response) => response.json())
 		.then((result) => (data = result))
-		.catch((error) => console.log(error));
+		.catch((error) => {return {
+			error: "Timespan is too large"
+		}});
 
 	for (let index = 0; index < data.hourly.time.length; index++) {
 		let time = data.hourly.time[index];
