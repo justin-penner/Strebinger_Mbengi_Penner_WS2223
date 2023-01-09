@@ -119,31 +119,18 @@ app.get('/search', async function (request, result) {
 
 				result.status(200).send(response);
 			} else {
-<<<<<<< HEAD
-				result.send({
-=======
 				result.status(400).send({
->>>>>>> main
 					error: 'City is not in country / country does not exist (please note spelling)'
 				});
 			}
 		} else {
-<<<<<<< HEAD
-			result.send({
-=======
 			result.status(400).send({
->>>>>>> main
 				error: 'Missing city or / and country'
 			});
 		}
 	} else {
-<<<<<<< HEAD
-		result.send({
-			error:'Invalid key'
-=======
 		result.status(400).send({
 			error: 'Missing apikey'
->>>>>>> main
 		});
 	}
 });
