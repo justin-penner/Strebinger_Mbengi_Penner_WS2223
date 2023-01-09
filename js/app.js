@@ -119,13 +119,19 @@ app.get('/search', async function (request, result) {
 
 				result.send(response);
 			} else {
-				result.send('City is not in country');
+				result.send({
+					error: 'City is not in country / country does not exist (please note spelling)'
+				});
 			}
 		} else {
-			result.send('Missing city or / and country');
+			result.send({
+				error: 'Missing city or / and country'
+			});
 		}
 	} else {
-		result.send('Invalid key');
+		result.send({
+			error:'Invalid key'
+		});
 	}
 });
 
