@@ -72,17 +72,20 @@ async function covidHistory(req, res) {
 	for (let i = 1; i < 8; i++) {
 		if (date.getDate() - i > 0) {
 			let newDate = date.getDate() - i;
-			if(newDate.toString().length == 1) newDate = "0" + newDate;
-			if(month.toString().length == 1) month = "0" + month;
-			let	assembledDay = year + '-' + month + '-' + newDate;
-			
+			if (newDate.toString().length == 1) newDate = '0' + newDate;
+			if (month.toString().length == 1) month = '0' + month;
+			let assembledDay = year + '-' + month + '-' + newDate;
+
 			returnedDays.push(await day(req, res, assembledDay));
 		} else {
 			let newDate = countDays - i;
-			if(newMonth == 0) {year -= 1; newMonth = 12}
-			if(newMonth.toString().length == 1) newMonth = "0" + newMonth;
+			if (newMonth == 0) {
+				year -= 1;
+				newMonth = 12;
+			}
+			if (newMonth.toString().length == 1) newMonth = '0' + newMonth;
 			let assembledDay = year + '-' + newMonth + '-' + newDate;
-			
+
 			counter++;
 			returnedDays.push(await day(req, res, assembledDay));
 		}
@@ -108,7 +111,7 @@ async function formatJson(json) {
 			let day = response.day;
 			filteredjs.push({ country, population, cases, day });
 		} else {
-			filteredjs.push({ error })
+			filteredjs.push({ error });
 		}
 	}
 	return filteredjs;

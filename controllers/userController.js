@@ -199,10 +199,12 @@ exports.login = async function (req, res) {
 		User.name = (await usr).name;
 		User.email = (await usr).email;
 		User.apikey = (await usr).apikey;
-		if(req.headers.accept != 'application/json') {
+		if (req.headers.accept != 'application/json') {
 			res.status(200).redirect('/user');
 		} else {
-			res.status(200).send({info: 'logged in, try GET /user to get UserInfo'});
+			res
+				.status(200)
+				.send({ info: 'logged in, try GET /user to get UserInfo' });
 		}
 	}
 };
@@ -253,7 +255,7 @@ exports.updateEmail = async function (req, res) {
 					res.status(400).send({ error: 'Failed to Update!' });
 				}
 				User.email = req.body.email;
-				res.status(200).send({info:'updated user email!'})
+				res.status(200).send({ info: 'updated user email!' });
 			} else {
 				res.status(400).send({ error: 'E-mail Already exists' });
 			}
@@ -292,10 +294,10 @@ exports.updatePassword = async function (req, res) {
 	try {
 		userDB.updatePassword(req, res, User.email);
 		User.password = req.body.password;
-		if(req.headers.accept != 'application/json') {
+		if (req.headers.accept != 'application/json') {
 			res.status(200).redirect('/user');
 		} else {
-			res.status(200).send({info:'updated user password!'})
+			res.status(200).send({ info: 'updated user password!' });
 		}
 	} catch (err) {
 		if (req.headers.accept != 'applicatiob/json') {
@@ -340,10 +342,12 @@ exports.delete = async function (req, res) {
 		User.name = null;
 		User.email = null;
 		User.apikey = null;
-		if(req.headers.accept != 'application/json') {
-			res.status(200).redirect('/index')
+		if (req.headers.accept != 'application/json') {
+			res.status(200).redirect('/index');
 		} else {
-			res.status(200).send({info:'deleted! post on register to create an account!'})
+			res
+				.status(200)
+				.send({ info: 'deleted! post on register to create an account!' });
 		}
 	} catch (err) {
 		if (req.body.accept != 'application/json') {

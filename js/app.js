@@ -120,17 +120,18 @@ app.get('/search', async function (request, result) {
 				result.status(200).send(response);
 			} else {
 				result.status(400).send({
-					error: 'City is not in country / country does not exist (please note spelling)'
+					error:
+						'City is not in country / country does not exist (please note spelling)',
 				});
 			}
 		} else {
 			result.status(400).send({
-				error: 'Missing city or / and country'
+				error: 'Missing city or / and country',
 			});
 		}
 	} else {
 		result.status(400).send({
-			error: 'Missing apikey'
+			error: 'Missing apikey',
 		});
 	}
 });
@@ -158,8 +159,6 @@ async function checkApiKey(req, res, apikey) {
 }
 
 app.listen(3000);
-
-
 
 // proof of concept
 

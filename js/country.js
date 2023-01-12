@@ -5,9 +5,10 @@ async function isCityInCountry(city, country) {
 	let cityFirstCharacter = city.charAt(0).toUpperCase();
 
 	try {
-		return countries[countryFirstCharacter + country.slice(1)].includes(cityFirstCharacter + city.slice(1));
-	}
-	catch(error) {
+		return countries[countryFirstCharacter + country.slice(1)].includes(
+			cityFirstCharacter + city.slice(1)
+		);
+	} catch (error) {
 		return false;
 	}
 }

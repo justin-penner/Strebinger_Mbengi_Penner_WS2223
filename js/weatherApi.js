@@ -56,9 +56,11 @@ async function getWeatherForecast(request, givenCoordinates, givenDates) {
 			method: 'GET',
 		}
 	)
-	.then((response) => response.json())
-	.then((result) => (data = result))
-	.catch((error) => {console.lof(error)});
+		.then((response) => response.json())
+		.then((result) => (data = result))
+		.catch((error) => {
+			console.lof(error);
+		});
 
 	try {
 		for (let index = 0; index < data.hourly.time.length; index++) {
@@ -70,7 +72,7 @@ async function getWeatherForecast(request, givenCoordinates, givenDates) {
 			let snowDepth = data.hourly.snow_depth[index] + 'm';
 			let cloudCover = data.hourly.cloudcover[index] + '%';
 			let soilTemperature = data.hourly.soil_temperature_0cm[index] + '°C';
-	
+
 			forecast.push({
 				time,
 				temperature,
@@ -82,13 +84,12 @@ async function getWeatherForecast(request, givenCoordinates, givenDates) {
 				cloudCover,
 			});
 		}
-	}
-	catch(error) {
+	} catch (error) {
 		return {
-			error: "Timespan is too large"
-		}
+			error: 'Timespan is too large',
+		};
 	}
-	
+
 	return {
 		coordinates: {
 			lat: latitude,
