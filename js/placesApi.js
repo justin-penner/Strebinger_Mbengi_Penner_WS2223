@@ -2,8 +2,8 @@ const fetch = require('node-fetch');
 
 /**
  *
- * @param {*} req to get parameters from the URI
- * @param {*} res
+ * @param {*} request
+ * @param {*} givenCoordinates
  * @returns a list of places of interest
  */
 async function getPlacesOfInterest(request, givenCoordinates) {
